@@ -772,7 +772,7 @@ section.article div section.row hr {
     min-width: 50%;
     /* width: auto; */
     margin: 0;
-    background-color: green;
+    /* background-color: green; */
     background: none;
 }
 section.article div section.row button img {
@@ -874,12 +874,12 @@ section.article div section.row p {
     }
     nav a {
         width: calc(100% - 30px);
-        height: 20px;
+        height: 18px;
         display: flex;
         justify-content: center;
         align-items: center;
         overflow-y: scroll;
-        margin: 10px 3px;
+        margin: auto 3px;
     }
     nav a.large {
         height: 30px;
