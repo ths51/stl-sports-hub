@@ -1,0 +1,14 @@
+{
+    "games": [
+        {
+            "Month": 10,
+            "Day": 12,
+            "Year": 2023,
+            "Home": false,
+            "Time": "7:00 PM",
+            "opp": "DAL",
+            "stlScore": "4",
+            "oppScore": "2"
+        }
+    ]
+}

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Hub STL | The Home of St. Louis Sports</title>
+
+        <meta charset="UTF-8">
+        <meta name="description" content="Your Home for Everything St. Louis Sports">
+        <meta name="keywords" content="stl, st. louis, st louis, blues, st louis blues, hockey, ice, ice hockey, st. louis blues, 2023, sports, stanley cup, playoffs, history, champions, news, updates">
+        <meta name="author" content="@stlbluesnow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Sofia+Sans:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+        
+        <!-- <meta http-equiv="refresh" content="10"> -->
+        
+        <link rel="stylesheet" href="index2.css">
+        <!-- <script src="main.js"></script> -->
+        
+        <!-- <style>
+            * {
+                font-family: 'Sofia Sans', sans-serif;
+            }
+            nav {
+                width: 100%;
+                height: 50px;
+            }
+            nav img {
+                max-width: 100px;
+            }
+        </style> -->
+        
+    </head>
+    <body>
+        <nav>
+            <!-- <img src="NHL Logos/STL.PNG"> -->
+            <a href="allSportsHome.html" class="large"><h2 style="font-style: italic;">The Hub STL</h2></a>
+            <a href="allSportsHome.html" class="current"><h3>Home</h3></a>
+            <!-- <a href="write.html"><h3>Write Article</h3></a> -->
+            <a id="BluesMenuOpener" onclick="submenuTrigger('BluesMenu')">
+                <section class="row">
+                    <img src="NHL SVGs/STL.svg">
+                    <h3>Blues</h3>
+                </section>
+            </a>
+            <div id="BluesMenu" class="submenu">
+                <a href="allSportsHome.html"><h3>Roster</h3></a>
+
+            </div>
+            <a id="CardsMenuOpener" onclick="submenuTrigger('CardsMenu')">
+                <section class="row">
+                    <img src="MLB SVGs/STL.svg">
+                    <h3>Cardinals</h3>
+                </section>
+            </a>
+            <div id="CardsMenu" class="submenu">
+                <a href="allSportsHome.html"><h3>Roster</h3></a>
+
+            </div>
+            <a id="CityMenuOpener" onclick="submenuTrigger('CityMenu')">
+                <section class="row">
+                    <img src="MLS SVGs/STL.svg">
+                    <h3>CITY SC</h3>
+                </section>
+            </a>
+            <div id="CityMenu" class="submenu">
+                <a href="allSportsHome.html"><h3>Roster</h3></a>
+
+            </div>
+            <a id="BattlehawksMenuOpener" onclick="submenuTrigger('BattlehawksMenu')">
+                <section class="row">
+                    <img src="XFL SVGs/STL.svg">
+                    <h3>Battlehawks</h3>
+                </section>
+            </a>
+            <div id="BattlehawksMenu" class="submenu">
+                <a href="allSportsHome.html"><h3>Roster</h3></a>
+
+            </div>
+            <a id="SocialsMenuOpener" onclick="submenuTrigger('SocialsMenu')">
+                <h3>My Socials</h3>
+            </a>
+            <div id="SocialsMenu" class="submenu">
+                <a href="https://www.instagram.com/stlbluesnow/"><h3>Instagram</h3></a>
+                <a href="https://www.threads.net/@stlbluesnow"><h3>Threads</h3></a>
+                <a href="https://twitter.com/stlbluesnow"><h3>X (Twitter)</h3></a>
+
+            </div>
+            <a href="index2.css" style="display: none;"><h3>CSS Styling</h3></a>
+            <!-- <hr> -->
+            <!-- <p>JavaScript must be enabled in browser to view webpage properly</p> -->
+        </nav>
+        
+        <section class="main">
+            <div class="scorebar">
+                <iframe id="topbar_frame" src="scorebox.html"></iframe>
+            </div>
+            <h1 class="center">Hello St. Louis Sports Fans!</h1>
+            <h3 class="center">Welcome to your home for everything St. Louis sports, with insights provided by the social media manager for @stlbluesnow on <a class="inline" href="https://www.instagram.com/stlbluesnow/">Instagram</a>, <a class="inline" href="https://www.threads.net/@stlbluesnow">Threads</a>, and <a class="inline" href="https://twitter.com/stlbluesnow">X (Twitter)</a>!</h3>
+            <p class="center">Here, you can check on the status of all your favorite St. Louis-based professional sports teams.</p>
+            <p class="center" style="text-transform: uppercase; font-size: 10pt; font-weight: bold; color: #ccc; margin: 20px;">This website is not affiliated with the NHL, MLB, MLS, XFL, or City of St. Louis and is managed privately as a personal hobby. This site is ad-free and I make no income from it.</p>
+            <section class="row" style="display: none;">
+                <div>
+                    <h5 class="center">Next Game</h5>
+                    <div class="row">
+                        <section class="image"><img src="NHL Logos/STL.PNG"></section>
+                        <p>@</p>
+                        <section class="image"><img src="NHL Logos/STL.PNG"></section>
+                    </div>
+                    <h3 class="center">Date - Time</h3>
+                </div>
+                
+                <div>
+                    <h5 class="center">Last Game</h5>
+                    <div class="row">
+                        <section class="image"><img src="NHL Logos/STL.PNG"></section>
+                        <h1 class="score">0</h1>
+                        <p>v</p>
+                        <h1 class="score">0</h1>
+                        <section class="image"><img src="NHL Logos/STL.PNG"></section>
+                    </div>
+                    <h3 class="center">FINAL</h3>
+                </div>
+                
+            </section>
+
+            <section class="teams_row">
+                <div id="NHLblock">
+                    <img src="NHL SVGs/STL.svg">
+                    <h4>33-33-16</h4>
+                </div>
+                <div id="MLBblock">
+                    <img src="MLB SVGs/STL.svg">
+                    <h4>90-72</h4>
+                </div>
+                <div id="MLSblock">
+                    <img src="MLS SVGs/STL.svg">
+                    <h4>17-5-3</h4>
+                </div>
+                <div id="XFLblock">
+                    <img src="XFL SVGs/STL.svg">
+                    <h4>8-2</h4>
+                </div>
+            </section>
+
+            
+            <a href="hayes_trade.html" style="text-decoration: none; display: none;">
+            <section class="article_cover">
+                <h1>Trade Alert!</h1>
+                <hr>
+                <h2>Blues Acquire Kevin Hayes From Philadelphia</h2>
+                <div class="row">
+                    <img src="https://i.marqueur.com/habsetlnh/large_original/280377.jpeg">
+                    <section>
+                        <p>The Blues have traded a 6th Round Pick in the 2024 NHL Entry Draft to the Philadelphia Flyers in exchange for forward Kevin Hayes. In addition, the Flyers have agreed to retain half of Hayes' salary. He has about $7.15 million remaining on his contract for each of the next three seasons.</p>
+                        <p>Last season, Hayes put up a career high in points (54) despite reports that his coach didn't like him or his style of play and that he played on a bad team. </p>
+                        <h5>Click this box for more!</h5>
+                    </section>
+                </div>
+            </section>
+        </a>
+        
+        <h1 class="center">Recent News & Articles</h1>
+        <section class="row">
+                <div id="newsBox1" onclick="openArticle(1)">
+                    <div class="upperTeamRow">
+                        <img id="newsLogo1" src="">
+                        <p id="newsTeamText1"></p>
+                    </div>
+                    <h2 id="newsTitle1">Title</h2>
+                    <img id="newsImg1" src="">
+                    <p id="newsText1">Text</p>
+                    <h5 id="clickBox1">Click this box for more!</h5>
+                </div>
+                <div id="newsBox2" onclick="openArticle(2)">
+                    <div class="upperTeamRow">
+                        <img id="newsLogo2" src="">
+                        <p id="newsTeamText2"></p>
+                    </div>
+                    <h2 id="newsTitle2">Title</h2>
+                    <img id="newsImg2" src="">
+                    <p id="newsText2">Text</p>
+                    <h5 id="clickBox2">Click this box for more!</h5>
+                </div>
+                <div id="newsBox3" onclick="openArticle(3)">
+                    <div class="upperTeamRow">
+                        <img id="newsLogo3" src="">
+                        <p id="newsTeamText3"></p>
+                    </div>
+                    <h2 id="newsTitle3">Title</h2>
+                    <img id="newsImg3" src="">
+                    <p id="newsText3">Text</p>
+                    <h5 id="clickBox3">Click this box for more!</h5>
+                </div>
+                <div id="newsBox4" onclick="openArticle(4)">
+                    <div class="upperTeamRow">
+                        <img id="newsLogo4" src="">
+                        <p id="newsTeamText4"></p>
+                    </div>
+                    <h2 id="newsTitle4">Title</h2>
+                    <img id="newsImg4" src="">
+                    <p id="newsText4">Text</p>
+                    <h5 id="clickBox4">Click this box for more!</h5>
+                </div>
+                <div id="newsBox5" onclick="openArticle(5)">
+                    <div class="upperTeamRow">
+                        <img id="newsLogo5" src="">
+                        <p id="newsTeamText5"></p>
+                    </div>
+                    <h2 id="newsTitle5">Title</h2>
+                    <img id="newsImg5" src="">
+                    <p id="newsText5">Text</p>
+                    <h5 id="clickBox5">Click this box for more!</h5>
+                </div>
+                <div id="newsBox6" onclick="openArticle(6)">
+                    <div class="upperTeamRow">
+                        <img id="newsLogo6" src="">
+                        <p id="newsTeamText6"></p>
+                    </div>
+                    <h2 id="newsTitle6">Title</h2>
+                    <img id="newsImg6" src="">
+                    <p id="newsText6">Text</p>
+                    <h5 id="clickBox6">Click this box for more!</h5>
+                </div>
+                <div id="newsBox7" onclick="openArticle(7)">
+                    <div class="upperTeamRow">
+                        <img id="newsLogo7" src="">
+                        <p id="newsTeamText7"></p>
+                    </div>
+                    <h2 id="newsTitle7">Title</h2>
+                    <img id="newsImg7" src="">
+                    <p id="newsText7">Text</p>
+                    <h5 id="clickBox7">Click this box for more!</h5>
+                </div>
+            <!-- </section> -->
+
+
+            <section class="row" style="display: none;">
+                <div>
+                    <div class="row">
+                        <section class="image2"><img src="NHL Logos/ANA.PNG"></section>
+                        <section class="image2"><img src="NHL Logos/ARI.png"></section>
+                        <section class="image2"><img src="NHL Logos/ARI2.png"></section>
+                        <section class="image2"><img src="NHL Logos/ARI3.png"></section>
+                    </div>
+                    <div class="row">
+                        <section class="image2"><img src="NHL Logos/BOS.png"></section>
+                        <section class="image2"><img src="NHL Logos/BUF.png"></section>
+                        <section class="image2"><img src="NHL Logos/CAR.png"></section>
+                        <section class="image2"><img src="NHL Logos/CAR2.png"></section>
+                    </div>
+                    <div class="row">
+                        <section class="image2"><img src="NHL Logos/CAR3.png"></section>
+                        <section class="image2"><img src="NHL Logos/CBJ.png"></section>
+                        <section class="image2"><img src="NHL Logos/CBJ2.png"></section>
+                        <section class="image2"><img src="NHL Logos/CGY--.png"></section>
+                    </div>
+                    <div class="row">
+                        <section class="image2"><img src="NHL Logos/CGY.png"></section>
+                        <section class="image2"><img src="NHL Logos/CGY2.png"></section>
+                        <section class="image2"><img src="NHL Logos/CHI.png"></section>
+                        <section class="image2"><img src="NHL Logos/CHI2.png"></section>
+                    </div>
+                    <div class="row">
+                        <section class="image2"><img src="NHL Logos/COL.png"></section>
+                        <section class="image2"><img src="NHL Logos/COL2.png"></section>
+                        <section class="image2"><img src="NHL Logos/DAL--.png"></section>
+                        <section class="image2"><img src="NHL Logos/DAL.png"></section>
+                    </div>
+                    <div class="row">
+                        <section class="image2"><img src="NHL Logos/DAL2.png"></section>
+                        <section class="image2"><img src="NHL Logos/DET.png"></section>
+                        <section class="image2"><img src="NHL Logos/EDM.png"></section>
+                        <section class="image2"><img src="NHL Logos/FLA.png"></section>
+                    </div>
+                    <div class="row">
+                        <section class="image2"><img src="NHL Logos/LAK.png"></section>
+                        <section class="image2"><img src="NHL Logos/MIN.png"></section>
+                        <section class="image2"><img src="NHL Logos/MIN2.png"></section>
+                        <section class="image2"><img src="NHL Logos/MTL.png"></section>
+                    </div>
+                    <div class="row">
+                        <section class="image2"><img src="NHL Logos/MTL2.png"></section>
+                        <section class="image2"><img src="NHL Logos/NJD.png"></section>
+                        <section class="image2"><img src="NHL Logos/NJD2.png"></section>
+                        <section class="image2"><img src="NHL Logos/NJD3.png"></section>
+                    </div>
+                    <div class="row">
+                        <section class="image2"><img src="NHL Logos/NSH.png"></section>
+                        <section class="image2"><img src="NHL Logos/NSH2.png"></section>
+                        <section class="image2"><img src="NHL Logos/NYI.png"></section>
+                        <section class="image2"><img src="NHL Logos/NYI2.png"></section>
+                    </div>
+                    <div class="row">
+                        <section class="image2"><img src="NHL Logos/NYR.png"></section>
+                        <section class="image2"><img src="NHL Logos/OTT.png"></section>
+                        <section class="image2"><img src="NHL Logos/PHI.png"></section>
+                        <section class="image2"><img src="NHL Logos/PIT.png"></section>
+                    </div>
+                    <div class="row">
+                        <section class="image2"><img src="NHL Logos/SEA.png"></section>
+                        <section class="image2"><img src="NHL Logos/SJS.png"></section>
+                        <section class="image2"><img src="NHL Logos/STL.PNG"></section>
+                        <section class="image2"><img src="NHL Logos/STL2.PNG"></section>
+                    </div>
+                    <div class="row">
+                        <section class="image2"><img src="NHL Logos/STL3.PNG"></section>
+                        <section class="image2"><img src="NHL Logos/STL4.PNG"></section>
+                        <section class="image2"><img src="NHL Logos/TBL.png"></section>
+                        <section class="image2"><img src="NHL Logos/TBL2.png"></section>
+                    </div>
+                    <div class="row">
+                        <section class="image2"><img src="NHL Logos/TOR.png"></section>
+                        <section class="image2"><img src="NHL Logos/VAN.png"></section>
+                        <section class="image2"><img src="NHL Logos/VAN2.png"></section>
+                        <section class="image2"><img src="NHL Logos/VGK.png"></section>
+                    </div>
+                    <div class="row">
+                        <section class="image2"><img src="NHL Logos/WPG.png"></section>
+                        <section class="image2"><img src="NHL Logos/WPG2.png"></section>
+                        <section class="image2"><img src="NHL Logos/WPG3.png"></section>
+                        <section class="image2"><img src="NHL Logos/WSH.png"></section>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </body>
+
+    <section class="article" id="articleBox">
+        <div>
+            <button onclick="closeArticle()"><img src="arrow2.svg"></button>
+            <section class="row">
+                <!-- <hr> -->
+                <img class="logo" id="articleLogo" src="MLB SVGs/STL.svg">
+                <p id="articleTeamText">St. Louis cardinals</p>
+            </section>
+            <h1 id="articleTitle">Title</h1>
+            <img id="articleImg" src="https://i.marqueur.com/habsetlnh/large_original/280377.jpeg">
+            <div id="articleText"></div>
+        </div>
+    </section>
+
+
+    <script src="JS/homepage.js"></script>
+    <script style="display: none;">
+        var articleNum
+        document.getElementById("topbar_frame").style.width = "calc(100% - 10px)"
+        document.getElementById("topbar_frame").style.height = "100px"
+    </script>
+</html>

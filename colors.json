@@ -1,0 +1,270 @@
+{
+    "colors": [
+        {
+            "team": "ANA",
+            "color1": "#111111",
+            "color2": "#F95602"
+        },
+        
+        {
+            "team": "ARI",
+            "color1": "#111111",
+            "color2": "#952C33"
+        },
+        {
+            "team": "BOS",
+            "color1": "#111111",
+            "color2": "#FCB514"
+        },
+        
+        {
+            "team": "BUF",
+            "color1": "#003087",
+            "color2": "FFB81C"
+        },
+        {
+            "team": "CGY",
+            "color1": "#D2001C",
+            "color2": "#FAAF19"
+        },
+        
+        {
+            "team": "CAR",
+            "color1": "#D2001C",
+            "color2": "#111111"
+        },
+        {
+            "team": "CHI",
+            "color1": "#CF0A2C",
+            "color2": "#000000"
+        },
+        
+        {
+            "team": "COL",
+            "color1": "#6F263D",
+            "color2": "#236192"
+        },
+        {
+            "team": "CBJ",
+            "color1": "#002654",
+            "color2": "#CE1126"
+        },
+        
+        {
+            "team": "DAL",
+            "color1": "#00833C",
+            "color2": "#111111"
+        },
+        {
+            "team": "DET",
+            "color1": "#CE1126",
+            "color2": "#FFFFFF"
+        },
+        
+        {
+            "team": "EDM",
+            "color1": "#02225D",
+            "color2": "#FC4C02"
+        },
+        {
+            "team": "FLA",
+            "color1": "#C8102E",
+            "color2": "#041E42"
+        },
+        
+        {
+            "team": "LAK",
+            "color1": "#000000",
+            "color2": "#A2AAAD"
+        },
+        {
+            "team": "MIN",
+            "color1": "#024930",
+            "color2": "AF1E24"
+        },
+        
+        {
+            "team": "MTL",
+            "color1": "#AF1E2D",
+            "color2": "#192168"
+        },
+        {
+            "team": "NJD",
+            "color1": "#CE1126",
+            "color2": "#000000"
+        },
+        {
+            "team": "NSH",
+            "color1": "#FFB81C",
+            "color2": "#041E42"
+        },
+        
+        {
+            "team": "NYI",
+            "color1": "#00539B",
+            "color2": "#F47D30"
+        },
+        
+        {
+            "team": "NYR",
+            "color1": "#0038A8",
+            "color2": "#CE1126"
+        },
+        {
+            "team": "OTT",
+            "color1": "#000000",
+            "color2": "#DA1A32"
+        },
+        
+        {
+            "team": "PHI",
+            "color1": "#F74902",
+            "color2": "#000000"
+        },
+        {
+            "team": "PIT",
+            "color1": "#000000",
+            "color2": "#FCB514"
+        },
+        
+        {
+            "team": "SJS",
+            "color1": "#006D75",
+            "color2": "#000000"
+        },
+        {
+            "team": "SEA",
+            "color1": "#001425",
+            "color2": "#96D8D8"
+        },
+        
+        {
+            "team": "STL",
+            "color1": "#002F87",
+            "color2": "#FCB514"
+        },
+        {
+            "team": "TBL",
+            "color1": "#002868",
+            "color2": "#FFFFFF"
+        },
+        
+        {
+            "team": "TOR",
+            "color1": "#00205B",
+            "color2": "#FFFFFF"
+        },
+        {
+            "team": "VAN",
+            "color1": "#003D7D",
+            "color2": "#007B49"
+        },
+        
+        {
+            "team": "VGK",
+            "color1": "#B4975A",
+            "color2": "#333F42"
+        },
+        {
+            "team": "WSH",
+            "color1": "#CF0A2C",
+            "color2": "#041E41"
+        },
+        
+        {
+            "team": "WPG",
+            "color1": "#041E41",
+            "color2": "#004C97"
+        },
+        {
+            "team": "",
+            "color1": [0,0,0],
+            "color2": [0,0,0]
+        },
+        
+        {
+            "team": "",
+            "color1": [0,0,0],
+            "color2": [0,0,0]
+        },
+        {
+            "team": "",
+            "color1": [0,0,0],
+            "color2": [0,0,0]
+        },
+        
+        {
+            "team": "",
+            "color1": [0,0,0],
+            "color2": [0,0,0]
+        },
+        {
+            "team": "",
+            "color1": [0,0,0],
+            "color2": [0,0,0]
+        },
+        
+        {
+            "team": "",
+            "color1": [0,0,0],
+            "color2": [0,0,0]
+        },
+        {
+            "team": "",
+            "color1": [0,0,0],
+            "color2": [0,0,0]
+        },
+        
+        {
+            "team": "",
+            "color1": [0,0,0],
+            "color2": [0,0,0]
+        },
+        {
+            "team": "",
+            "color1": [0,0,0],
+            "color2": [0,0,0]
+        },
+        
+        {
+            "team": "",
+            "color1": [0,0,0],
+            "color2": [0,0,0]
+        },
+        {
+            "team": "",
+            "color1": [0,0,0],
+            "color2": [0,0,0]
+        },
+        
+        {
+            "team": "",
+            "color1": [0,0,0],
+            "color2": [0,0,0]
+        },
+        {
+            "team": "",
+            "color1": [0,0,0],
+            "color2": [0,0,0]
+        },
+        
+        {
+            "team": "",
+            "color1": [0,0,0],
+            "color2": [0,0,0]
+        },
+        {
+            "team": "",
+            "color1": [0,0,0],
+            "color2": [0,0,0]
+        },
+        
+        {
+            "team": "",
+            "color1": [0,0,0],
+            "color2": [0,0,0]
+        }
+
+    ]
+
+}

@@ -1,0 +1,232 @@
+:root {
+    --ANA: rgba(8,8,8,255) ;
+    --ANA_c2: rgba(249,85,1,255) ;
+
+    --ARI: rgba(8,8,8,255) ;
+    --ARI_c2: rgba(151,40,47,255) ;
+
+    --BOS: rgba(8,8,8,255) ;
+    --BOS_c2: rgba(252,183,12,255) ;
+
+    --BUF: rgba(0,46,136,255) ;
+    --BUF_c2: rgba(255,186,21,255) ;
+
+    --CAR: rgba(207,9,34,255) ;
+    --CAR_c2: rgba(8,8,8,255) ;
+
+    --CBJ: rgba(1,33,83,255) ;
+    --CBJ_c2: rgba(207,9,34,255) ;
+
+    --CGY: rgba(211,2,22,255) ;
+    --CGY_c2: rgba(250,177,20,255) ;
+
+    --CHI: rgba(208,2,39,255) ;
+    --CHI_c2: rgba(0,0,0,255) ;
+
+    --COL: rgba(112,33,59,255) ;
+    --COL_c2: rgba(31,97,148,255) ;
+
+    --DAL: rgba(2,131,60,255) ;
+    --DAL_c2: rgba(17,17,17,255) ;
+
+    --DET: rgba(207,9,34,255) ;
+    --DET_c2: rgba(255,255,255,255) ;
+
+    --EDM: rgba(2,33,94,255) ;
+    --EDM_c2: rgba(252,76,1,255) ;
+
+    --FLA: rgba(202,10,43,255) ;
+    --FLA_c2: rgba(1,23,65,255) ;
+
+    --LAK: rgba(0,0,0,255) ;
+    --LAK_c2: rgba(164,171,174,255) ;
+
+    --MIN: rgba(2,71,45,255) ;
+    --MIN_c2: rgba(176,24,31,255) ;
+
+    --MTL: rgba(176,24,41,255) ;
+    --MTL_c2: rgba(19,27,104,255) ;
+
+    --NJD: rgba(207,9,34,255) ;
+    --NJD_c2: rgba(0,0,0,255) ;
+
+    --NJD2: rgba(0,0,0,255) ;
+    --NJD2_c2: rgba(196,6,31,255) ;
+
+    --NSH: rgba(255,186,21,255) ;
+    --NSH_c2: rgba(1,23,65,255) ;
+
+    --NSH2: rgba(255,181,0,255) ;
+    --NSH2_c2: rgba(0,30,69,255) ;
+
+    --NYI: rgba(0,82,157,255) ;
+    --NYI_c2: rgba(244,126,45,255) ;
+
+    --NYR: rgba(0,53,170,255) ;
+    --NYR_c2: rgba(207,9,34,255) ;
+
+    --OTT: rgba(0,0,0,255) ;
+    --OTT_c2: rgba(219,19,47,255) ;
+
+    --PHI: rgba(248,72,0,255) ;
+    --PHI_c2: rgba(0,0,0,255) ;
+
+    --PIT: rgba(0,0,0,255) ;
+    --PIT_c2: rgba(252,183,12,255) ;
+
+    --SEA: rgba(0,20,37,255) ;
+    --SEA_c2: rgba(152,217,217,255) ;
+
+    --SJS: rgba(0,110,117,255) ;
+    --SJS_c2: rgba(0,0,0,255) ;
+
+    --STL: rgba(0,42,136,255) ;
+    --STL_c2: rgba(252,183,12,255) ;
+    --STL_c3: rgba(0,33,83,255) ;
+
+    --STL2: rgba(24,80,181,255) ;
+    --STL2_c2: rgba(247,197,5,255) ;
+
+    --STL3: rgba(252,181,19,255) ;
+    --STL3_c2: rgba(29,81,160,255) ;
+
+    --TBL: rgba(0,40,104,255) ; 
+    --TBL_c2: rgba(255,255,255,255), ;
+
+    --TOR: rgba(0,31,92,255) ;
+    --TOR_c2: rgba(255,255,255,255) ;
+
+    --VAN: rgba(0,59,126,255) ;
+    --VAN_c2: rgba(0,123,73,255) ;
+
+    --VGK: rgba(182,153,90,255) ;
+    --VGK_c2: rgba(47,60,65,255) ;
+
+    --WPG: rgba(1,23,64,255) ;
+    --WPG_c2: rgba(173,15,39,255) ;
+
+    --WSH: rgba(207,12,44,255) ;
+    --WSH_c2: rgba(5,29,65,255) ;
+
+    --ARI2: rgba(140,38,51,255) ;
+    --ARI2_c2: rgba(17,17,17,255) ;
+
+    --CAR2: rgba(17,17,17,255) ;
+    --CAR2_c2: rgba(206,18,38,255) ;
+
+    --CAR3: rgba(198,198,206,255) ;
+    --CAR3_c2: rgba(2,123,33,255) ;
+
+    --CBJ2: rgba(1,30,66,255) ;
+    --CBJ2_c2: rgba(222,204,163,255) ;
+
+    --CHI2: rgba(1,1,1,255) ;
+    --CHI2_c2: rgba(255,255,255,255) ;
+
+    --COL2: rgba(0,33,71,255) ;
+    --COL2_c2: rgba(111,37,60,255) ;
+
+    --DAL2: rgba(0,0,0,255) ;
+    --DAL2_c2: rgba(61,217,27,255) ;
+
+    --STL4: rgba(1,45,138,255) ;
+    --STL4_c2: rgba(254,198,1,255) ;
+
+    --MTL2: rgba(58,189,237,255) ;
+    --MTL2_c2: rgba(25,33,104,255) ;
+
+    --MIN2: rgba(0,146,53,255) ;
+    --MIN2_c2: rgba(252,206,6,255) ;
+
+    --WPG2: rgba(2,33,92,255) ;
+    --WPG2_c2: rgba(201,18,48,255) ;
+
+    --TBL2: rgba(30,30,30,255) ;
+    --TBL2_c2: rgba(163,167,169,255) ;
+
+    --VAN2: rgba(0,31,92,255) ;
+    --VAN2_c2: rgba(0,134,56,255) ;
+
+    --CGY2: rgba(0,0,0,255) ;
+    --CGY2_c2: rgba(211,2,22,255) ;
+
+    --NJD3: rgba(215,0,41,255) ;
+    --NJD3_c2: rgba(21,44,107,255) ;
+
+    --ARI3: rgba(176,89,52,255) ;
+    --ARI3_c2: rgba(20,19,18,255) ;
+}
+
+* {
+    overflow: scroll;
+    display: block;
+    font-family: 'Sofia Sans';
+}
+
+p, h1, h2, h3, h4, h5, h6, caption, title {
+    padding: 5px; 
+}
+
+nav {
+    display: flex;
+    background-color: var(--STL_c3);
+    width: 100%;
+    padding: 4px;
+    height: 50px;
+    position: absolute;
+    vertical-align: middle;
+    /* margin: auto; */
+}
+
+header {
+    height: 150px;
+    background-color: var(--STL_c2);
+    color: var(--STL_c3);
+}
+
+nav * {
+    background-color: red;
+    margin: 0 5px;
+    max-height: 30px;
+    max-width: 100%;
+}
+
+nav img {
+    width: auto;
+    height: auto;
+    max-width: 100px;
+}
+
+img.svg {
+    filter: grayscale(100) brightness(100);
+}
+
+head {
+    display: none;
+}
+
+body {
+    display: block;
+    margin: 0;
+}
+
+
+
+img {
+    width: 100%;
+    max-height: auto;
+    margin: auto;
+    padding: 10px;
+}
+
+img.logo {
+    max-width: 250px;
+    max-height: auto;
+    margin: auto;
+    padding: 10px;
+    display: inline;
+}
+
+a {
+    color: var(--STL_c2);
+}
