@@ -798,7 +798,26 @@ section.article div section.row p {
 }
 
 
+nav div.menuButton {
+    height: 25px;
+    padding: 3px;
+    width: min-content;
+    display: none;
+    background-color: #333;
+    align-items: center;
+    justify-content: center;
+    margin: 3px auto;
+    border-radius: 10px;
+}
 
+nav div.menuButton * {
+    color: white;
+}
+
+nav div.navMenu {
+    padding: 0;
+    margin: 0;
+}
 
 
 
@@ -870,19 +889,36 @@ section.article div section.row p {
         align-items: center;
         justify-content: center;
         margin: 0;
-        padding: 3px 25%;
+        padding: 3px auto;
     }
     nav a {
         width: calc(100% - 30px);
-        height: 18px;
+        height: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
         overflow-y: scroll;
-        margin: auto 3px;
+        margin: 3px auto;
     }
     nav a.large {
+        display: flex;
         height: 30px;
+    }
+
+    nav div.menuButton {
+        height: 25px;
+        padding: 3px;
+        width: min-content;
+        display: flex;
+        background-color: #333;
+        align-items: center;
+        justify-content: center;
+        margin: 3px auto;
+        border-radius: 10px;
+    }
+
+    nav div.menuButton * {
+        color: white;
     }
     
     nav section.row {
