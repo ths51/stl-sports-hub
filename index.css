@@ -184,7 +184,7 @@ iframe {
     min-width: none;
     max-width: none;
     border-radius: 20px;
-
+    overflow-y: hidden;
 }
 
 nav a {
