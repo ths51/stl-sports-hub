@@ -874,12 +874,15 @@ section.article div section.row p {
     }
     nav a {
         width: calc(100% - 30px);
-        height: 25px;
+        height: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
         overflow-y: scroll;
-        margin: 2px;
+        margin: 10px 3px;
+    }
+    nav a.large {
+        height: 30px;
     }
     
     nav section.row {
