@@ -163,6 +163,7 @@
     padding: 0;
     color: black;
     transition: 0.25s;
+    /* animation: forwards; */
 }
 
 div.scorebar {
@@ -746,6 +747,13 @@ section.article div section.row {
 
 }
 
+@keyframes make_transparent {
+    0%   {opacity: 100%;}
+    25%  {opacity: 90%;}
+    50%  {opacity: 10%;}
+    100% {opacity: 0%; display: none;}
+}
+
 section.article div div {
     border: none;
     margin: 0;
@@ -817,6 +825,33 @@ nav div.menuButton * {
 nav div.navMenu {
     padding: 0;
     margin: 0;
+}
+
+section.loader {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    margin: 0;
+    padding: auto;
+    vertical-align: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    /* border: 5px dotted red; */
+    z-index: 101;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    position: fixed;
+    object-fit: contain;
+    display: flex;
+    opacity: 100%;
+    transition: opacity 1s;
+    background-image: url('Background.jpeg');
+    background-position: center;
+    background-size: cover;
+    
 }
 
 

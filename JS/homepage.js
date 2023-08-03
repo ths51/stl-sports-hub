@@ -179,3 +179,17 @@ function closeSubmenu(menuID) {
     document.getElementById(menuID).style.height = "0px"
     document.getElementById(menuID+"Opener").style.backgroundColor = "#777"
 }
+
+function onReady(callback) {
+    var intervalId = window.setInterval(function() {
+        if (document.getElementsByTagName('body')[0] !== undefined) {
+            window.clearInterval(intervalId);
+            callback.call(this);
+        }
+    }, 1000);
+}
+
+onReady(function() {
+    document.getElementById("loadingScreen").style.animation = "make_transparent 1s forwards"
+    
+})
