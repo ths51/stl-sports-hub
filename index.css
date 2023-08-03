@@ -861,6 +861,7 @@ section.loader {
 
     section.row {
         display: block;
+        margin: auto;
     }
 
     section.row div {
