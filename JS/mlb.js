@@ -1804,10 +1804,10 @@ allData = {
             "home": true,
             "final": false,
             "inningCt": 9,
-            "STLscore": 0,
-            "oppScore": 0,
-            "STLhits": 0,
-            "opphits": 0,
+            "STLscore": 7,
+            "oppScore": 3,
+            "STLhits": 9,
+            "opphits": 2,
         },
 
         
