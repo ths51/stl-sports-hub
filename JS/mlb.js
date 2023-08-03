@@ -1802,7 +1802,7 @@ allData = {
             "STLlogo": 1,
             "opponent": "MIN",
             "home": true,
-            "final": false,
+            "final": true,
             "inningCt": 9,
             "STLscore": 7,
             "oppScore": 3,
