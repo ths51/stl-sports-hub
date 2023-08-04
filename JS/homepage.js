@@ -1,9 +1,3 @@
-let teamNames = {
-    "NHL" : "St. Louis Blues",
-    "MLS" : "St. Louis CITY SC",
-    "MLB" : "St. Louis Cardinals",
-    "XFL" : "St. Louis Battlehawks"
-}
 
 newsData = {
 

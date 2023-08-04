@@ -47,7 +47,7 @@
                     </section>
                 </a>
                 <div id="BluesMenu" class="submenu">
-                    <a href="roster.html"><h3>Roster</h3></a>
+                    <a href="roster.html?sport=nhl"><h3>Roster</h3></a>
 
                 </div>
                 <a id="CardsMenuOpener" onclick="submenuTrigger('CardsMenu')">
@@ -57,7 +57,7 @@
                     </section>
                 </a>
                 <div id="CardsMenu" class="submenu">
-                    <a href="roster.html"><h3>Roster</h3></a>
+                    <a href="roster.html?sport=mlb"><h3>Roster</h3></a>
 
                 </div>
                 <a id="CityMenuOpener" onclick="submenuTrigger('CityMenu')">
@@ -67,7 +67,7 @@
                     </section>
                 </a>
                 <div id="CityMenu" class="submenu">
-                    <a href="roster.html"><h3>Roster</h3></a>
+                    <a href="roster.html?sport=mls"><h3>Roster</h3></a>
 
                 </div>
                 <a id="BattlehawksMenuOpener" onclick="submenuTrigger('BattlehawksMenu')">
@@ -96,7 +96,11 @@
         </nav>
         
         <section class="main">
-            <h1 class="center">Roster</h1>
+            <section class="row" style="justify-content: center; align-items: center;">
+                <img id="logo" style="max-height: 100px;" src="">
+                <h1 id="rosterText" class="center">Roster</h1>
+            </section>
+
             <section class="fullRoster" id="fullRoster">
                 
             </section>
@@ -121,12 +125,15 @@
         <h1 style="font-size: 64pt; text-shadow: 0 5px 10px black;">The Hub STL</h1>
     </section>
 
-
     <!-- <script src="JS/homepage.js"></script> -->
+    <script src="JS/shared.js"></script>
     <script src="JS/animations.js"></script>
     <script src="JS/nhl.js"></script>
     <script style="display: none;">
-        getRoster()
+        let curSport = document.URL.substring(document.URL.length-3,document.URL.length).toUpperCase()
+        // document.getElementById("rosterText").textContent = `${teamNames[curSport]} Roster`
+        document.getElementById("logo").src = `${curSport} SVGs/STL.svg`
+        getRoster(curSport)
         var articleNum
         // document.getElementById("topbar_frame").style.width = "calc(100% - 10px)"
         // document.getElementById("topbar_frame").style.height = "100px"

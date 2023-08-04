@@ -961,8 +961,8 @@ div.playerBox section.row div.playerInfo {
 }
 
 div.playerBox section.row div img {
-    width: 150px;
-    padding: 0 10px 10px 10px;
+    width: 200px;
+    padding: 0 0 10px 0;
     margin: auto;
     /* background-color: red; */
 }
