@@ -66,7 +66,7 @@ rosterData = {
             "birthPlace": "Dorcester, MA, USA",
             "bio": "-",
             "careerStats": { // Year season ended (2022-23 = 2023)
-                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+                2023: ["PHI",81, 18, 36, 54, -22, 23, "?", "?"],
             }
         },
         {
@@ -82,7 +82,7 @@ rosterData = {
             "birthPlace": "Kuopio, FIN",
             "bio": "-",
             "careerStats": { // Year season ended (2022-23 = 2023)
-                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+                2023: ["STL/PIT",66, 15, 19, 34, -8, 18, "?", "?"],
             }
         },
         {
@@ -98,7 +98,7 @@ rosterData = {
             "birthPlace": "Toronto, ON, CAN",
             "bio": "-",
             "careerStats": { // Year season ended (2022-23 = 2023)
-                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+                2023: ["STL",79, 37, 36, 73, -38, 22, "?", "?"],
             }
         },
         {
@@ -114,7 +114,7 @@ rosterData = {
             "birthPlace": "Bloomfield Hills, MI, USA",
             "bio": "-",
             "careerStats": { // Year season ended (2022-23 = 2023)
-                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+                2023: ["CAR",0, 0, 0, 0, 0, 0, "?", "?"],
             }
         },
         {
@@ -130,7 +130,7 @@ rosterData = {
             "birthPlace": "Calgary, AB, CAN",
             "bio": "-",
             "careerStats": { // Year season ended (2022-23 = 2023)
-                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+                2023: ["STL",43, 6, 4, 10, -19, 24, "?", "?"],
             }
         },
         {
@@ -146,7 +146,7 @@ rosterData = {
             "birthPlace": "Pittsburgh, PA, USA",
             "bio": "-",
             "careerStats": { // Year season ended (2022-23 = 2023)
-                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+                2023: ["STL",71, 19, 18, 37, -8, 12, "?", "?"],
             }
         },
         {
@@ -162,7 +162,7 @@ rosterData = {
             "birthPlace": "Saskatoon, SK, CAN",
             "bio": "-",
             "careerStats": { // Year season ended (2022-23 = 2023)
-                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+                2023: ["STL",82, 21, 44, 65, -27, 50, "?", "?"],
             }
         },
         {
@@ -178,7 +178,7 @@ rosterData = {
             "birthPlace": "Boden, SWE",
             "bio": "-",
             "careerStats": { // Year season ended (2022-23 = 2023)
-                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+                2023: ["DET/MIN",67, 10, 18, 28, -4, 28, "?", "?"],
             }
         },
         {
@@ -194,7 +194,7 @@ rosterData = {
             "birthPlace": "Aurora, ON, CAN",
             "bio": "-",
             "careerStats": { // Year season ended (2022-23 = 2023)
-                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+                2023: ["STL",73, 18, 47, 65, -8, 22, "?", "?"],
             }
         },
         {
@@ -210,7 +210,7 @@ rosterData = {
             "birthPlace": "Moscow, RUS",
             "bio": "-",
             "careerStats": { // Year season ended (2022-23 = 2023)
-                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+                2023: ["STL",69, 10, 9, 19, 6, 12, "?", "?"],
             }
         },
         {
@@ -226,7 +226,7 @@ rosterData = {
             "birthPlace": "Prague, CZE",
             "bio": "-",
             "careerStats": { // Year season ended (2022-23 = 2023)
-                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+                2023: ["DET/STL",25, 11, 5, 16, 3, 10, "?", "?"],
             }
         },
         {
@@ -242,7 +242,7 @@ rosterData = {
             "birthPlace": "Cardiff, GBR",
             "bio": "-",
             "careerStats": { // Year season ended (2022-23 = 2023)
-                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+                2023: ["STL",56, 2, 8, 10, 10, 25, "?", "?"],
             }
         },
         {
@@ -258,7 +258,7 @@ rosterData = {
             "birthPlace": "Thunder Bay, ON, CAN",
             "bio": "-",
             "careerStats": { // Year season ended (2022-23 = 2023)
-                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+                2023: ["STL",43, 2, 3, 5, 9, 29, "?", "?"],
             }
         },
         {
@@ -274,7 +274,7 @@ rosterData = {
             "birthPlace": "South St. Paul, MN, USA",
             "bio": "-",
             "careerStats": { // Year season ended (2022-23 = 2023)
-                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+                2023: ["STL",82, 11, 39, 50, -4, 34, "?", "?"],
             }
         },
         {
@@ -290,7 +290,7 @@ rosterData = {
             "birthPlace": "Livonia, MI, USA",
             "bio": "-",
             "careerStats": { // Year season ended (2022-23 = 2023)
-                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+                2023: ["STL",63, 7, 25, 32, -26, 49, "?", "?"],
             }
         },
         {
@@ -306,7 +306,7 @@ rosterData = {
             "birthPlace": "Eden Prairie, MN, USA",
             "bio": "-",
             "careerStats": { // Year season ended (2022-23 = 2023)
-                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+                2023: ["STL",78, 2, 21, 23, 4, 20, "?", "?"],
             }
         },
         {
@@ -322,7 +322,7 @@ rosterData = {
             "birthPlace": "St. Albert, AB, CAN",
             "bio": "-",
             "careerStats": { // Year season ended (2022-23 = 2023)
-                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+                2023: ["STL",79, 4, 23, 27, -19, 30, "?", "?"],
             }
         },
         {
@@ -338,7 +338,7 @@ rosterData = {
             "birthPlace": "Hibbing, MN, USA",
             "bio": "-",
             "careerStats": { // Year season ended (2022-23 = 2023)
-                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+                2023: ["STL",0, 0, 0, 0, 0, 0, "?", "?"],
             }
         },
         {
@@ -354,7 +354,7 @@ rosterData = {
             "birthPlace": "Vaxjo, SWE",
             "bio": "-",
             "careerStats": { // Year season ended (2022-23 = 2023)
-                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+                2023: ["STL",79, 4, 23, 27, -19, 30, "?", "?"],
             }
         },
         {
@@ -370,7 +370,7 @@ rosterData = {
             "birthPlace": "Montreal, QC, CAN",
             "bio": "-",
             "careerStats": { // Year season ended (2022-23 = 2023)
-                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+                2023: ["STL",20, 1, 1, 2, 2, 6, "?", "?"],
             }
         },
         {
@@ -386,7 +386,7 @@ rosterData = {
             "birthPlace": "Thunder Bay, ON, CAN",
             "bio": "-",
             "careerStats": { // Year season ended (2022-23 = 2023)
-                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+                2023: ["PHI",26, 1, 3, 4, -9, 31, "?", "?"],
             }
         },
         {
@@ -402,7 +402,7 @@ rosterData = {
             "birthPlace": "Richmond Hill, ON, CAN",
             "bio": "-",
             "careerStats": { // Year season ended (2022-23 = 2023)
-                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+                2023: ["STL",61, 27, 27, 6, 0.894, 3.31, "?", "?"],
             }
         },
         {
@@ -418,7 +418,7 @@ rosterData = {
             "birthPlace": "Winnipeg, MB, CAN",
             "bio": "-",
             "careerStats": { // Year season ended (2022-23 = 2023)
-                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+                2023: ["STL",6, 3, 1, 1, 0.905, 3.22, "?", "?"],
             }
         },
     ],
