@@ -35,10 +35,10 @@
     <body>
         <nav>
             <!-- <img src="NHL Logos/STL.PNG"> -->
-            <a href="allSportsHome.html" class="large"><h2 style="font-style: italic;">The Hub STL</h2></a>
+            <a href="index.html" class="large"><h2 style="font-style: italic;">The Hub STL</h2></a>
             <div class="menuButton" id="WholeMenuOpener" onclick="submenuTrigger('WholeMenu')"><p>MENU</p></div>
             <div class="navMenu" id="WholeMenu">
-                <a href="allSportsHome.html" class="current"><h3>Home</h3></a>
+                <a href="index.html" class="current"><h3>Home</h3></a>
                 <!-- <a href="write.html"><h3>Write Article</h3></a> -->
                 <a id="BluesMenuOpener" onclick="submenuTrigger('BluesMenu')">
                     <section class="row">
@@ -47,7 +47,7 @@
                     </section>
                 </a>
                 <div id="BluesMenu" class="submenu">
-                    <a href="allSportsHome.html"><h3>Roster</h3></a>
+                    <a href="roster.html"><h3>Roster</h3></a>
 
                 </div>
                 <a id="CardsMenuOpener" onclick="submenuTrigger('CardsMenu')">
@@ -57,7 +57,7 @@
                     </section>
                 </a>
                 <div id="CardsMenu" class="submenu">
-                    <a href="allSportsHome.html"><h3>Roster</h3></a>
+                    <a href="roster.html"><h3>Roster</h3></a>
 
                 </div>
                 <a id="CityMenuOpener" onclick="submenuTrigger('CityMenu')">
@@ -67,7 +67,7 @@
                     </section>
                 </a>
                 <div id="CityMenu" class="submenu">
-                    <a href="allSportsHome.html"><h3>Roster</h3></a>
+                    <a href="roster.html"><h3>Roster</h3></a>
 
                 </div>
                 <a id="BattlehawksMenuOpener" onclick="submenuTrigger('BattlehawksMenu')">
@@ -77,7 +77,7 @@
                     </section>
                 </a>
                 <div id="BattlehawksMenu" class="submenu">
-                    <a href="allSportsHome.html"><h3>Roster</h3></a>
+                    <a href="roster.html?sport=xfl"><h3>Roster</h3></a>
 
                 </div>
                 <a id="SocialsMenuOpener" onclick="submenuTrigger('SocialsMenu')">
@@ -102,6 +102,7 @@
             <h1 class="center">Hello St. Louis Sports Fans!</h1>
             <h3 class="center">Welcome to your home for everything St. Louis sports, with insights provided by the social media manager for @stlbluesnow on <a class="inline" href="https://www.instagram.com/stlbluesnow/">Instagram</a>, <a class="inline" href="https://www.threads.net/@stlbluesnow">Threads</a>, and <a class="inline" href="https://twitter.com/stlbluesnow">X (Twitter)</a>!</h3>
             <p class="center">Here, you can check on the status of all your favorite St. Louis-based professional sports teams.</p>
+
             <section class="row" style="display: none;">
                 <div>
                     <h5 class="center">Next Game</h5>
@@ -127,7 +128,7 @@
                 
             </section>
 
-            <section class="teams_row">
+            <section class="teams_row" style="display: none;">
                 <div id="NHLblock">
                     <img src="NHL SVGs/STL.svg">
                     <h4>33-33-16</h4>
@@ -147,103 +148,106 @@
             </section>
 
             
-            <a href="hayes_trade.html" style="text-decoration: none; display: none;">
+            <a href="" style="text-decoration: none; display: none;">
             <section class="article_cover">
                 <h1>Trade Alert!</h1>
                 <hr>
                 <h2>Blues Acquire Kevin Hayes From Philadelphia</h2>
                 <div class="row">
-                    <img src="https://i.marqueur.com/habsetlnh/large_original/280377.jpeg">
+                    <img src="">
                     <section>
-                        <p>The Blues have traded a 6th Round Pick in the 2024 NHL Entry Draft to the Philadelphia Flyers in exchange for forward Kevin Hayes. In addition, the Flyers have agreed to retain half of Hayes' salary. He has about $7.15 million remaining on his contract for each of the next three seasons.</p>
-                        <p>Last season, Hayes put up a career high in points (54) despite reports that his coach didn't like him or his style of play and that he played on a bad team. </p>
+                        <p></p>
                         <h5>Click this box for more!</h5>
                     </section>
                 </div>
             </section>
         </a>
+
+        <hr>
         
         <h1 class="center">Recent News & Articles</h1>
         <section class="row">
-                <div id="newsBox1" onclick="openArticle(1)">
-                    <div class="upperTeamRow">
-                        <img id="newsLogo1" src="">
-                        <p id="newsTeamText1"></p>
-                    </div>
-                    <h2 id="newsTitle1">Title</h2>
-                    <img id="newsImg1" src="">
-                    <p id="newsText1">Text</p>
-                    <h5 id="clickBox1">Click this box for more!</h5>
+            <div id="newsBox1" onclick="openArticle(1)">
+                <div class="upperTeamRow">
+                    <img id="newsLogo1" src="">
+                    <p id="newsTeamText1"></p>
                 </div>
-                <div id="newsBox2" onclick="openArticle(2)">
-                    <div class="upperTeamRow">
-                        <img id="newsLogo2" src="">
-                        <p id="newsTeamText2"></p>
-                    </div>
-                    <h2 id="newsTitle2">Title</h2>
-                    <img id="newsImg2" src="">
-                    <p id="newsText2">Text</p>
-                    <h5 id="clickBox2">Click this box for more!</h5>
+                <h2 id="newsTitle1">Title</h2>
+                <img id="newsImg1" src="">
+                <p id="newsText1">Text</p>
+                <h5 id="clickBox1">Click this box for more!</h5>
+            </div>
+            <div id="newsBox2" onclick="openArticle(2)">
+                <div class="upperTeamRow">
+                    <img id="newsLogo2" src="">
+                    <p id="newsTeamText2"></p>
                 </div>
-                <div id="newsBox3" onclick="openArticle(3)">
-                    <div class="upperTeamRow">
-                        <img id="newsLogo3" src="">
-                        <p id="newsTeamText3"></p>
-                    </div>
-                    <h2 id="newsTitle3">Title</h2>
-                    <img id="newsImg3" src="">
-                    <p id="newsText3">Text</p>
-                    <h5 id="clickBox3">Click this box for more!</h5>
+                <h2 id="newsTitle2">Title</h2>
+                <img id="newsImg2" src="">
+                <p id="newsText2">Text</p>
+                <h5 id="clickBox2">Click this box for more!</h5>
+            </div>
+            <div id="newsBox3" onclick="openArticle(3)">
+                <div class="upperTeamRow">
+                    <img id="newsLogo3" src="">
+                    <p id="newsTeamText3"></p>
                 </div>
-                <div id="newsBox4" onclick="openArticle(4)">
-                    <div class="upperTeamRow">
-                        <img id="newsLogo4" src="">
-                        <p id="newsTeamText4"></p>
-                    </div>
-                    <h2 id="newsTitle4">Title</h2>
-                    <img id="newsImg4" src="">
-                    <p id="newsText4">Text</p>
-                    <h5 id="clickBox4">Click this box for more!</h5>
+                <h2 id="newsTitle3">Title</h2>
+                <img id="newsImg3" src="">
+                <p id="newsText3">Text</p>
+                <h5 id="clickBox3">Click this box for more!</h5>
+            </div>
+            <div id="newsBox4" onclick="openArticle(4)">
+                <div class="upperTeamRow">
+                    <img id="newsLogo4" src="">
+                    <p id="newsTeamText4"></p>
                 </div>
-                <div id="newsBox5" onclick="openArticle(5)">
-                    <div class="upperTeamRow">
-                        <img id="newsLogo5" src="">
-                        <p id="newsTeamText5"></p>
-                    </div>
-                    <h2 id="newsTitle5">Title</h2>
-                    <img id="newsImg5" src="">
-                    <p id="newsText5">Text</p>
-                    <h5 id="clickBox5">Click this box for more!</h5>
+                <h2 id="newsTitle4">Title</h2>
+                <img id="newsImg4" src="">
+                <p id="newsText4">Text</p>
+                <h5 id="clickBox4">Click this box for more!</h5>
+            </div>
+            <div id="newsBox5" onclick="openArticle(5)">
+                <div class="upperTeamRow">
+                    <img id="newsLogo5" src="">
+                    <p id="newsTeamText5"></p>
                 </div>
-                <div id="newsBox6" onclick="openArticle(6)">
-                    <div class="upperTeamRow">
-                        <img id="newsLogo6" src="">
-                        <p id="newsTeamText6"></p>
-                    </div>
-                    <h2 id="newsTitle6">Title</h2>
-                    <img id="newsImg6" src="">
-                    <p id="newsText6">Text</p>
-                    <h5 id="clickBox6">Click this box for more!</h5>
+                <h2 id="newsTitle5">Title</h2>
+                <img id="newsImg5" src="">
+                <p id="newsText5">Text</p>
+                <h5 id="clickBox5">Click this box for more!</h5>
+            </div>
+            <div id="newsBox6" onclick="openArticle(6)">
+                <div class="upperTeamRow">
+                    <img id="newsLogo6" src="">
+                    <p id="newsTeamText6"></p>
                 </div>
-                <div id="newsBox7" onclick="openArticle(7)">
-                    <div class="upperTeamRow">
-                        <img id="newsLogo7" src="">
-                        <p id="newsTeamText7"></p>
-                    </div>
-                    <h2 id="newsTitle7">Title</h2>
-                    <img id="newsImg7" src="">
-                    <p id="newsText7">Text</p>
-                    <h5 id="clickBox7">Click this box for more!</h5>
+                <h2 id="newsTitle6">Title</h2>
+                <img id="newsImg6" src="">
+                <p id="newsText6">Text</p>
+                <h5 id="clickBox6">Click this box for more!</h5>
+            </div>
+            <div id="newsBox7" onclick="openArticle(7)">
+                <div class="upperTeamRow">
+                    <img id="newsLogo7" src="">
+                    <p id="newsTeamText7"></p>
                 </div>
-            </section>
-
-            <p class="center" style="text-transform: uppercase; font-size: 10pt; font-weight: bold; color: #ccc; margin: 20px;">This website is not affiliated with the NHL, MLB, MLS, XFL, or City of St. Louis and is managed privately as a personal hobby. Use of any logos on this website do not constitute any sponsorship or endorsement by teams, leagues, or trademark holders. </p>
-
-
-            <section class="row" style="display: none;">
-                <div>
-                    <div class="row">
-                        <section class="image2"><img src="NHL Logos/ANA.PNG"></section>
+                <h2 id="newsTitle7">Title</h2>
+                <img id="newsImg7" src="">
+                <p id="newsText7">Text</p>
+                <h5 id="clickBox7">Click this box for more!</h5>
+            </div>
+        </section>
+        
+        <hr>
+        
+        <p class="center" style="text-transform: uppercase; font-size: 10pt; font-weight: bold; color: #ccc; margin: 20px;">This website is not affiliated with the NHL, MLB, MLS, XFL, or City of St. Louis and is managed privately as a personal hobby. Use of any logos on this website do not constitute any sponsorship or endorsement by teams, leagues, or trademark holders. </p>
+        
+        
+        <section class="row" style="display: none;">
+            <div>
+                <div class="row">
+                    <section class="image2"><img src="NHL Logos/ANA.PNG"></section>
                         <section class="image2"><img src="NHL Logos/ARI.png"></section>
                         <section class="image2"><img src="NHL Logos/ARI2.png"></section>
                         <section class="image2"><img src="NHL Logos/ARI3.png"></section>
@@ -336,21 +340,22 @@
             <button onclick="closeArticle()"><img src="arrow2.svg"></button>
             <section class="row">
                 <!-- <hr> -->
-                <img class="logo" id="articleLogo" src="MLB SVGs/STL.svg">
-                <p id="articleTeamText">St. Louis cardinals</p>
+                <img class="logo" id="articleLogo" src="NHL SVGs/NHL.svg">
+                <p id="articleTeamText">St. Louis</p>
             </section>
             <h1 id="articleTitle">Title</h1>
-            <img id="articleImg" src="https://i.marqueur.com/habsetlnh/large_original/280377.jpeg">
+            <img id="articleImg" src="">
             <div id="articleText"></div>
         </div>
     </section>
 
     <section class="loader" id="loadingScreen">
-        <h1 style="font-size: 72pt; text-shadow: 0 5px 10px black;">The Hub STL</h1>
+        <h1 style="font-size: 64pt; text-shadow: 0 5px 10px black;">The Hub STL</h1>
     </section>
 
 
     <script src="JS/homepage.js"></script>
+    <script src="JS/animations.js"></script>
     <script style="display: none;">
         var articleNum
         document.getElementById("topbar_frame").style.width = "calc(100% - 10px)"

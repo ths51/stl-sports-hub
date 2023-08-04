@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Hub STL | The Home of St. Louis Sports</title>
+
+        <meta charset="UTF-8">
+        <meta name="description" content="Your Home for Everything St. Louis Sports">
+        <meta name="keywords" content="stl, st. louis, st louis, blues, st louis blues, hockey, ice, ice hockey, st. louis blues, 2023, sports, stanley cup, playoffs, history, champions, news, updates">
+        <meta name="author" content="@stlbluesnow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Sofia+Sans:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+        
+        <!-- <meta http-equiv="refresh" content="10"> -->
+        
+        <link rel="stylesheet" href="index.css">
+        <!-- <script src="main.js"></script> -->
+        
+        <!-- <style>
+            * {
+                font-family: 'Sofia Sans', sans-serif;
+            }
+            nav {
+                width: 100%;
+                height: 50px;
+            }
+            nav img {
+                max-width: 100px;
+            }
+        </style> -->
+        
+    </head>
+    <body>
+        <nav>
+            <!-- <img src="NHL Logos/STL.PNG"> -->
+            <a href="index.html" class="large"><h2 style="font-style: italic;">The Hub STL</h2></a>
+            <div class="menuButton" id="WholeMenuOpener" onclick="submenuTrigger('WholeMenu')"><p>MENU</p></div>
+            <div class="navMenu" id="WholeMenu">
+                <a href="index.html"><h3>Home</h3></a>
+                <!-- <a href="write.html"><h3>Write Article</h3></a> -->
+                <a id="BluesMenuOpener" onclick="submenuTrigger('BluesMenu')">
+                    <section class="row">
+                        <img src="NHL SVGs/STL.svg">
+                        <h3>Blues</h3>
+                    </section>
+                </a>
+                <div id="BluesMenu" class="submenu">
+                    <a href="roster.html"><h3>Roster</h3></a>
+
+                </div>
+                <a id="CardsMenuOpener" onclick="submenuTrigger('CardsMenu')">
+                    <section class="row">
+                        <img src="MLB SVGs/STL.svg">
+                        <h3>Cardinals</h3>
+                    </section>
+                </a>
+                <div id="CardsMenu" class="submenu">
+                    <a href="roster.html"><h3>Roster</h3></a>
+
+                </div>
+                <a id="CityMenuOpener" onclick="submenuTrigger('CityMenu')">
+                    <section class="row">
+                        <img src="MLS SVGs/STL.svg">
+                        <h3>CITY SC</h3>
+                    </section>
+                </a>
+                <div id="CityMenu" class="submenu">
+                    <a href="roster.html"><h3>Roster</h3></a>
+
+                </div>
+                <a id="BattlehawksMenuOpener" onclick="submenuTrigger('BattlehawksMenu')">
+                    <section class="row">
+                        <img src="XFL SVGs/STL.svg">
+                        <h3>Battlehawks</h3>
+                    </section>
+                </a>
+                <div id="BattlehawksMenu" class="submenu">
+                    <a href="roster.html?sport=xfl"><h3>Roster</h3></a>
+
+                </div>
+                <a id="SocialsMenuOpener" onclick="submenuTrigger('SocialsMenu')">
+                    <h3>My Socials</h3>
+                </a>
+                <div id="SocialsMenu" class="submenu">
+                    <a href="https://www.instagram.com/stlbluesnow/"><h3>Instagram</h3></a>
+                    <a href="https://www.threads.net/@stlbluesnow"><h3>Threads</h3></a>
+                    <a href="https://twitter.com/stlbluesnow"><h3>X (Twitter)</h3></a>
+
+                </div>
+                <a href="index2.css" style="display: none;"><h3>CSS Styling</h3></a>
+            </div>
+            <!-- <hr> -->
+            <!-- <p>JavaScript must be enabled in browser to view webpage properly</p> -->
+        </nav>
+        
+        <section class="main">
+            <h1 class="center">Roster</h1>
+            <section class="fullRoster" id="fullRoster">
+                
+            </section>
+        </section>
+    </body>
+
+    <section class="article" id="articleBox">
+        <div>
+            <button onclick="closeArticle()"><img src="arrow2.svg"></button>
+            <section class="row">
+                <!-- <hr> -->
+                <img class="logo" id="articleLogo" src="NHL SVGs/NHL.svg">
+                <p id="articleTeamText">St. Louis</p>
+            </section>
+            <h1 id="articleTitle">Title</h1>
+            <img id="articleImg" src="">
+            <div id="articleText"></div>
+        </div>
+    </section>
+
+    <section class="loader" id="loadingScreen">
+        <h1 style="font-size: 64pt; text-shadow: 0 5px 10px black;">The Hub STL</h1>
+    </section>
+
+
+    <!-- <script src="JS/homepage.js"></script> -->
+    <script src="JS/animations.js"></script>
+    <script src="JS/nhl.js"></script>
+    <script style="display: none;">
+        getRoster()
+        var articleNum
+        // document.getElementById("topbar_frame").style.width = "calc(100% - 10px)"
+        // document.getElementById("topbar_frame").style.height = "100px"
+    </script>
+</html>

@@ -429,25 +429,27 @@ if (nextGameInfoXFL == "void") {
     document.getElementById("nextGameXFL").style.visibility = "hidden"
     document.getElementById("nextGameXFL").style.display = "none"
     // document.getElementById("barrier").style.display = "none"
-}
+} else {
 
 let nextSTLteamXFL = "STL"
 if (nextGameInfoXFL.STLlogo != 1) {
     nextSTLteamXFL += (" " + String(nextGameInfoXFL.STLlogo))
 }
 
-document.getElementById("nextStlTextXFL").textContent = getTrueTeamText(nextSTLteamXFL)
-document.getElementById("nextOppTextXFL").textContent = getTrueTeamText(nextOppXFL)
+    document.getElementById("nextStlTextXFL").textContent = getTrueTeamText(nextSTLteamXFL)
+    document.getElementById("nextOppTextXFL").textContent = getTrueTeamText(nextOppXFL)
 
-document.getElementById("nextStlLogoXFL").src = teamLogo(nextSTLteamXFL, "XFL")
-document.getElementById("nextOppLogoXFL").src = teamLogo(nextOppXFL, "XFL")
+    document.getElementById("nextStlLogoXFL").src = teamLogo(nextSTLteamXFL, "XFL")
+    document.getElementById("nextOppLogoXFL").src = teamLogo(nextOppXFL, "XFL")
 
-// document.getElementById("nextStlScore").textContent = nextGameInfoXFL.STLscore
-// document.getElementById("nextOppXFLScore").textContent = nextGameInfoXFL.oppScore
+    // document.getElementById("nextStlScore").textContent = nextGameInfoXFL.STLscore
+    // document.getElementById("nextOppXFLScore").textContent = nextGameInfoXFL.oppScore
 
-document.getElementById("nextStlBoxXFL").style.backgroundColor = allData.XFLcolors[getColorIndex(nextSTLteamXFL)].color1
-document.getElementById("nextOppBoxXFL").style.backgroundColor = allData.XFLcolors[getColorIndex(nextOppXFL)].color1
+    document.getElementById("nextStlBoxXFL").style.backgroundColor = allData.XFLcolors[getColorIndex(nextSTLteamXFL)].color1
+    document.getElementById("nextOppBoxXFL").style.backgroundColor = allData.XFLcolors[getColorIndex(nextOppXFL)].color1
 
-if (document.getElementById("nextTextXFL").textContent != liveText) {
-    document.getElementById("nextTextXFL").textContent = "NEXT | " + nextGameInfoXFL.date + " | " + nextGameInfoXFL.time
+    if (document.getElementById("nextTextXFL").textContent != liveText) {
+        document.getElementById("nextTextXFL").textContent = "NEXT | " + nextGameInfoXFL.date + " | " + nextGameInfoXFL.time
+    }
+
 }

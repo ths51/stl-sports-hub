@@ -372,6 +372,9 @@ nav img.logo {
     width: auto;
     height: auto;
 }
+script {
+    display: none;
+}
 
 nav a:hover {
     /* background-color: white; */
@@ -427,6 +430,10 @@ section.row {
     height: max-content;
     text-align: center;
     overflow-x: scroll;
+    border-radius: 10px;
+    /* background-color: red; */
+    margin: 5px 0;
+    padding: 0;
 }
 section.row div {
     text-align: center;
@@ -434,7 +441,7 @@ section.row div {
     width: 100%;
     min-width: 300px;
     /* min-width: max-content; */
-    margin: 10px;
+    margin: 0 10px;
     border-radius: 10px;
     padding: 15px;
     background-color: #333;
@@ -534,7 +541,7 @@ hr {
     border-radius: 5px;
     padding: 0;
     border: none;
-    margin: 10px auto;
+    margin: 25px auto;
 }
 
 
@@ -751,7 +758,31 @@ section.article div section.row {
     0%   {opacity: 100%;}
     25%  {opacity: 90%;}
     50%  {opacity: 10%;}
-    100% {opacity: 0%; display: none;}
+    100% {opacity: 0%; display: none; z-index: 0;}
+}
+
+@keyframes open_menu {
+    0% {
+        display: none;
+        height: 0%;
+        /* margin: 0; */
+        padding: 0 0 0 10px;
+    }
+    /* 10% {
+        display: block;
+        height: 1%;
+    }
+    50% {
+        margin: 0;
+        height: min-content;
+    } */
+    100% {
+        /* margin: auto; */
+        height: max-content;
+        padding: 1px 1px 1px 10px;
+        display: block;
+    }
+
 }
 
 section.article div div {
@@ -856,6 +887,102 @@ section.loader {
 
 
 
+div.playerBox {
+    background-color: #333;
+    padding: 0;
+    border-radius: 10px;
+    margin: 15px auto;
+    align-items: center;
+    /* margin-top: 50px; */
+
+    justify-content: left;
+
+    display: flex;
+}
+
+div.playerBox section.row div.bio section.row {
+    margin: auto;
+    padding: 0px;
+    /* background-color: green; */
+}
+div.playerBox section.row div.bio section.row div {
+    min-width: unset;
+    /* background-color: red; */
+    width: 15%;
+    margin: auto;
+}
+
+div.playerBox section.row {
+    margin: auto;
+    padding: 0;
+    /* background-color: red; */
+    /* border: 1px dotted white; */
+    justify-content: center;
+    /* width: max-content; */
+}
+div.playerBox section.row div {
+    min-width: 200px;
+    width: max-content;
+    margin: auto;
+    padding: 10px;
+    /* background-color: black; */
+    display: block;
+    justify-content: center;
+}
+div.playerBox section.row div.bio {
+    /* background-color: black; */
+    width: 100%;
+    justify-content: center;
+    height: max-content;
+    align-items: center;
+    padding: auto;
+}
+div.playerBox section.row div.bio * {
+    /* text-align: left; */
+    width: 100%;
+    margin: 3px auto;
+}
+div.playerBox section.row div.bio hr {
+    /* text-align: left; */
+    width: 70%;
+    margin: 10px auto;
+}
+div.playerBox section.row div * {
+    margin: 0;
+    padding: 0;
+}
+div.playerBox section.row div.playerInfo {
+    min-width: unset;
+    width: max-content;
+    margin: 5px;
+    padding: 10px;
+    background-color: black;
+    display: block;
+}
+
+div.playerBox section.row div img {
+    width: 150px;
+    padding: 0 10px 10px 10px;
+    margin: auto;
+    /* background-color: red; */
+}
+
+div.playerBox section.row div hr {
+    width: 75%;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #aaa;
+    /* border: solid 2px red; */
+}
+
+section.fullRoster {
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+
+
 
 @media only screen and (max-width:900px) {
 
@@ -935,6 +1062,7 @@ section.loader {
         align-items: center;
         overflow-y: scroll;
         margin: 3px auto;
+        text-decoration: none;
     }
     nav a.large {
         display: flex;

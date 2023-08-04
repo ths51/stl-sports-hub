@@ -430,9 +430,30 @@ allData = {
         },
          
 
+    ], 
+
+    "NHLroster": [
+        {
+            "firstName": "",
+            "lastName": "",
+            "birthDate": "",
+            "image": "",
+            "height": "",
+            "position": "",
+            "domHand": "",
+            "weight": "",
+            "birthPlace": "",
+            "bio": "",
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        }
     ]
 
 }
+
+let statsOrder = ["Team","GP","G","A","P","+/-","PIM","S%","FO%"]
+let majorStats = ["GP","Goals","Assists","Points","+/-"]
 
 
 
@@ -792,9 +813,9 @@ var result = ""
 //         return reader.read().then(processText);
 //     }));
 
+let docURLlist = document.URL.split("/")
 
-
-
+if (docURLlist[docURLlist.length-1] == "scorebox.html") {
 
 // let info = getRandomTeam()
 // let opponent = info[0]
@@ -907,3 +928,70 @@ else {
     document.getElementById("nextTextNHL").textContent = "NEXT | " + nextGameInfoNHL.date + " | " + nextGameInfoNHL.time
 }
 
+
+
+}
+
+let curYear = 2023
+
+function getRoster(sport) {
+    let list
+    if (sport == "NHL") {
+        list = NHLroster
+    } else if (sport == "XFL") {
+        list = NHLroster
+    } else if (sport == "MLB") {
+        list = NHLroster
+    } else if (sport == "MLS") {
+        list = NHLroster
+    }
+    let playerCt = allData.NHLroster.length
+    for (i = 0; i < playerCt; i++) {
+        let player = allData.NHLroster[i]
+        let rosterBox = document.getElementById("fullRoster")
+        let statsItems = ""
+        for (i = 0; i < majorStats.length; i++) {
+            statsItems += `
+            <div>
+                <h5>${majorStats[i]}</h5>
+                <h2>${player.careerStats[curYear][i+1]}</h2>
+            </div>
+            `
+        }
+
+        let text = `
+            <div class="playerBox">
+                <section class="row">
+                    <div>
+                        <img src="${player.image}">
+                        <h5>${player.firstName}</h5>
+                        <h2>${player.lastName}</h2>
+                    </div>
+                    <div class="bio">
+                        <section class="row">
+                            <div>
+                                <h2>${player.position}</h2>
+                            </div>
+                            <div>
+                                <h2>${player.height}</h2>
+                            </div>
+                            <div>
+                                <h2>${player.weight}</h2>
+                            </div>
+                            
+                        </section>
+                        <hr>
+                        <p id="bio">${player.bio}</p>
+                        <hr>
+                        <h3 style="text-transform: uppercase;">2022-23 Stats</h3>
+                        <section class="row">
+                            ${statsItems}
+                        </section>
+                    </div>
+                </section>
+            </div>
+        `
+
+        rosterBox.innerHTML += text
+    }
+}
