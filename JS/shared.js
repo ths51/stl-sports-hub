@@ -3,7 +3,14 @@ statsData = {
         "NHL": ["Team","GP","G","A","P","+/-","PIM","S%","FO%"],
     },
     "majorStats": {
-        "NHL": ["GP","Goals","Assists","Points","+/-"]
+        "NHL": ["GP","Goals","Assists","Points","+/-"],
+        "NHL_G": ["GP","W","L","OTL","SV%","GAA"],
+    },
+    "specialtyStatPositions": {
+        "NHL": ["G"],
+        "MLB": ["P"],
+        "MLS": ["GK"],
+        "XFL": ["QB","LB","S"]
     }
 }
 
@@ -12,19 +19,408 @@ rosterData = {
         {
             "firstName": "Sammy",
             "lastName": "Blais",
-            "jerseyNum": 9,
+            "jerseyNum": 79,
             "birthDate": "June 17, 1997",
             "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
             "height": `6'2"`,
             "position": "LW",
-            "domHand": "Left",
+            "domHand": "L",
             "weight": "206 lbs.",
             "birthPlace": "Montmagny, QC, CAN",
             "bio": "Blais was drafted in the sixth round by the Blues in 2014 and defied all odds to reach the NHL with the team in 2017. He won a Stanley Cup with the Blues in 2019 and was eventually traded to the Rangers in a deal for Pavel Buchnevich. After suffering a major knee injury early in the 2021 campaign that sidelined him for the rest of the season, Blais was only able to score 5 points in 40 games with New York in 2022-23, but was traded back to the Blues, where he put up 9 goals and 20 points in only 31 games.",
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["STL/NYR",71, 9, 16, 25, 4, 30, "?", "?"],
+                2022: ["NYR",14, 0, 4, 4, 3, 17, "?", "?"],
+                2021: ["STL",36, 8, 7, 15, 0, 12, "?", "?"],
+                2020: ["STL",40, 6, 7, 13, -2, 20, "?", "?"],
+                2019: ["STL",32, 2, 2, 4, -1, 6, "?", "?"],
+                2018: ["STL",11, 1, 2, 3, 1, 6, "?", "?"]
             }
-        }
+        },
+        {
+            "firstName": "Pavel",
+            "lastName": "Buchnevich",
+            "jerseyNum": 89,
+            "birthDate": "April 17, 1995",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "height": `6'1"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "196 lbs.",
+            "birthPlace": "Cherepovets, RUS",
+            "bio": "-",
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                2023: ["STL",63, 26, 41, 67, 14, 36, "?", "?"],
+            }
+        },
+        {
+            "firstName": "Kevin",
+            "lastName": "Hayes",
+            "jerseyNum": 12,
+            "birthDate": "May 8, 1992",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "height": `6'5"`,
+            "position": "RW",
+            "domHand": "L",
+            "weight": "216 lbs.",
+            "birthPlace": "Dorcester, MA, USA",
+            "bio": "-",
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+            }
+        },
+        {
+            "firstName": "Kasperi",
+            "lastName": "Kapanen",
+            "jerseyNum": 42,
+            "birthDate": "July 23, 1996",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "height": `6'1"`,
+            "position": "RW",
+            "domHand": "R",
+            "weight": "194 lbs.",
+            "birthPlace": "Kuopio, FIN",
+            "bio": "-",
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+            }
+        },
+        {
+            "firstName": "Jordan",
+            "lastName": "Kyrou",
+            "jerseyNum": 25,
+            "birthDate": "May 5, 1998",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "height": `6'1"`,
+            "position": "RW",
+            "domHand": "R",
+            "weight": "196 lbs.",
+            "birthPlace": "Toronto, ON, CAN",
+            "bio": "-",
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+            }
+        },
+        {
+            "firstName": "Mackenzie",
+            "lastName": "MacEachern",
+            "jerseyNum": 28,
+            "birthDate": "March 9, 1994",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "193 lbs.",
+            "birthPlace": "Bloomfield Hills, MI, USA",
+            "bio": "-",
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+            }
+        },
+        {
+            "firstName": "Jake",
+            "lastName": "Neighbours",
+            "jerseyNum": 63,
+            "birthDate": "March 29, 2002",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "height": `6'0"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "201 lbs.",
+            "birthPlace": "Calgary, AB, CAN",
+            "bio": "-",
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+            }
+        },
+        {
+            "firstName": "Brandon",
+            "lastName": "Saad",
+            "jerseyNum": 20,
+            "birthDate": "October 27, 1992",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "height": `6'1"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "215 lbs.",
+            "birthPlace": "Pittsburgh, PA, USA",
+            "bio": "-",
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+            }
+        },
+        {
+            "firstName": "Brayden",
+            "lastName": "Schenn",
+            "jerseyNum": 10,
+            "birthDate": "August 22, 1991",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "height": `6'1"`,
+            "position": "C",
+            "domHand": "L",
+            "weight": "199 lbs.",
+            "birthPlace": "Saskatoon, SK, CAN",
+            "bio": "-",
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+            }
+        },
+        {
+            "firstName": "Oskar",
+            "lastName": "Sundqvist",
+            "jerseyNum": 70,
+            "birthDate": "March 23, 1994",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "height": `6'3"`,
+            "position": "C",
+            "domHand": "R",
+            "weight": "220 lbs.",
+            "birthPlace": "Boden, SWE",
+            "bio": "-",
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+            }
+        },
+        {
+            "firstName": "Robert",
+            "lastName": "Thomas",
+            "jerseyNum": 18,
+            "birthDate": "July 2, 1999",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "height": `6'0"`,
+            "position": "C",
+            "domHand": "R",
+            "weight": "218 lbs.",
+            "birthPlace": "Aurora, ON, CAN",
+            "bio": "-",
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+            }
+        },
+        {
+            "firstName": "Alexey",
+            "lastName": "Toropchenko",
+            "jerseyNum": 13,
+            "birthDate": "June 25, 1999",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "height": `6'6"`,
+            "position": "RW",
+            "domHand": "L",
+            "weight": "222 lbs.",
+            "birthPlace": "Moscow, RUS",
+            "bio": "-",
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+            }
+        },
+        {
+            "firstName": "Jakub",
+            "lastName": "Vrana",
+            "jerseyNum": 15,
+            "birthDate": "February 28, 1996",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "height": `6'0"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "190 lbs.",
+            "birthPlace": "Prague, CZE",
+            "bio": "-",
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+            }
+        },
+        {
+            "firstName": "Nathan",
+            "lastName": "Walker",
+            "jerseyNum": 26,
+            "birthDate": "February 7, 1994",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "height": `5'9"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "187 lbs.",
+            "birthPlace": "Cardiff, GBR",
+            "bio": "-",
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+            }
+        },
+        {
+            "firstName": "Robert",
+            "lastName": "Bortuzzo",
+            "jerseyNum": 41,
+            "birthDate": "March 18, 1989",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "height": `6'4"`,
+            "position": "D",
+            "domHand": "R",
+            "weight": "216 lbs.",
+            "birthPlace": "Thunder Bay, ON, CAN",
+            "bio": "-",
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+            }
+        },
+        {
+            "firstName": "Justin",
+            "lastName": "Faulk",
+            "jerseyNum": 72,
+            "birthDate": "March 20, 1992",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "height": `6'0"`,
+            "position": "D",
+            "domHand": "R",
+            "weight": "214 lbs.",
+            "birthPlace": "South St. Paul, MN, USA",
+            "bio": "-",
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+            }
+        },
+        {
+            "firstName": "Torey",
+            "lastName": "Krug",
+            "jerseyNum": 47,
+            "birthDate": "April 12, 1991",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "height": `5'9"`,
+            "position": "D",
+            "domHand": "L",
+            "weight": "194 lbs.",
+            "birthPlace": "Livonia, MI, USA",
+            "bio": "-",
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+            }
+        },
+        {
+            "firstName": "Nick",
+            "lastName": "Leddy",
+            "jerseyNum": 4,
+            "birthDate": "March 20, 1991",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "height": `6'0"`,
+            "position": "D",
+            "domHand": "L",
+            "weight": "205 lbs.",
+            "birthPlace": "Eden Prairie, MN, USA",
+            "bio": "-",
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+            }
+        },
+        {
+            "firstName": "Colton",
+            "lastName": "Parayko",
+            "jerseyNum": 55,
+            "birthDate": "May 12, 1993",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "height": `6'6"`,
+            "position": "D",
+            "domHand": "R",
+            "weight": "228 lbs.",
+            "birthPlace": "St. Albert, AB, CAN",
+            "bio": "-",
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+            }
+        },
+        {
+            "firstName": "Scott",
+            "lastName": "Perunovich",
+            "jerseyNum": 48,
+            "birthDate": "August 18, 1998",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "height": `5'10"`,
+            "position": "D",
+            "domHand": "L",
+            "weight": "175 lbs.",
+            "birthPlace": "Hibbing, MN, USA",
+            "bio": "-",
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+            }
+        },
+        {
+            "firstName": "Calle",
+            "lastName": "Rosen",
+            "jerseyNum": 43,
+            "birthDate": "February 2, 1994",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "height": `6'1"`,
+            "position": "D",
+            "domHand": "L",
+            "weight": "188 lbs.",
+            "birthPlace": "Vaxjo, SWE",
+            "bio": "-",
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+            }
+        },
+        {
+            "firstName": "Marco",
+            "lastName": "Scandella",
+            "jerseyNum": 6,
+            "birthDate": "February 23, 1990",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "height": `6'3"`,
+            "position": "D",
+            "domHand": "L",
+            "weight": "212 lbs.",
+            "birthPlace": "Montreal, QC, CAN",
+            "bio": "-",
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+            }
+        },
+        {
+            "firstName": "Tyler",
+            "lastName": "Tucker",
+            "jerseyNum": 75,
+            "birthDate": "March 1, 2000",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "height": `6'1"`,
+            "position": "D",
+            "domHand": "L",
+            "weight": "204 lbs.",
+            "birthPlace": "Thunder Bay, ON, CAN",
+            "bio": "-",
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+            }
+        },
+        {
+            "firstName": "Jordan",
+            "lastName": "Binnington",
+            "jerseyNum": 50,
+            "birthDate": "July 11, 1993",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "height": `6'2"`,
+            "position": "G",
+            "domHand": "N/A",
+            "weight": "172 lbs.",
+            "birthPlace": "Richmond Hill, ON, CAN",
+            "bio": "-",
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+            }
+        },
+        {
+            "firstName": "Joel",
+            "lastName": "Hofer",
+            "jerseyNum": 1,
+            "birthDate": "July 30, 2000",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "height": `6'5"`,
+            "position": "G",
+            "domHand": "N/A",
+            "weight": "179 lbs.",
+            "birthPlace": "Winnipeg, MB, CAN",
+            "bio": "-",
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                // 2023: ["PHI",63, 26, 41, 67, 14, 36, "?", "?"],
+            }
+        },
     ],
 
     "MLB": [
@@ -92,7 +488,9 @@ let teamNames = {
     "XFL" : "St. Louis Battlehawks"
 }
 
-
+function calcAge(birthDate) {
+    
+}
 
 let curYear = 2023
 
