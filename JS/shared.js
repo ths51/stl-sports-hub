@@ -1109,7 +1109,3 @@ function getRoster(sport) {
         rosterBox.innerHTML += text
     }
 }
-
-if ((document.getElementById('WholeMenuOpener').style.display == "none") && (document.getElementById('WholeMenu').style.display == "block")) {
-    closeSubmenu('WholeMenu')
-}
