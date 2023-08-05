@@ -42,7 +42,7 @@ rosterData = {
             "lastName": "Buchnevich",
             "jerseyNum": 89,
             "birthDate": "April 17, 1995",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3042081.png&w=350&h=254",
             "height": `6'1"`,
             "position": "LW",
             "domHand": "L",
@@ -58,7 +58,7 @@ rosterData = {
             "lastName": "Hayes",
             "jerseyNum": 12,
             "birthDate": "May 8, 1992",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/5767.png",
             "height": `6'5"`,
             "position": "RW",
             "domHand": "L",
@@ -74,7 +74,7 @@ rosterData = {
             "lastName": "Kapanen",
             "jerseyNum": 42,
             "birthDate": "July 23, 1996",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3114775.png",
             "height": `6'1"`,
             "position": "RW",
             "domHand": "R",
@@ -90,7 +90,7 @@ rosterData = {
             "lastName": "Kyrou",
             "jerseyNum": 25,
             "birthDate": "May 5, 1998",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4062251.png",
             "height": `6'1"`,
             "position": "RW",
             "domHand": "R",
@@ -106,7 +106,7 @@ rosterData = {
             "lastName": "MacEachern",
             "jerseyNum": 28,
             "birthDate": "March 9, 1994",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3069342.png&w=350&h=254",
             "height": `6'2"`,
             "position": "LW",
             "domHand": "L",
@@ -122,7 +122,7 @@ rosterData = {
             "lastName": "Neighbours",
             "jerseyNum": 63,
             "birthDate": "March 29, 2002",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4697409.png",
             "height": `6'0"`,
             "position": "LW",
             "domHand": "L",
@@ -138,7 +138,7 @@ rosterData = {
             "lastName": "Saad",
             "jerseyNum": 20,
             "birthDate": "October 27, 1992",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/2563065.png",
             "height": `6'1"`,
             "position": "LW",
             "domHand": "L",
@@ -154,7 +154,7 @@ rosterData = {
             "lastName": "Schenn",
             "jerseyNum": 10,
             "birthDate": "August 22, 1991",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/5219.png&w=350&h=254",
             "height": `6'1"`,
             "position": "C",
             "domHand": "L",
@@ -170,7 +170,7 @@ rosterData = {
             "lastName": "Sundqvist",
             "jerseyNum": 70,
             "birthDate": "March 23, 1994",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3069277.png",
             "height": `6'3"`,
             "position": "C",
             "domHand": "R",
@@ -186,7 +186,7 @@ rosterData = {
             "lastName": "Thomas",
             "jerseyNum": 18,
             "birthDate": "July 2, 1999",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "image": "https://a.espncdn.com/i/headshots/nhl/players/full/4233637.png",
             "height": `6'0"`,
             "position": "C",
             "domHand": "R",
@@ -202,7 +202,7 @@ rosterData = {
             "lastName": "Toropchenko",
             "jerseyNum": 13,
             "birthDate": "June 25, 1999",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4392454.png",
             "height": `6'6"`,
             "position": "RW",
             "domHand": "L",
@@ -218,7 +218,7 @@ rosterData = {
             "lastName": "Vrana",
             "jerseyNum": 15,
             "birthDate": "February 28, 1996",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "image": "https://a.espncdn.com/i/headshots/nhl/players/full/3114747.png",
             "height": `6'0"`,
             "position": "LW",
             "domHand": "L",
@@ -234,7 +234,7 @@ rosterData = {
             "lastName": "Walker",
             "jerseyNum": 26,
             "birthDate": "February 7, 1994",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3067860.png",
             "height": `5'9"`,
             "position": "LW",
             "domHand": "L",
@@ -250,7 +250,7 @@ rosterData = {
             "lastName": "Bortuzzo",
             "jerseyNum": 41,
             "birthDate": "March 18, 1989",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4916.png",
             "height": `6'4"`,
             "position": "D",
             "domHand": "R",
@@ -266,7 +266,7 @@ rosterData = {
             "lastName": "Faulk",
             "jerseyNum": 72,
             "birthDate": "March 20, 1992",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/5746.png&w=350&h=254",
             "height": `6'0"`,
             "position": "D",
             "domHand": "R",
@@ -282,7 +282,7 @@ rosterData = {
             "lastName": "Krug",
             "jerseyNum": 47,
             "birthDate": "April 12, 1991",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/2952729.png",
             "height": `5'9"`,
             "position": "D",
             "domHand": "L",
@@ -298,7 +298,7 @@ rosterData = {
             "lastName": "Leddy",
             "jerseyNum": 4,
             "birthDate": "March 20, 1991",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/5447.png",
             "height": `6'0"`,
             "position": "D",
             "domHand": "L",
@@ -314,7 +314,7 @@ rosterData = {
             "lastName": "Parayko",
             "jerseyNum": 55,
             "birthDate": "May 12, 1993",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3069341.png",
             "height": `6'6"`,
             "position": "D",
             "domHand": "R",
@@ -330,7 +330,7 @@ rosterData = {
             "lastName": "Perunovich",
             "jerseyNum": 48,
             "birthDate": "August 18, 1998",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4320665.png",
             "height": `5'10"`,
             "position": "D",
             "domHand": "L",
@@ -346,7 +346,7 @@ rosterData = {
             "lastName": "Rosen",
             "jerseyNum": 43,
             "birthDate": "February 2, 1994",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4220707.png",
             "height": `6'1"`,
             "position": "D",
             "domHand": "L",
@@ -362,7 +362,7 @@ rosterData = {
             "lastName": "Scandella",
             "jerseyNum": 6,
             "birthDate": "February 23, 1990",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/5218.png",
             "height": `6'3"`,
             "position": "D",
             "domHand": "L",
@@ -378,7 +378,7 @@ rosterData = {
             "lastName": "Tucker",
             "jerseyNum": 75,
             "birthDate": "March 1, 2000",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4587904.png&w=350&h=254",
             "height": `6'1"`,
             "position": "D",
             "domHand": "L",
@@ -386,7 +386,7 @@ rosterData = {
             "birthPlace": "Thunder Bay, ON, CAN",
             "bio": "-",
             "careerStats": { // Year season ended (2022-23 = 2023)
-                2023: ["PHI",26, 1, 3, 4, -9, 31, "?", "?"],
+                2023: ["STL",26, 1, 3, 4, -9, 31, "?", "?"],
             }
         },
         {
@@ -394,7 +394,7 @@ rosterData = {
             "lastName": "Binnington",
             "jerseyNum": 50,
             "birthDate": "July 11, 1993",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/2590874.png",
             "height": `6'2"`,
             "position": "G",
             "domHand": "N/A",
@@ -410,7 +410,7 @@ rosterData = {
             "lastName": "Hofer",
             "jerseyNum": 1,
             "birthDate": "July 30, 2000",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4587909.png&w=350&h=254",
             "height": `6'5"`,
             "position": "G",
             "domHand": "N/A",
@@ -489,34 +489,50 @@ let teamNames = {
 }
 
 function calcAge(birthDate) {
-    
+    if (birthDate.type == String) {
+        // console.log("A")
+    }
 }
 
 let curYear = 2023
 
 function getRoster(sport) {
     let playerCt = rosterData[sport].length
+    // console.log(playerCt)
     for (i = 0; i < playerCt; i++) {
         let player = rosterData[sport][i]
         let rosterBox = document.getElementById("fullRoster")
         let statsItems = ""
-        for (i = 0; i < statsData.majorStats[sport].length; i++) {
+        let sportList
+        // console.log(player.position)
+        // console.log(statsData.specialtyStatPositions[sport])
+        if (statsData.specialtyStatPositions[sport].includes(player.position)) {
+            sportList = sport + "_" + player.position
+            // console.log("A")
+        } else {
+            sportList = sport
+        }
+
+        for (val = 0; val < statsData.majorStats[sportList].length; val++) {
             statsItems += `
             <div>
-                <h5>${statsData.majorStats[sport][i]}</h5>
-                <h2>${player.careerStats[curYear][i+1]}</h2>
+                <h5>${statsData.majorStats[sportList][val]}</h5>
+                <h2>${player.careerStats[curYear][val+1]}</h2>
             </div>
             `
         }
+        // console.log(player.firstName + " " + player.lastName)
+        // console.log(player.careerStats[curYear][0])
+        // calcAge(player.birthDate)
 
         let text = `
             <div class="playerBox">
                 <section class="row">
                     <div>
+                        <h1 style="font-size: 72pt; font-style: italic; height: 25px; overflow-y: visible; text-align: right;">${player.jerseyNum}</h1>
                         <img src="${player.image}">
                         <h5>${player.firstName}</h5>
                         <h2>${player.lastName}</h2>
-                        <h1 style="font-size: 56pt; font-style: italic;">${player.jerseyNum}</h1>
                     </div>
                     <div class="bio">
                         <section class="row">
@@ -536,8 +552,6 @@ function getRoster(sport) {
                         <section class="row">
                             ${statsItems}
                         </section>
-                        <hr>
-                        <p id="bio">${player.bio}</p>
                     </div>
                 </section>
             </div>
@@ -545,4 +559,8 @@ function getRoster(sport) {
 
         rosterBox.innerHTML += text
     }
+}
+
+if ((document.getElementById('WholeMenuOpener').style.display == "none") && (document.getElementById('WholeMenu').style.display == "block")) {
+    closeSubmenu('WholeMenu')
 }

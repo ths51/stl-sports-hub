@@ -36,7 +36,12 @@
         <nav>
             <!-- <img src="NHL Logos/STL.PNG"> -->
             <a href="index.html" class="large"><h2 style="font-style: italic;">The Hub STL</h2></a>
-            <div class="menuButton" id="WholeMenuOpener" onclick="submenuTrigger('WholeMenu')"><p>MENU</p></div>
+            <div class="menuButton" id="WholeMenuOpener" onclick="submenuTrigger('WholeMenu')">
+                <section class="row" style="width: max-content;">
+                    <img style="height: auto; width: 20px; border-radius: 0; margin: 0;" src="menu.svg">
+                    <p>MENU</p>
+                </section>
+            </div>
             <div class="navMenu" id="WholeMenu">
                 <a href="index.html"><h3>Home</h3></a>
                 <!-- <a href="write.html"><h3>Write Article</h3></a> -->
@@ -96,7 +101,7 @@
         </nav>
         
         <section class="main">
-            <section class="row" style="justify-content: center; align-items: center;">
+            <section class="row" style="justify-content: center; align-items: center; display: flex;">
                 <img id="logo" style="max-height: 100px;" src="">
                 <h1 id="rosterText" class="center">Roster</h1>
             </section>

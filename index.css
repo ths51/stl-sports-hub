@@ -898,6 +898,7 @@ div.playerBox {
     justify-content: left;
 
     display: flex;
+    max-width: 1000px;
 }
 
 div.playerBox section.row div.bio section.row {
@@ -908,7 +909,7 @@ div.playerBox section.row div.bio section.row {
 div.playerBox section.row div.bio section.row div {
     min-width: unset;
     /* background-color: red; */
-    width: 15%;
+    width: 100%;
     margin: auto;
 }
 
@@ -939,13 +940,17 @@ div.playerBox section.row div.bio {
 }
 div.playerBox section.row div.bio * {
     /* text-align: left; */
-    width: 100%;
+    width: 90%;
     margin: 3px auto;
+    /* border: 1px solid red; */
 }
 div.playerBox section.row div.bio hr {
     /* text-align: left; */
     width: 70%;
-    margin: 10px auto;
+    margin: 25px auto;
+}
+div.playerBox section.row div.bio h2 {
+    font-size: 24pt;
 }
 div.playerBox section.row div * {
     margin: 0;
@@ -986,9 +991,29 @@ section.fullRoster {
 
 @media only screen and (max-width:900px) {
 
+
     section.row {
         display: block;
         margin: auto;
+    }
+
+    div.playerBox {
+        padding: 20px;
+    }
+
+    div.playerBox * {
+        width: 100%;
+        margin: 0;
+    }
+
+    div.playerBox section.row div {
+        padding: 0;
+        /* border: 1px solid blue; */
+    }
+    div.playerBox section.row div.bio section.row {
+        display: flex;
+        margin: auto;
+        padding: auto;
     }
 
     section.row div {
@@ -1042,6 +1067,11 @@ section.fullRoster {
         display: block;
     }
 
+    div.playerBox section.row div.bio section.row {
+        display: flex;
+        margin: auto;
+        padding: 0px;
+    }
 
     nav {
         display: block;
