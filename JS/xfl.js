@@ -53,7 +53,7 @@ allData = {
 
     ], 
 
-    "games": [
+    "XFLgames": [
         {
             "date": "4-22-2023",
             "time": "7:00 PM",
@@ -99,8 +99,8 @@ let XFLteams = [
 // console.log(curDate)
 
 function getNextGame() {
-    for (let num = 0; num < allData.games.length; num++) {
-        let gameDate = allData.games[num].date 
+    for (let num = 0; num < allTeamData.games.XFL.length; num++) {
+        let gameDate = allTeamData.games.XFL[num].date 
         let dateAtt = gameDate.split("-")
         let curDateAtt = curDate.split("-")
         // console.log(curDate)
@@ -115,24 +115,24 @@ function getNextGame() {
             // console.log("D") 
         }
         else if ((Number(dateAtt[2]) == Number(curDateAtt[2])) && (Number(dateAtt[0]) == Number(curDateAtt[0])) && (Number(dateAtt[1]) == Number(curDateAtt[1]))) { 
-            let gameTime = getTimeList(allData.games[num].time)
+            let gameTime = getTimeList(allTeamData.games.XFL[num].time)
             let curMinute = (curTime[0] * 60) + curTime[1]
             let gameMinute = (gameTime[0] * 60) + gameTime[1]
             
-            if ((!allData.games[num].final) && ((curMinute >= gameMinute))) {
+            if ((!allTeamData.games.XFL[num].final) && ((curMinute >= gameMinute))) {
                 // console.log(gameMinute)
                 // console.log(curMinute)
                 gameIsLive("nextTextXFL")
-                return allData.games[num]
+                return allTeamData.games.XFL[num]
             }
             else if (curMinute < gameMinute) {
-                return allData.games[num]
+                return allTeamData.games.XFL[num]
             }
 
         }
         else {
-            // console.log(allData.games[num])
-            return allData.games[num]
+            // console.log(allTeamData.games.XFL[num])
+            return allTeamData.games.XFL[num]
         }
     }
     return "void"
@@ -160,11 +160,11 @@ function activateLiveScore(gameData) {
 }
 
 function getLastGame() {
-    for (let num = allData.games.length-1; num >= 0; num--) {
-        let gameDate = allData.games[num].date 
+    for (let num = allTeamData.games.XFL.length-1; num >= 0; num--) {
+        let gameDate = allTeamData.games.XFL[num].date 
         let dateAtt = gameDate.split("-")
         let curDateAtt = curDate.split("-")
-        // console.log(allData.games[num])
+        // console.log(allTeamData.games.XFL[num])
         // console.log(curDate)
         // console.log(gameDate)
         if (Number(dateAtt[2]) > Number(curDateAtt[2])) { 
@@ -177,18 +177,18 @@ function getLastGame() {
             // console.log("D")
         }
         else if ((Number(dateAtt[2]) == Number(curDateAtt[2])) && (Number(dateAtt[0]) == Number(curDateAtt[0])) && (Number(dateAtt[1]) == Number(curDateAtt[1]))) { 
-            let gameTime = getTimeList(allData.games[num].time)
+            let gameTime = getTimeList(allTeamData.games.XFL[num].time)
             let curMinute = (curTime[0] * 60) + curTime[1]
             let gameMinute = (gameTime[0] * 60) + gameTime[1]
             
             // console.log("FJAKL;FADS;LFDASKL;FJDAS")
-            if ((curMinute > gameMinute) && (allData.games[num].final)) {
-                return allData.games[num]
+            if ((curMinute > gameMinute) && (allTeamData.games.XFL[num].final)) {
+                return allTeamData.games.XFL[num]
             }
         }
         else {
-            // console.log(allData.games[num])
-            return allData.games[num]
+            // console.log(allTeamData.games.XFL[num])
+            return allTeamData.games.XFL[num]
         }
     }
     return "void"
@@ -364,19 +364,6 @@ var result = ""
 // let STLteam = STLinfo[0]
 // // let STLtNum = STLinfo[1]
 
-function getColorIndex(text) {
-    let colorIndex = 0
-    for (let num = 0; num < allData.XFLcolors.length; num++) {
-        var currOpp = allData.XFLcolors[num].team
-        if (text == currOpp) {
-            // console.log(currOpp)
-            colorIndex = num
-            break
-        }
-    }
-    return colorIndex
-}
-
 let lastGameInfoXFL = getLastGame()
 let lastOppXFL = lastGameInfoXFL.opponent
 // console.log(lastGameInfoXFL)
@@ -401,14 +388,14 @@ if (lastGameInfoXFL == "void") {
     document.getElementById("lastStlScoreXFL").textContent = lastGameInfoXFL.STLscore
     document.getElementById("lastOppScoreXFL").textContent = lastGameInfoXFL.oppScore
 
-    // document.getElementById("lastStlScoreXFL").style.color = allData.XFLcolors[getColorIndex(lastSTLteamXFL)].color2
-    // document.getElementById("lastOppScoreXFL").style.color = allData.XFLcolors[getColorIndex(lastOppXFL)].color2
+    // document.getElementById("lastStlScoreXFL").style.color = allTeamData.colors.XFL[getColorIndex(lastSTLteamXFL, "XFL")].color2
+    // document.getElementById("lastOppScoreXFL").style.color = allTeamData.colors.XFL[getColorIndex(lastOppXFL, "XFL")].color2
 
     document.getElementById("lastTextXFL").textContent = "LAST | " + lastGameInfoXFL.date + " | FINAL"
 
-    // console.log(allData.XFLcolors.length)
-    document.getElementById("lastStlBoxXFL").style.backgroundColor = allData.XFLcolors[getColorIndex(lastSTLteamXFL)].color1
-    document.getElementById("lastOppBoxXFL").style.backgroundColor = allData.XFLcolors[getColorIndex(lastOppXFL)].color1
+    // console.log(allTeamData.colors.XFL.length)
+    document.getElementById("lastStlBoxXFL").style.backgroundColor = allTeamData.colors.XFL[getColorIndex(lastSTLteamXFL, "XFL")].color1
+    document.getElementById("lastOppBoxXFL").style.backgroundColor = allTeamData.colors.XFL[getColorIndex(lastOppXFL, "XFL")].color1
 
 }
 
@@ -445,8 +432,8 @@ if (nextGameInfoXFL.STLlogo != 1) {
     // document.getElementById("nextStlScore").textContent = nextGameInfoXFL.STLscore
     // document.getElementById("nextOppXFLScore").textContent = nextGameInfoXFL.oppScore
 
-    document.getElementById("nextStlBoxXFL").style.backgroundColor = allData.XFLcolors[getColorIndex(nextSTLteamXFL)].color1
-    document.getElementById("nextOppBoxXFL").style.backgroundColor = allData.XFLcolors[getColorIndex(nextOppXFL)].color1
+    document.getElementById("nextStlBoxXFL").style.backgroundColor = allTeamData.colors.XFL[getColorIndex(nextSTLteamXFL, "XFL")].color1
+    document.getElementById("nextOppBoxXFL").style.backgroundColor = allTeamData.colors.XFL[getColorIndex(nextOppXFL, "XFL")].color1
 
     if (document.getElementById("nextTextXFL").textContent != liveText) {
         document.getElementById("nextTextXFL").textContent = "NEXT | " + nextGameInfoXFL.date + " | " + nextGameInfoXFL.time

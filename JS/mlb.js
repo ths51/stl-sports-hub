@@ -175,7 +175,7 @@ allData = {
 
     ], 
 
-    "games": [
+    "MLBgames": [
         {
             "date": "3-30-2023",
             "time": "7:00 PM",
@@ -2154,8 +2154,8 @@ let MLBteams = [
 // console.log(curDate)
 
 function getNextGame() {
-    for (let num = 0; num < allData.games.length; num++) {
-        let gameDate = allData.games[num].date 
+    for (let num = 0; num < allTeamData.games.MLB.length; num++) {
+        let gameDate = allTeamData.games.MLB[num].date 
         let dateAtt = gameDate.split("-")
         let curDateAtt = curDate.split("-")
         // console.log(curDate)
@@ -2170,24 +2170,24 @@ function getNextGame() {
             // console.log("D") 
         }
         else if ((Number(dateAtt[2]) == Number(curDateAtt[2])) && (Number(dateAtt[0]) == Number(curDateAtt[0])) && (Number(dateAtt[1]) == Number(curDateAtt[1]))) { 
-            let gameTime = getTimeList(allData.games[num].time)
+            let gameTime = getTimeList(allTeamData.games.MLB[num].time)
             let curMinute = (curTime[0] * 60) + curTime[1]
             let gameMinute = (gameTime[0] * 60) + gameTime[1]
             
-            if ((!allData.games[num].final) && ((curMinute >= gameMinute))) {
+            if ((!allTeamData.games.MLB[num].final) && ((curMinute >= gameMinute))) {
                 // console.log(gameMinute)
                 // console.log(curMinute)
                 gameIsLive("nextTextMLB")
-                return allData.games[num]
+                return allTeamData.games.MLB[num]
             }
             else if (curMinute < gameMinute) {
-                return allData.games[num]
+                return allTeamData.games.MLB[num]
             }
 
         }
         else {
-            // console.log(allData.games[num])
-            return allData.games[num]
+            // console.log(allTeamData.games.MLB[num])
+            return allTeamData.games.MLB[num]
         }
     }
     return "void"
@@ -2215,11 +2215,11 @@ function activateLiveScore(gameData) {
 }
 
 function getLastGame() {
-    for (let num = allData.games.length-1; num >= 0; num--) {
-        let gameDate = allData.games[num].date 
+    for (let num = allTeamData.games.MLB.length-1; num >= 0; num--) {
+        let gameDate = allTeamData.games.MLB[num].date 
         let dateAtt = gameDate.split("-")
         let curDateAtt = curDate.split("-")
-        // console.log(allData.games[num])
+        // console.log(allTeamData.games.MLB[num])
         // console.log(curDate)
         // console.log(gameDate)
         if (Number(dateAtt[2]) > Number(curDateAtt[2])) { 
@@ -2232,18 +2232,18 @@ function getLastGame() {
             // console.log("D")
         }
         else if ((Number(dateAtt[2]) == Number(curDateAtt[2])) && (Number(dateAtt[0]) == Number(curDateAtt[0])) && (Number(dateAtt[1]) == Number(curDateAtt[1]))) { 
-            let gameTime = getTimeList(allData.games[num].time)
+            let gameTime = getTimeList(allTeamData.games.MLB[num].time)
             let curMinute = (curTime[0] * 60) + curTime[1]
             let gameMinute = (gameTime[0] * 60) + gameTime[1]
             
             // console.log("FJAKL;FADS;LFDASKL;FJDAS")
-            if ((curMinute > gameMinute) && (allData.games[num].final)) {
-                return allData.games[num]
+            if ((curMinute > gameMinute) && (allTeamData.games.MLB[num].final)) {
+                return allTeamData.games.MLB[num]
             }
         }
         else {
-            // console.log(allData.games[num])
-            return allData.games[num]
+            // console.log(allTeamData.games.MLB[num])
+            return allTeamData.games.MLB[num]
         }
     }
     return "void"
@@ -2419,19 +2419,6 @@ var result = ""
 // let STLteam = STLinfo[0]
 // // let STLtNum = STLinfo[1]
 
-function getColorIndex(text) {
-    let colorIndex = 0
-    for (let num = 0; num < allData.MLBcolors.length; num++) {
-        var currOpp = allData.MLBcolors[num].team
-        if (text == currOpp) {
-            // console.log(currOpp)
-            colorIndex = num
-            break
-        }
-    }
-    return colorIndex
-}
-
 let lastGameInfoMLB = getLastGame()
 let lastOppMLB = lastGameInfoMLB.opponent
 // console.log(lastGameInfoMLB)
@@ -2461,14 +2448,14 @@ if (lastGameInfoMLB == "void") {
     document.getElementById("lastStlScoreMLB").textContent = lastGameInfoMLB.STLscore
     document.getElementById("lastOppScoreMLB").textContent = lastGameInfoMLB.oppScore
 
-    // document.getElementById("lastStlScoreMLB").style.color = allData.MLBcolors[getColorIndex(lastSTLteamMLB)].color2
-    // document.getElementById("lastOppScoreMLB").style.color = allData.MLBcolors[getColorIndex(lastOppMLB)].color2
+    // document.getElementById("lastStlScoreMLB").style.color = allTeamData.colors.MLB[getColorIndex(lastSTLteamMLB, "MLB")].color2
+    // document.getElementById("lastOppScoreMLB").style.color = allTeamData.colors.MLB[getColorIndex(lastOppMLB, "MLB")].color2
 
     document.getElementById("lastTextMLB").textContent = "LAST | " + lastGameInfoMLB.date + " | FINAL" + endTextMLB
 
-    // console.log(allData.MLBcolors.length)
-    document.getElementById("lastStlBoxMLB").style.backgroundColor = allData.MLBcolors[getColorIndex(lastSTLteamMLB)].color1
-    document.getElementById("lastOppBoxMLB").style.backgroundColor = allData.MLBcolors[getColorIndex(lastOppMLB)].color1
+    // console.log(allTeamData.colors.MLB.length)
+    document.getElementById("lastStlBoxMLB").style.backgroundColor = allTeamData.colors.MLB[getColorIndex(lastSTLteamMLB, "MLB")].color1
+    document.getElementById("lastOppBoxMLB").style.backgroundColor = allTeamData.colors.MLB[getColorIndex(lastOppMLB, "MLB")].color1
 
 }
 
@@ -2507,8 +2494,8 @@ document.getElementById("nextOppLogoMLB").src = teamLogo(nextOppMLB, "MLB")
 // document.getElementById("nextStlScore").textContent = nextGameInfoMLB.STLscore
 // document.getElementById("nextOppMLBScore").textContent = nextGameInfoMLB.oppScore
 
-document.getElementById("nextStlBoxMLB").style.backgroundColor = allData.MLBcolors[getColorIndex(nextSTLteamMLB)].color1
-document.getElementById("nextOppBoxMLB").style.backgroundColor = allData.MLBcolors[getColorIndex(nextOppMLB)].color1
+document.getElementById("nextStlBoxMLB").style.backgroundColor = allTeamData.colors.MLB[getColorIndex(nextSTLteamMLB, "MLB")].color1
+document.getElementById("nextOppBoxMLB").style.backgroundColor = allTeamData.colors.MLB[getColorIndex(nextOppMLB, "MLB")].color1
 
 if (document.getElementById("nextTextMLB").textContent != liveText) {
     document.getElementById("nextTextMLB").textContent = "NEXT | " + nextGameInfoMLB.date + " | " + nextGameInfoMLB.time

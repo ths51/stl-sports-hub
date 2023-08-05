@@ -84,8 +84,8 @@ newsData = {
             "title": "Jack Flaherty traded to Baltimore Orioles",
             "imageURL": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4097,h_2304,x_0,y_175/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/17/01h6j16nk0t15amvapnc.jpg",
             "previewText": "Minutes before the trade deadline passed, multiple sources reported that Flaherty was being sent to Baltimore for infield prospect Cesar Prieto, LHP prospect Drew Rom, and RHP prospect Zack Showalter.",
-            "articleActive": false,
-            "articleText": [""]
+            "articleActive": true,
+            "articleText": ["adfadf","adj;flajdsf;ljadsklfj"]
         },
 
 
@@ -104,6 +104,7 @@ for (i = 1; i <= 7; i++) {
     // console.log("newsImg"+String(i))
     // console.log("newsText"+String(i))
 
+    document.getElementById("newsBox"+String(i)).style.border = ` 3px solid ${allTeamData.colors[curNews.sport][getColorIndex("STL", curNews.sport)].color1}`
     document.getElementById("newsLogo"+String(i)).src = curNews.sport + " SVGs/STL.svg"
     document.getElementById("newsTeamText"+String(i)).textContent = teamNames[curNews.sport]
     document.getElementById("newsTitle"+String(i)).textContent = curNews.title
@@ -135,6 +136,7 @@ function openArticle(id) {
         document.getElementById("articleLogo").src = newsInfo.sport + " SVGs/STL.svg"
         document.getElementById("articleTeamText").textContent = teamNames[newsInfo.sport].toUpperCase()
 
+        document.getElementById("articleContainer").style.backgroundColor = allTeamData.colors[newsInfo.sport][getColorIndex("STL", newsInfo.sport)].color1
         document.getElementById("articleBox").style.display = "flex"
 
         document.getElementById("articleBox").style.opacity = "100%"

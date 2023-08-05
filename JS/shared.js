@@ -23,6 +23,3223 @@ statsData = {
     }
 }
 
+allTeamData = {
+    "colors": {
+        "MLB": [
+            {
+                "team": "",
+                "color1": "#000000",
+                "color2": "#555555"
+            },
+    
+            {
+                "team": "ARI",
+                "color1": "#A71930",
+                "color2": "#------"
+            },
+    
+            {
+                "team": "ATL",
+                "color1": "#CE1141",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "BAL",
+                "color1": "#DF4601",
+                "color2": "#------"
+            },
+            {
+                "team": "BOS",
+                "color1": "#C62033",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "CHC",
+                "color1": "#0E3386",
+                "color2": "#------"
+            },
+            {
+                "team": "CHI",
+                "color1": "#231F20",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "CIN",
+                "color1": "#C6011F",
+                "color2": "#------"
+            },
+            {
+                "team": "CLE",
+                "color1": "#00385D",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "COL",
+                "color1": "#000000",
+                "color2": "#------"
+            },
+            {
+                "team": "DET",
+                "color1": "#0B2B55",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "HOU",
+                "color1": "#002D62",
+                "color2": "#------"
+            },
+            {
+                "team": "KCR",
+                "color1": "#014687",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "LAA",
+                "color1": "#CD1141",
+                "color2": "#------"
+            },
+            {
+                "team": "LAD",
+                "color1": "#005797",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "MIA",
+                "color1": "#00A3E0",
+                "color2": "#------"
+            },
+            {
+                "team": "MIL",
+                "color1": "#12284B",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "MIN",
+                "color1": "#091E3F",
+                "color2": "#------"
+            },
+            {
+                "team": "NYM",
+                "color1": "#FE5C15",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "NYY",
+                "color1": "#142448",
+                "color2": "#------"
+            },
+            {
+                "team": "OAK",
+                "color1": "#003831",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "PHI",
+                "color1": "#C51D3A",
+                "color2": "#------"
+            },
+            {
+                "team": "PIT",
+                "color1": "#000000",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "SDP",
+                "color1": "#2A211A",
+                "color2": "#------"
+            },
+            {
+                "team": "SEA",
+                "color1": "#002C56",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "SFG",
+                "color1": "#231F20",
+                "color2": "#------"
+            },
+            {
+                "team": "STL",
+                "color1": "#B72126",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "TBR",
+                "color1": "#092C5C",
+                "color2": "#------"
+            },
+            {
+                "team": "TEX",
+                "color1": "#003278",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "TOR",
+                "color1": "#134A8D",
+                "color2": "#------"
+            },
+            {
+                "team": "WSH",
+                "color1": "#AB0104",
+                "color2": "#------"
+            },
+        ],
+        "NHL": [
+            {
+                "team": "",
+                "color1": "#000000",
+                "color2": "#555555"
+            },
+    
+            {
+                "team": "ANA",
+                "color1": "#111111",
+                "color2": "#F95602"
+            },
+            
+            {
+                "team": "ARI",
+                "color1": "#111111",
+                "color2": "#952C33"
+            },
+            {
+                "team": "BOS",
+                "color1": "#111111",
+                "color2": "#FCB514"
+            },
+            
+            {
+                "team": "BUF",
+                "color1": "#003087",
+                "color2": "FFB81C"
+            },
+            {
+                "team": "CGY",
+                "color1": "#D2001C",
+                "color2": "#FAAF19"
+            },
+            
+            {
+                "team": "CAR",
+                "color1": "#D2001C",
+                "color2": "#111111"
+            },
+            {
+                "team": "CHI",
+                "color1": "#CF0A2C",
+                "color2": "#000000"
+            },
+            
+            {
+                "team": "COL",
+                "color1": "#6F263D",
+                "color2": "#236192"
+            },
+            {
+                "team": "CBJ",
+                "color1": "#002654",
+                "color2": "#CE1126"
+            },
+            
+            {
+                "team": "DAL",
+                "color1": "#00833C",
+                "color2": "#111111"
+            },
+            {
+                "team": "DET",
+                "color1": "#CE1126",
+                "color2": "#FFFFFF"
+            },
+            
+            {
+                "team": "EDM",
+                "color1": "#02225D",
+                "color2": "#FC4C02"
+            },
+            {
+                "team": "FLA",
+                "color1": "#C8102E",
+                "color2": "#041E42"
+            },
+            
+            {
+                "team": "LAK",
+                "color1": "#000000",
+                "color2": "#A2AAAD"
+            },
+            {
+                "team": "MIN",
+                "color1": "#024930",
+                "color2": "AF1E24"
+            },
+            
+            {
+                "team": "MTL",
+                "color1": "#AF1E2D",
+                "color2": "#192168"
+            },
+            {
+                "team": "NSH",
+                "color1": "#FFB81C",
+                "color2": "#041E42"
+            },
+            
+            {
+                "team": "NJD",
+                "color1": "#CE1126",
+                "color2": "#000000"
+            },
+            {
+                "team": "NYI",
+                "color1": "#00539B",
+                "color2": "#F47D30"
+            },
+            
+            {
+                "team": "NYR",
+                "color1": "#0038A8",
+                "color2": "#CE1126"
+            },
+            {
+                "team": "OTT",
+                "color1": "#000000",
+                "color2": "#DA1A32"
+            },
+            
+            {
+                "team": "PHI",
+                "color1": "#F74902",
+                "color2": "#000000"
+            },
+            {
+                "team": "PIT",
+                "color1": "#000000",
+                "color2": "#FCB514"
+            },
+            
+            {
+                "team": "SJS",
+                "color1": "#006D75",
+                "color2": "#000000"
+            },
+            {
+                "team": "SEA",
+                "color1": "#001425",
+                "color2": "#96D8D8"
+            },
+            
+            {
+                "team": "STL",
+                "color1": "#002F87",
+                "color2": "#FCB514"
+            },
+            {
+                "team": "TBL",
+                "color1": "#002868",
+                "color2": "#FFFFFF"
+            },
+            
+            {
+                "team": "TOR",
+                "color1": "#00205B",
+                "color2": "#FFFFFF"
+            },
+            {
+                "team": "VAN",
+                "color1": "#003D7D",
+                "color2": "#007B49"
+            },
+            
+            {
+                "team": "VGK",
+                "color1": "#B4975A",
+                "color2": "#333F42"
+            },
+            {
+                "team": "WSH",
+                "color1": "#CF0A2C",
+                "color2": "#041E41"
+            },
+            
+            {
+                "team": "WPG",
+                "color1": "#041E41",
+                "color2": "#004C97"
+            },
+            {
+                "team": "ANA 2",
+                "color1": "#F95602",
+                "color2": "#111111"
+            },
+            
+            {
+                "team": "ARI 2",
+                "color1": "#8c2633",
+                "color2": "#111111"
+            },
+            {
+                "team": "BOS 2",
+                "color1": "#111111",
+                "color2": "#FCB514"
+            },
+            
+            {
+                "team": "BUF 2",
+                "color1": "#003087",
+                "color2": "FFB81C"
+            },
+    
+            {
+                "team": "CAR 2",
+                "color1": "#111111",
+                "color2": "#d01026"
+            },
+            
+            {
+                "team": "CAR 3",
+                "color1": "#c6c6ce",
+                "color2": "#027b20"
+            },
+            {
+                "team": "CBJ 2",
+                "color1": "#011e42",
+                "color2": "#decca3"
+            },
+            
+            {
+                "team": "CGY 2",
+                "color1": "#000000",
+                "color2": "#d30217"
+            },
+            {
+                "team": "CHI 2",
+                "color1": "#010101",
+                "color2": "#FFFFFF"
+            },
+            
+            {
+                "team": "COL 2",
+                "color1": "#002147",
+                "color2": "#6F253C"
+            },
+            {
+                "team": "DAL 2",
+                "color1": "#000000",
+                "color2": "#3dd91b"
+            },
+            
+            {
+                "team": "STL 2",
+                "color1": "#184fb5",
+                "color2": "#f7c705"
+            },
+            {
+                "team": "STL 3",
+                "color1": "#fcb513",
+                "color2": "#1d51a0"
+            },
+            
+            {
+                "team": "STL 4",
+                "color1": "#012c8a",
+                "color2": "#fec701"
+            },
+            {
+                "team": "MTL 2",
+                "color1": "#3abded",
+                "color2": "#192168"
+            },
+            
+            {
+                "team": "MIN 2",
+                "color1": "#009236",
+                "color2": "#fccf06"
+            }
+        ],
+        "MLS": [
+            {
+                "team": "",
+                "color1": "#000000",
+                "color2": "#555555"
+            },
+    
+            {
+                "team": "ATL",
+                "color1": "#231F20",
+                "color2": "#------"
+            },
+    
+            {
+                "team": "ATX",
+                "color1": "#00B140",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "CHI",
+                "color1": "#7CCDEF",
+                "color2": "#------"
+            },
+            {
+                "team": "CIN",
+                "color1": "#14478E",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "CLT",
+                "color1": "#1A85C8",
+                "color2": "#------"
+            },
+            {
+                "team": "CLB",
+                "color1": "#000000",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "COL",
+                "color1": "#960A2C",
+                "color2": "#------"
+            },
+            {
+                "team": "DAL",
+                "color1": "#E81F3E",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "DCU",
+                "color1": "#231F20",
+                "color2": "#------"
+            },
+            {
+                "team": "HOU",
+                "color1": "#101820",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "LAFC",
+                "color1": "#17191D",
+                "color2": "#------"
+            },
+            {
+                "team": "LAG",
+                "color1": "#00245D",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "MIA",
+                "color1": "#F6B4CD",
+                "color2": "#------"
+            },
+            {
+                "team": "MIN",
+                "color1": "#8CD2F4",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "MTL",
+                "color1": "#003DA6",
+                "color2": "#------"
+            },
+            {
+                "team": "NER",
+                "color1": "#CE0E2D",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "NSH",
+                "color1": "#ECE83A",
+                "color2": "#201546"
+            },
+            {
+                "team": "NYC",
+                "color1": "#28295C",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "NYR",
+                "color1": "#ED1E36",
+                "color2": "#------"
+            },
+            {
+                "team": "ORL",
+                "color1": "#633492",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "PHI",
+                "color1": "#3E8EDE",
+                "color2": "#------"
+            },
+            {
+                "team": "PRT",
+                "color1": "#0D421D",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "RSL",
+                "color1": "#013A81",
+                "color2": "#------"
+            },
+            {
+                "team": "SEA",
+                "color1": "#005595",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "SJE",
+                "color1": "#000000",
+                "color2": "#------"
+            },
+            {
+                "team": "SKC",
+                "color1": "#91B0D5",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "STL",
+                "color1": "#DD004A",
+                "color2": "#------"
+            },
+            {
+                "team": "TOR",
+                "color1": "#B81137",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "VAN",
+                "color1": "#00245E",
+                "color2": "#------"
+            },
+        ],
+        "XFL": [
+            {
+                "team": "",
+                "color1": "#000000",
+                "color2": "#555555"
+            },
+    
+            {
+                "team": "ARL",
+                "color1": "#6BB2E1",
+                "color2": "#------"
+            },
+    
+            {
+                "team": "DCD",
+                "color1": "#C8102E",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "HOU",
+                "color1": "#C32031",
+                "color2": "#------"
+            },
+            {
+                "team": "ORL",
+                "color1": "#1A2A1D",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "SAN",
+                "color1": "#2E3639",
+                "color2": "#------"
+            },
+            {
+                "team": "SEA",
+                "color1": "#00843D",
+                "color2": "#------"
+            },
+            
+            {
+                "team": "STL",
+                "color1": "#012478",
+                "color2": "#------"
+            },
+            {
+                "team": "VGS",
+                "color1": "#FF0700",
+                "color2": "#------"
+            }, 
+        ]
+    },
+
+    "games": {
+        "MLB": [
+            {
+                "date": "3-30-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "TOR",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 9,
+                "oppScore": 10,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-1-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "TOR",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 4,
+                "oppScore": 1,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-2-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "TOR",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 9,
+                "oppScore": 4,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-3-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "ATL",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 4,
+                "oppScore": 8,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-4-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "ATL",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 1,
+                "oppScore": 4,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-5-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "ATL",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 2,
+                "oppScore": 5,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-7-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "MIL",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 0,
+                "oppScore": 4,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-8-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "MIL",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 6,
+                "oppScore": 0,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-9-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "MIL",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 1,
+                "oppScore": 6,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-10-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "COL",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 4,
+                "oppScore": 7,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-11-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "COL",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 9,
+                "oppScore": 6,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-12-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "COL",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 7,
+                "oppScore": 4,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-13-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "PIT",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 0,
+                "oppScore": 5,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-14-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "PIT",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 3,
+                "oppScore": 0,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-15-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "PIT",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 3,
+                "oppScore": 6,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-16-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "PIT",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 5,
+                "oppScore": 4,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-17-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "ARI",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 3,
+                "oppScore": 6,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-18-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "ARI",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 7,
+                "oppScore": 8,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-19-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "ARI",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 14,
+                "oppScore": 5,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-21-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "SEA",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 2,
+                "oppScore": 5,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-22-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "SEA",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 4,
+                "oppScore": 5,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-23-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "SEA",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 7,
+                "oppScore": 3,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-24-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "SFG",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 0,
+                "oppScore": 4,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-25-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "SFG",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 4,
+                "oppScore": 5,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-26-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "SFG",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 3,
+                "oppScore": 7,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-27-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "SFG",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 6,
+                "oppScore": 0,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-28-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "LAD",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 3,
+                "oppScore": 7,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-29-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "LAD",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 0,
+                "oppScore": 1,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "4-30-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "LAD",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 3,
+                "oppScore": 6,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-2-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "LAA",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 1,
+                "oppScore": 5,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-3-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "LAA",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 4,
+                "oppScore": 6,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-4-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "LAA",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 7,
+                "oppScore": 11,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-5-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "DET",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 4,
+                "oppScore": 5,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-6-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "DET",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 5,
+                "oppScore": 6,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-7-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "DET",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 12,
+                "oppScore": 6,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-8-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CHC",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 3,
+                "oppScore": 1,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-9-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CHC",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 6,
+                "oppScore": 4,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-10-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CHC",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 4,
+                "oppScore": 10,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-12-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "BOS",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 8,
+                "oppScore": 6,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-13-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "BOS",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 4,
+                "oppScore": 3,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-14-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "BOS",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 9,
+                "oppScore": 1,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-15-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "MIL",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 18,
+                "oppScore": 1,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-16-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "MIL",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 2,
+                "oppScore": 3,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-17-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "MIL",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 3,
+                "oppScore": "-",
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-18-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "LAD",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 16,
+                "oppScore": 8,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-19-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "LAD",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 0,
+                "oppScore": 5,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-20-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "LAD",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 6,
+                "oppScore": 5,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-21-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "LAD",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 10,
+                "oppScore": 5,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-22-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CIN",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 5,
+                "oppScore": 6,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-23-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CIN",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 8,
+                "oppScore": 5,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-24-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CIN",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 3,
+                "oppScore": 10,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-25-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CIN",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 2,
+                "oppScore": 1,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-26-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CLE",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 3,
+                "oppScore": 4,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-27-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CLE",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 2,
+                "oppScore": 1,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-28-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CLE",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 3,
+                "oppScore": 4,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-29-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "KCR",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 0,
+                "oppScore": 7,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "5-30-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "KCR",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 2,
+                "oppScore": 1,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "6-2-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "PIT",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 5,
+                "oppScore": 7,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "6-3-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "PIT",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 3,
+                "oppScore": 4,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "6-4-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "PIT",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 1,
+                "oppScore": 2,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "6-5-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "TEX",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 3,
+                "oppScore": 4,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "6-6-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "TEX",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 4,
+                "oppScore": 6,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "6-7-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "TEX",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 1,
+                "oppScore": 0,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "6-9-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CIN",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 7,
+                "oppScore": 4,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "6-10-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CIN",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 4,
+                "oppScore": 8,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "6-11-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CIN",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 3,
+                "oppScore": 4,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "6-12-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "SFG",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 3,
+                "oppScore": 4,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "6-13-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "SFG",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 3,
+                "oppScore": 11,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "6-14-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "SFG",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 5,
+                "oppScore": 8,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "6-16-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "NYM",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 1,
+                "oppScore": 6,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "6-17-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "NYM",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 5,
+                "oppScore": 3,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "6-18-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "NYM",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 8,
+                "oppScore": 7,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "6-19-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "WSH",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 8,
+                "oppScore": 6,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "6-20-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "WSH",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 9,
+                "oppScore": 3,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "6-21-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "WSH",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 0,
+                "oppScore": 3,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "6-24-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CHC",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 1,
+                "oppScore": 9,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "6-25-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CHC",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 7,
+                "oppScore": 5,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "6-27-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "HOU",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 4,
+                "oppScore": 2,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "6-28-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "HOU",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 7,
+                "oppScore": 10,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "6-29-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "HOU",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 0,
+                "oppScore": 14,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-1-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "NYY",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 11,
+                "oppScore": 4,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-1-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "NYY",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 2,
+                "oppScore": 6,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-2-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "NYY",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 5,
+                "oppScore": 1,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-3-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "MIA",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 4,
+                "oppScore": 5,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-4-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "MIA",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 2,
+                "oppScore": 15,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-5-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "MIA",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 9,
+                "oppScore": 10,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-6-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "MIA",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 3,
+                "oppScore": 0,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-7-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CHI",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 7,
+                "oppScore": 8,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-8-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CHI",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 3,
+                "oppScore": 0,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-9-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CHI",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 4,
+                "oppScore": 3,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-14-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "WSH",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 5,
+                "oppScore": 7,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-15-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "WSH",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 9,
+                "oppScore": 6,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-16-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "WSH",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 8,
+                "oppScore": 4,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-17-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "MIA",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 6,
+                "oppScore": 4,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-18-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "MIA",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 5,
+                "oppScore": 2,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-19-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "MIA",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 6,
+                "oppScore": 4,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-20-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CHC",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 7,
+                "oppScore": 2,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-21-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CHC",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 3,
+                "oppScore": 4,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-22-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CHC",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 6,
+                "oppScore": 8,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-23-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CHC",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 2,
+                "oppScore": 7,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-24-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "ARI",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 10,
+                "oppScore": 6,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-25-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "ARI",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 1,
+                "oppScore": 3,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-26-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "ARI",
+                "home": false,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 11,
+                "oppScore": 7,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-27-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CHC",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 3,
+                "oppScore": 10,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-28-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CHC",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 2,
+                "oppScore": 3,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-29-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CHC",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 1,
+                "oppScore": 5,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "7-30-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CHC",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 3,
+                "oppScore": 0,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "8-1-2023",
+                "time": "6:45 PM",
+                "STLlogo": 1,
+                "opponent": "MIN",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 2,
+                "oppScore": 3,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "8-2-2023",
+                "time": "6:45 PM",
+                "STLlogo": 1,
+                "opponent": "MIN",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 7,
+                "oppScore": 3,
+                "STLhits": 9,
+                "opphits": 2,
+            },
+    
+            
+            {
+                "date": "8-3-2023",
+                "time": "6:45 PM",
+                "STLlogo": 1,
+                "opponent": "MIN",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 3,
+                "oppScore": 5,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "8-4-2023",
+                "time": "7:15 PM",
+                "STLlogo": 1,
+                "opponent": "COL",
+                "home": true,
+                "final": true,
+                "inningCt": 9,
+                "STLscore": 4,
+                "oppScore": 9,
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "8-5-2023",
+                "time": "6:15 PM",
+                "STLlogo": 1,
+                "opponent": "COL",
+                "home": true,
+                "final": false,
+                "inningCt": 9,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "8-6-2023",
+                "time": "1:15 PM",
+                "STLlogo": 1,
+                "opponent": "COL",
+                "home": true,
+                "final": false,
+                "inningCt": 9,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "8-8-2023",
+                "time": "5:40 PM",
+                "STLlogo": 1,
+                "opponent": "TBR",
+                "home": false,
+                "final": false,
+                "inningCt": 9,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "8-9-2023",
+                "time": "5:40 PM",
+                "STLlogo": 1,
+                "opponent": "TBR",
+                "home": false,
+                "final": false,
+                "inningCt": 9,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "8-10-2023",
+                "time": "5:40 PM",
+                "STLlogo": 1,
+                "opponent": "TBR",
+                "home": false,
+                "final": false,
+                "inningCt": 9,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "8-11-2023",
+                "time": "7:10 PM",
+                "STLlogo": 1,
+                "opponent": "KCR",
+                "home": false,
+                "final": false,
+                "inningCt": 9,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "8-12-2023",
+                "time": "6:10 PM",
+                "STLlogo": 1,
+                "opponent": "KCR",
+                "home": false,
+                "final": false,
+                "inningCt": 9,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "8-14-2023",
+                "time": "6:45 PM",
+                "STLlogo": 1,
+                "opponent": "OAK",
+                "home": true,
+                "final": false,
+                "inningCt": 9,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "8-15-2023",
+                "time": "6:45 PM",
+                "STLlogo": 1,
+                "opponent": "OAK",
+                "home": true,
+                "final": false,
+                "inningCt": 9,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "8-16-2023",
+                "time": "5:45 PM",
+                "STLlogo": 1,
+                "opponent": "OAK",
+                "home": true,
+                "final": false,
+                "inningCt": 9,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "8-17-2023",
+                "time": "6:15 PM",
+                "STLlogo": 1,
+                "opponent": "NYM",
+                "home": true,
+                "final": false,
+                "inningCt": 9,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "8-18-2023",
+                "time": "7:15 PM",
+                "STLlogo": 1,
+                "opponent": "NYM",
+                "home": true,
+                "final": false,
+                "inningCt": 9,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "8-19-2023",
+                "time": "6:15 PM",
+                "STLlogo": 1,
+                "opponent": "NYM",
+                "home": true,
+                "final": false,
+                "inningCt": 9,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "8-20-2023",
+                "time": "1:15 PM",
+                "STLlogo": 1,
+                "opponent": "NYM",
+                "home": true,
+                "final": false,
+                "inningCt": 9,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "8-21-2023",
+                "time": "6:05 PM",
+                "STLlogo": 1,
+                "opponent": "PIT",
+                "home": false,
+                "final": false,
+                "inningCt": 9,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "8-22-2023",
+                "time": "6:05 PM",
+                "STLlogo": 1,
+                "opponent": "PIT",
+                "home": false,
+                "final": false,
+                "inningCt": 9,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLhits": 0,
+                "opphits": 0,
+            },
+    
+            
+            {
+                "date": "8-23-2023",
+                "time": "11:35 AM",
+                "STLlogo": 1,
+                "opponent": "PIT",
+                "home": false,
+                "final": false,
+                "inningCt": 9,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLhits": 0,
+                "opphits": 0,
+            },
+        ],
+        "NHL": [
+            {
+                "date": "10-12-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "DAL",
+                "home": false,
+                "final": false,
+                "STLscore": "-",
+                "oppScore": "-",
+                "overtime": false,
+                "shootout": false,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+             
+            {
+                "date": "10-14-2023",
+                "time": "7:00 PM",
+                "STLlogo": 2,
+                "opponent": "SEA",
+                "home": true,
+                "final": false,
+                "STLscore": "-",
+                "oppScore": "-",
+                "overtime": false,
+                "shootout": false,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+             
+            {
+                "date": "10-19-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "ARI",
+                "home": true,
+                "final": false,
+                "STLscore": "-",
+                "oppScore": "-",
+                "overtime": false,
+                "shootout": false,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+             
+            {
+                "date": "10-21-2023",
+                "time": "7:00 PM",
+                "STLlogo": 2,
+                "opponent": "PIT",
+                "home": false,
+                "final": false,
+                "STLscore": "-",
+                "oppScore": "-",
+                "overtime": false,
+                "shootout": false,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+             
+            {
+                "date": "10-24-2023",
+                "time": "7:45 PM",
+                "STLlogo": 1,
+                "opponent": "WPG",
+                "home": false,
+                "final": false,
+                "STLscore": "-",
+                "oppScore": "-",
+                "overtime": false,
+                "shootout": false,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+             
+            {
+                "date": "10-26-2023",
+                "time": "8:00 PM",
+                "STLlogo": 1,
+                "opponent": "CGY",
+                "home": false,
+                "final": false,
+                "STLscore": "-",
+                "oppScore": "-",
+                "overtime": false,
+                "shootout": false,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+             
+            {
+                "date": "10-27-2023",
+                "time": "9:00 PM",
+                "STLlogo": 1,
+                "opponent": "VAN",
+                "home": false,
+                "final": false,
+                "STLscore": "-",
+                "oppScore": "-",
+                "overtime": false,
+                "shootout": false,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+             
+            {
+                "date": "11-1-2023",
+                "time": "8:30 PM",
+                "STLlogo": 1,
+                "opponent": "COL",
+                "home": false,
+                "final": false,
+                "STLscore": "-",
+                "oppScore": "-",
+                "overtime": false,
+                "shootout": false,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+             
+            {
+                "date": "11-3-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "NJD",
+                "home": true,
+                "final": false,
+                "STLscore": "-",
+                "oppScore": "-",
+                "overtime": false,
+                "shootout": false,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+             
+            {
+                "date": "11-4-2023",
+                "time": "6:00 PM",
+                "STLlogo": 2,
+                "opponent": "MTL",
+                "home": true,
+                "final": false,
+                "STLscore": "-",
+                "oppScore": "-",
+                "overtime": false,
+                "shootout": false,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+        ],
+        "MLS": [
+            {
+                "date": "2-25-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "ATX",
+                "home": false,
+                "final": true,
+                "STLscore": 3,
+                "oppScore": 2,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+            {
+                "date": "3-4-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CLT",
+                "home": true,
+                "final": true,
+                "STLscore": 3,
+                "oppScore": 1,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+            {
+                "date": "3-11-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "POR",
+                "home": false,
+                "final": true,
+                "STLscore": 2,
+                "oppScore": 1,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+            {
+                "date": "3-18-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "SJ",
+                "home": true,
+                "final": true,
+                "STLscore": 3,
+                "oppScore": 0,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+            {
+                "date": "3-25-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "RSL",
+                "home": false,
+                "final": true,
+                "STLscore": 4,
+                "oppScore": 0,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+            {
+                "date": "4-1-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "MIN",
+                "home": true,
+                "final": true,
+                "STLscore": 0,
+                "oppScore": 1,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+            {
+                "date": "4-8-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "SEA",
+                "home": false,
+                "final": true,
+                "STLscore": 0,
+                "oppScore": 3,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+            {
+                "date": "4-15-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CIN",
+                "home": true,
+                "final": true,
+                "STLscore": 5,
+                "oppScore": 1,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+            {
+                "date": "4-22-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "COL",
+                "home": false,
+                "final": true,
+                "STLscore": 1,
+                "oppScore": 1,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+            {
+                "date": "4-29-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "POR",
+                "home": true,
+                "final": true,
+                "STLscore": 1,
+                "oppScore": 2,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+            {
+                "date": "5-6-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "DAL",
+                "home": false,
+                "final": true,
+                "STLscore": 0,
+                "oppScore": 2,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+            {
+                "date": "5-13-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CHI",
+                "home": false,
+                "final": true,
+                "STLscore": 0,
+                "oppScore": 1,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+            {
+                "date": "5-20-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "SKC",
+                "home": true,
+                "final": true,
+                "STLscore": 4,
+                "oppScore": 0,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+            {
+                "date": "5-27-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "VAN",
+                "home": true,
+                "final": true,
+                "STLscore": 3,
+                "oppScore": 1,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+            {
+                "date": "6-3-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "HOU",
+                "home": true,
+                "final": true,
+                "STLscore": 3,
+                "oppScore": 0,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+            {
+                "date": "6-11-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "LAG",
+                "home": true,
+                "final": true,
+                "STLscore": 1,
+                "oppScore": 1,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+            {
+                "date": "6-17-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "NSH",
+                "home": false,
+                "final": true,
+                "STLscore": 1,
+                "oppScore": 3,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+            {
+                "date": "6-21-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "RSL",
+                "home": true,
+                "final": true,
+                "STLscore": 1,
+                "oppScore": 3,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+            {
+                "date": "6-24-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "SJ",
+                "home": false,
+                "final": true,
+                "STLscore": 2,
+                "oppScore": 1,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+            {
+                "date": "7-1-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "COL",
+                "home": true,
+                "final": true,
+                "STLscore": 2,
+                "oppScore": 0,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+            {
+                "date": "7-8-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "TOR",
+                "home": false,
+                "final": true,
+                "STLscore": 1,
+                "oppScore": 0,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+            {
+                "date": "7-12-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "LAFC",
+                "home": false,
+                "final": true,
+                "STLscore": 0,
+                "oppScore": 3,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+            {
+                "date": "7-15-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "MIA",
+                "home": true,
+                "final": true,
+                "STLscore": 3,
+                "oppScore": 0,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+            {
+                "date": "7-23-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CLB",
+                "home": false,
+                "final": true,
+                "STLscore": 1,
+                "oppScore": 2,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+            {
+                "date": "7-27-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "CFA",
+                "home": false,
+                "final": true,
+                "STLscore": 0,
+                "oppScore": 4,
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+            {
+                "date": "8-20-2023",
+                "time": "8:30 PM",
+                "STLlogo": 1,
+                "opponent": "ATX",
+                "home": true,
+                "final": false,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+             
+            {
+                "date": "8-26-2023",
+                "time": "6:30 PM",
+                "STLlogo": 1,
+                "opponent": "ORL",
+                "home": false,
+                "final": false,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+             
+            {
+                "date": "8-30-2023",
+                "time": "7:30 PM",
+                "STLlogo": 1,
+                "opponent": "DAL",
+                "home": true,
+                "final": false,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+             
+            {
+                "date": "9-2-2023",
+                "time": "7:30 PM",
+                "STLlogo": 1,
+                "opponent": "SKC",
+                "home": false,
+                "final": false,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+             
+            {
+                "date": "9-10-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "LAG",
+                "home": false,
+                "final": false,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+             
+            {
+                "date": "9-16-2023",
+                "time": "7:30 PM",
+                "STLlogo": 1,
+                "opponent": "HOU",
+                "home": false,
+                "final": false,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+             
+            {
+                "date": "9-20-2023",
+                "time": "7:30 PM",
+                "STLlogo": 1,
+                "opponent": "LAFC",
+                "home": true,
+                "final": false,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+             
+            {
+                "date": "9-23-2023",
+                "time": "7:30 PM",
+                "STLlogo": 1,
+                "opponent": "MIN",
+                "home": false,
+                "final": false,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+             
+            {
+                "date": "9-30-2023",
+                "time": "7:30 PM",
+                "STLlogo": 1,
+                "opponent": "SKC",
+                "home": true,
+                "final": false,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+             
+            {
+                "date": "10-4-2023",
+                "time": "9:30 PM",
+                "STLlogo": 1,
+                "opponent": "VAN",
+                "home": false,
+                "final": false,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+             
+            {
+                "date": "10-21-2023",
+                "time": "8:00 PM",
+                "STLlogo": 1,
+                "opponent": "SEA",
+                "home": true,
+                "final": false,
+                "STLscore": "-",
+                "oppScore": "-",
+                "STLshots": 0,
+                "oppShots": 0,
+            },
+        ],
+        "XFL": [
+            {
+                "date": "4-22-2023",
+                "time": "7:00 PM",
+                "STLlogo": 1,
+                "opponent": "ORL",
+                "home": true,
+                "STLscore": 53,
+                "oppScore": 28,
+                "STLshots": "",
+                "oppShots": "",
+            },
+        ],
+
+    }
+}
+
+function getColorIndex(text, sport) {
+    let colorIndex = 0
+    for (let num = 0; num < allTeamData.colors[sport].length; num++) {
+        var currOpp = allTeamData.colors[sport][num].team
+        if (text == currOpp) {
+            // console.log(currOpp)
+            colorIndex = num
+            break
+        }
+    }
+    return colorIndex
+}
+
+
 rosterData = {
     "NHL": [
         {

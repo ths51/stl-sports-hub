@@ -277,7 +277,7 @@ allData = {
 
     ], 
 
-    "games": [
+    "NHLgames": [
 
         {
             "date": "10-12-2023",
@@ -539,8 +539,8 @@ function getTimeList(timeText) {
 }
 
 function getNextGame() {
-    for (let num = 0; num < allData.games.length; num++) {
-        let gameDate = allData.games[num].date 
+    for (let num = 0; num < allTeamData.games.NHL.length; num++) {
+        let gameDate = allTeamData.games.NHL[num].date 
         let dateAtt = gameDate.split("-")
         let curDateAtt = curDate.split("-")
         // console.log(curDate)
@@ -555,24 +555,24 @@ function getNextGame() {
             // console.log("D") 
         }
         else if ((Number(dateAtt[2]) == Number(curDateAtt[2])) && (Number(dateAtt[0]) == Number(curDateAtt[0])) && (Number(dateAtt[1]) == Number(curDateAtt[1]))) { 
-            let gameTime = getTimeList(allData.games[num].time)
+            let gameTime = getTimeList(allTeamData.games.NHL[num].time)
             let curMinute = (curTime[0] * 60) + curTime[1]
             let gameMinute = (gameTime[0] * 60) + gameTime[1]
             
-            if ((!allData.games[num].final) && ((curMinute >= gameMinute))) {
+            if ((!allTeamData.games.NHL[num].final) && ((curMinute >= gameMinute))) {
                 // console.log(gameMinute)
                 // console.log(curMinute)
                 gameIsLive("nextTextNHL")
-                return allData.games[num]
+                return allTeamData.games.NHL[num]
             }
             else if (curMinute < gameMinute) {
-                return allData.games[num]
+                return allTeamData.games.NHL[num]
             }
 
         }
         else {
-            // console.log(allData.games[num])
-            return allData.games[num]
+            // console.log(allTeamData.games.NHL[num])
+            return allTeamData.games.NHL[num]
         }
     }
     return "void"
@@ -600,11 +600,11 @@ function activateLiveScore(gameData) {
 }
 
 function getLastGame() {
-    for (let num = allData.games.length-1; num >= 0; num--) {
-        let gameDate = allData.games[num].date 
+    for (let num = allTeamData.games.NHL.length-1; num >= 0; num--) {
+        let gameDate = allTeamData.games.NHL[num].date 
         let dateAtt = gameDate.split("-")
         let curDateAtt = curDate.split("-")
-        // console.log(allData.games[num])
+        // console.log(allTeamData.games.NHL[num])
         // console.log(curDate)
         // console.log(gameDate)
         if (Number(dateAtt[2]) > Number(curDateAtt[2])) { 
@@ -617,18 +617,18 @@ function getLastGame() {
             // console.log("D")
         }
         else if ((Number(dateAtt[2]) == Number(curDateAtt[2])) && (Number(dateAtt[0]) == Number(curDateAtt[0])) && (Number(dateAtt[1]) == Number(curDateAtt[1]))) { 
-            let gameTime = getTimeList(allData.games[num].time)
+            let gameTime = getTimeList(allTeamData.games.NHL[num].time)
             let curMinute = (curTime[0] * 60) + curTime[1]
             let gameMinute = (gameTime[0] * 60) + gameTime[1]
             
             // console.log("FJAKL;FADS;LFDASKL;FJDAS")
-            if ((curMinute > gameMinute) && (allData.games[num].final)) {
-                return allData.games[num]
+            if ((curMinute > gameMinute) && (allTeamData.games.NHL[num].final)) {
+                return allTeamData.games.NHL[num]
             }
         }
         else {
-            // console.log(allData.games[num])
-            return allData.games[num]
+            // console.log(allTeamData.games.NHL[num])
+            return allTeamData.games.NHL[num]
         }
     }
     return "void"
@@ -804,18 +804,6 @@ if (docURLlist[docURLlist.length-1] == "scorebox.html") {
 // let STLteam = STLinfo[0]
 // // let STLtNum = STLinfo[1]
 
-function getColorIndex(text) {
-    let colorIndex = 0
-    for (let num = 0; num < allData.colors.length; num++) {
-        var currOpp = allData.colors[num].team
-        if (text == currOpp) {
-            // console.log(currOpp)
-            colorIndex = num
-            break
-        }
-    }
-    return colorIndex
-}
 
 let lastGameInfoNHL = getLastGame()
 let lastOppNHL = lastGameInfoNHL.opponent
@@ -852,14 +840,14 @@ if (lastGameInfoNHL == "void") {
     document.getElementById("lastStlScoreNHL").textContent = lastGameInfoNHL.STLscore
     document.getElementById("lastOppScoreNHL").textContent = lastGameInfoNHL.oppScore
     
-    // document.getElementById("lastStlScore").style.color = allData.colors[getColorIndex(lastSTLteam)].color2
-    // document.getElementById("lastOppScore").style.color = allData.colors[getColorIndex(lastOpp)].color2
+    // document.getElementById("lastStlScore").style.color = allTeamData.colors.NHL[getColorIndex(lastSTLteam, "NHL")].color2
+    // document.getElementById("lastOppScore").style.color = allTeamData.colors.NHL[getColorIndex(lastOpp, "NHL")].color2
 
     document.getElementById("lastTextNHL").textContent = "LAST | " + lastGameInfoNHL.date + " | FINAL" + endText
 
-    // console.log(allData.colors.length)
-    document.getElementById("lastStlBoxNHL").style.backgroundColor = allData.colors[getColorIndex(lastSTLteamNHL)].color1
-    document.getElementById("lastOppBoxNHL").style.backgroundColor = allData.colors[getColorIndex(lastOppNHL)].color1
+    // console.log(allTeamData.colors.NHL.length)
+    document.getElementById("lastStlBoxNHL").style.backgroundColor = allTeamData.colors.NHL[getColorIndex(lastSTLteamNHL, "NHL")].color1
+    document.getElementById("lastOppBoxNHL").style.backgroundColor = allTeamData.colors.NHL[getColorIndex(lastOppNHL, "NHL")].color1
 
 }
 
@@ -896,11 +884,11 @@ document.getElementById("nextOppLogoNHL").src = teamLogo(nextOpp, "NHL")
 // document.getElementById("nextStlScore").textContent = nextGameInfo.STLscore
 // document.getElementById("nextOppScore").textContent = nextGameInfo.oppScore
 
-document.getElementById("nextStlBoxNHL").style.backgroundColor = allData.colors[getColorIndex(nextSTLteam)].color1
-document.getElementById("nextOppBoxNHL").style.backgroundColor = allData.colors[getColorIndex(nextOpp)].color1
+document.getElementById("nextStlBoxNHL").style.backgroundColor = allTeamData.colors.NHL[getColorIndex(nextSTLteam, "NHL")].color1
+document.getElementById("nextOppBoxNHL").style.backgroundColor = allTeamData.colors.NHL[getColorIndex(nextOpp, "NHL")].color1
 
-// document.getElementById("nextStlScore").style.color = allData.colors[getColorIndex(nextSTLteam)].color2
-// document.getElementById("nextOppScore").style.color = allData.colors[getColorIndex(nextOpp)].color2
+// document.getElementById("nextStlScore").style.color = allTeamData.colors.NHL[getColorIndex(nextSTLteam, "NHL")].color2
+// document.getElementById("nextOppScore").style.color = allTeamData.colors.NHL[getColorIndex(nextOpp, "NHL")].color2
 
 if (document.getElementById("nextTextNHL").textContent == liveText) {}
 else {
