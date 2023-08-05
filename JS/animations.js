@@ -59,6 +59,9 @@ function setMainHeight() {
 
 onReady(function() {
     document.getElementById("loadingScreen").style.animation = "make_transparent 1s forwards"  
+    setTimeout(() => {
+        document.getElementById("loadingScreen").remove()
+    }, 1500)
     // while (true) {
     setMainHeight()
     // }
