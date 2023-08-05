@@ -127,7 +127,11 @@
     </section>
 
     <section class="loader" id="loadingScreen">
-        <h1 style="font-size: 64pt; text-shadow: 0 5px 10px black;">The Hub STL</h1>
+        <!-- <h1 style="font-size: 64pt; text-shadow: 0 5px 10px black;">The Hub STL</h1> -->
+        <section class="row" style="justify-content: center; align-items: center; display: flex;">
+            <img id="logo2" style="max-height: 100px;" src="">
+            <h1 style="font-size: 64pt; text-shadow: 0 5px 10px black;" id="rosterText" class="center">Roster</h1>
+        </section>
     </section>
 
     <!-- <script src="JS/homepage.js"></script> -->
@@ -138,6 +142,7 @@
         let curSport = document.URL.substring(document.URL.length-3,document.URL.length).toUpperCase()
         // document.getElementById("rosterText").textContent = `${teamNames[curSport]} Roster`
         document.getElementById("logo").src = `${curSport} SVGs/STL.svg`
+        document.getElementById("logo2").src = `${curSport} SVGs/STL.svg`
         getRoster(curSport)
         var articleNum
         // document.getElementById("topbar_frame").style.width = "calc(100% - 10px)"
