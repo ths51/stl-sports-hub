@@ -737,7 +737,6 @@ button img {
     
 }
 
-
 section.article div section.row {
     height: 35px;
     display: flex;
@@ -1148,5 +1147,9 @@ section.fullRoster {
     section.teams_row div img {
         width: 10vw;
         max-height: 60px;
+    }
+
+    div.newsBox {
+        margin: 10px auto;
     }
 }

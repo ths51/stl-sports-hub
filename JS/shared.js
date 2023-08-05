@@ -3,14 +3,23 @@ statsData = {
         "NHL": ["Team","GP","G","A","P","+/-","PIM","S%","FO%"],
     },
     "majorStats": {
-        "NHL": ["GP","Goals","Assists","Points","+/-"],
+        "NHL": ["GP","G","A","P","+/-"],
         "NHL_G": ["GP","W","L","OTL","SV%","GAA"],
+        "MLB": ["GP","AVG","HR","RBI","SB"],
+        "MLB_SP": ["IP","W-L","ERA","K","WHIP"],
+        "MLB_RP": ["IP","W-L","ERA","K","WHIP"],
+        "MLS": ["MP","G","SOT","Pass%","FC"],
+        "MLS_GK": ["MP","CS","SV","SV%","PK SV%"],
+        "XFL": [],
+        "XFL_A": [],
+        "XFL_B": [],
+        "XFL_C": [],
     },
     "specialtyStatPositions": {
         "NHL": ["G"],
-        "MLB": ["P"],
+        "MLB": ["SP","RP"],
         "MLS": ["GK"],
-        "XFL": ["QB","LB","S"]
+        "XFL": ["QB","LB","S"] // ETC ETC
     }
 }
 
@@ -25,9 +34,12 @@ rosterData = {
             "height": `6'2"`,
             "position": "LW",
             "domHand": "L",
-            "weight": "206 lbs.",
+            "weight": "206 lbs",
             "birthPlace": "Montmagny, QC, CAN",
             "bio": "Blais was drafted in the sixth round by the Blues in 2014 and defied all odds to reach the NHL with the team in 2017. He won a Stanley Cup with the Blues in 2019 and was eventually traded to the Rangers in a deal for Pavel Buchnevich. After suffering a major knee injury early in the 2021 campaign that sidelined him for the rest of the season, Blais was only able to score 5 points in 40 games with New York in 2022-23, but was traded back to the Blues, where he put up 9 goals and 20 points in only 31 games.",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["STL/NYR",71, 9, 16, 25, 4, 30, "?", "?"],
                 2022: ["NYR",14, 0, 4, 4, 3, 17, "?", "?"],
@@ -46,9 +58,12 @@ rosterData = {
             "height": `6'1"`,
             "position": "LW",
             "domHand": "L",
-            "weight": "196 lbs.",
+            "weight": "196 lbs",
             "birthPlace": "Cherepovets, RUS",
             "bio": "-",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["STL",63, 26, 41, 67, 14, 36, "?", "?"],
             }
@@ -62,9 +77,12 @@ rosterData = {
             "height": `6'5"`,
             "position": "RW",
             "domHand": "L",
-            "weight": "216 lbs.",
+            "weight": "216 lbs",
             "birthPlace": "Dorcester, MA, USA",
             "bio": "-",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["PHI",81, 18, 36, 54, -22, 23, "?", "?"],
             }
@@ -78,9 +96,12 @@ rosterData = {
             "height": `6'1"`,
             "position": "RW",
             "domHand": "R",
-            "weight": "194 lbs.",
+            "weight": "194 lbs",
             "birthPlace": "Kuopio, FIN",
             "bio": "-",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["STL/PIT",66, 15, 19, 34, -8, 18, "?", "?"],
             }
@@ -94,9 +115,12 @@ rosterData = {
             "height": `6'1"`,
             "position": "RW",
             "domHand": "R",
-            "weight": "196 lbs.",
+            "weight": "196 lbs",
             "birthPlace": "Toronto, ON, CAN",
             "bio": "-",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["STL",79, 37, 36, 73, -38, 22, "?", "?"],
             }
@@ -110,9 +134,12 @@ rosterData = {
             "height": `6'2"`,
             "position": "LW",
             "domHand": "L",
-            "weight": "193 lbs.",
+            "weight": "193 lbs",
             "birthPlace": "Bloomfield Hills, MI, USA",
             "bio": "-",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["CAR",0, 0, 0, 0, 0, 0, "?", "?"],
             }
@@ -126,9 +153,12 @@ rosterData = {
             "height": `6'0"`,
             "position": "LW",
             "domHand": "L",
-            "weight": "201 lbs.",
+            "weight": "201 lbs",
             "birthPlace": "Calgary, AB, CAN",
             "bio": "-",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["STL",43, 6, 4, 10, -19, 24, "?", "?"],
             }
@@ -142,9 +172,12 @@ rosterData = {
             "height": `6'1"`,
             "position": "LW",
             "domHand": "L",
-            "weight": "215 lbs.",
+            "weight": "215 lbs",
             "birthPlace": "Pittsburgh, PA, USA",
             "bio": "-",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["STL",71, 19, 18, 37, -8, 12, "?", "?"],
             }
@@ -158,9 +191,12 @@ rosterData = {
             "height": `6'1"`,
             "position": "C",
             "domHand": "L",
-            "weight": "199 lbs.",
+            "weight": "199 lbs",
             "birthPlace": "Saskatoon, SK, CAN",
             "bio": "-",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["STL",82, 21, 44, 65, -27, 50, "?", "?"],
             }
@@ -174,9 +210,12 @@ rosterData = {
             "height": `6'3"`,
             "position": "C",
             "domHand": "R",
-            "weight": "220 lbs.",
+            "weight": "220 lbs",
             "birthPlace": "Boden, SWE",
             "bio": "-",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["DET/MIN",67, 10, 18, 28, -4, 28, "?", "?"],
             }
@@ -190,9 +229,12 @@ rosterData = {
             "height": `6'0"`,
             "position": "C",
             "domHand": "R",
-            "weight": "218 lbs.",
+            "weight": "218 lbs",
             "birthPlace": "Aurora, ON, CAN",
             "bio": "-",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["STL",73, 18, 47, 65, -8, 22, "?", "?"],
             }
@@ -206,9 +248,12 @@ rosterData = {
             "height": `6'6"`,
             "position": "RW",
             "domHand": "L",
-            "weight": "222 lbs.",
+            "weight": "222 lbs",
             "birthPlace": "Moscow, RUS",
             "bio": "-",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["STL",69, 10, 9, 19, 6, 12, "?", "?"],
             }
@@ -222,9 +267,12 @@ rosterData = {
             "height": `6'0"`,
             "position": "LW",
             "domHand": "L",
-            "weight": "190 lbs.",
+            "weight": "190 lbs",
             "birthPlace": "Prague, CZE",
             "bio": "-",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["DET/STL",25, 11, 5, 16, 3, 10, "?", "?"],
             }
@@ -238,9 +286,12 @@ rosterData = {
             "height": `5'9"`,
             "position": "LW",
             "domHand": "L",
-            "weight": "187 lbs.",
+            "weight": "187 lbs",
             "birthPlace": "Cardiff, GBR",
             "bio": "-",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["STL",56, 2, 8, 10, 10, 25, "?", "?"],
             }
@@ -254,9 +305,12 @@ rosterData = {
             "height": `6'4"`,
             "position": "D",
             "domHand": "R",
-            "weight": "216 lbs.",
+            "weight": "216 lbs",
             "birthPlace": "Thunder Bay, ON, CAN",
             "bio": "-",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["STL",43, 2, 3, 5, 9, 29, "?", "?"],
             }
@@ -270,9 +324,12 @@ rosterData = {
             "height": `6'0"`,
             "position": "D",
             "domHand": "R",
-            "weight": "214 lbs.",
+            "weight": "214 lbs",
             "birthPlace": "South St. Paul, MN, USA",
             "bio": "-",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["STL",82, 11, 39, 50, -4, 34, "?", "?"],
             }
@@ -286,9 +343,12 @@ rosterData = {
             "height": `5'9"`,
             "position": "D",
             "domHand": "L",
-            "weight": "194 lbs.",
+            "weight": "194 lbs",
             "birthPlace": "Livonia, MI, USA",
             "bio": "-",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["STL",63, 7, 25, 32, -26, 49, "?", "?"],
             }
@@ -302,9 +362,12 @@ rosterData = {
             "height": `6'0"`,
             "position": "D",
             "domHand": "L",
-            "weight": "205 lbs.",
+            "weight": "205 lbs",
             "birthPlace": "Eden Prairie, MN, USA",
             "bio": "-",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["STL",78, 2, 21, 23, 4, 20, "?", "?"],
             }
@@ -318,9 +381,12 @@ rosterData = {
             "height": `6'6"`,
             "position": "D",
             "domHand": "R",
-            "weight": "228 lbs.",
+            "weight": "228 lbs",
             "birthPlace": "St. Albert, AB, CAN",
             "bio": "-",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["STL",79, 4, 23, 27, -19, 30, "?", "?"],
             }
@@ -334,9 +400,12 @@ rosterData = {
             "height": `5'10"`,
             "position": "D",
             "domHand": "L",
-            "weight": "175 lbs.",
+            "weight": "175 lbs",
             "birthPlace": "Hibbing, MN, USA",
             "bio": "-",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["STL",0, 0, 0, 0, 0, 0, "?", "?"],
             }
@@ -350,9 +419,12 @@ rosterData = {
             "height": `6'1"`,
             "position": "D",
             "domHand": "L",
-            "weight": "188 lbs.",
+            "weight": "188 lbs",
             "birthPlace": "Vaxjo, SWE",
             "bio": "-",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["STL",79, 4, 23, 27, -19, 30, "?", "?"],
             }
@@ -366,9 +438,12 @@ rosterData = {
             "height": `6'3"`,
             "position": "D",
             "domHand": "L",
-            "weight": "212 lbs.",
+            "weight": "212 lbs",
             "birthPlace": "Montreal, QC, CAN",
             "bio": "-",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["STL",20, 1, 1, 2, 2, 6, "?", "?"],
             }
@@ -382,9 +457,12 @@ rosterData = {
             "height": `6'1"`,
             "position": "D",
             "domHand": "L",
-            "weight": "204 lbs.",
+            "weight": "204 lbs",
             "birthPlace": "Thunder Bay, ON, CAN",
             "bio": "-",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["STL",26, 1, 3, 4, -9, 31, "?", "?"],
             }
@@ -398,9 +476,12 @@ rosterData = {
             "height": `6'2"`,
             "position": "G",
             "domHand": "N/A",
-            "weight": "172 lbs.",
+            "weight": "172 lbs",
             "birthPlace": "Richmond Hill, ON, CAN",
             "bio": "-",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["STL",61, 27, 27, 6, 0.894, 3.31, "?", "?"],
             }
@@ -414,9 +495,12 @@ rosterData = {
             "height": `6'5"`,
             "position": "G",
             "domHand": "N/A",
-            "weight": "179 lbs.",
+            "weight": "179 lbs",
             "birthPlace": "Winnipeg, MB, CAN",
             "bio": "-",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["STL",6, 3, 1, 1, 0.905, 3.22, "?", "?"],
             }
@@ -425,21 +509,480 @@ rosterData = {
 
     "MLB": [
         {
+            "firstName": "Giovanny",
+            "lastName": "Gallegos",
+            "jerseyNum": 65,
+            "birthDate": "",
+            "image": "",
+            "height": `6'2"`,
+            "position": "RP",
+            "domHand": "R/R",
+            "weight": "215 lbs",
+            "birthPlace": "Obregon, MEX",
+            "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        }, 
+        {
+            "firstName": "Dakota",
+            "lastName": "Hudson",
+            "jerseyNum": 43,
+            "birthDate": "",
+            "image": "",
+            "height": `6'5"`,
+            "position": "SP",
+            "domHand": "R/R",
+            "weight": "215 lbs",
+            "birthPlace": "Dunlap, TN",
+            "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        }, 
+        {
+            "firstName": "John",
+            "lastName": "King",
+            "jerseyNum": 47,
+            "birthDate": "",
+            "image": "",
+            "height": `6'2"`,
+            "position": "RP",
+            "domHand": "L/L",
+            "weight": "215 lbs",
+            "birthPlace": "Laredo, TX",
+            "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        }, 
+        {
+            "firstName": "Kyle",
+            "lastName": "Leahy",
+            "jerseyNum": 64,
+            "birthDate": "",
+            "image": "",
+            "height": `6'5"`,
+            "position": "RP",
+            "domHand": "S/R",
+            "weight": "200 lbs",
+            "birthPlace": "Boulder, CO",
+            "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        }, 
+        {
+            "firstName": "Matthew",
+            "lastName": "Liberatore",
+            "jerseyNum": 52,
+            "birthDate": "",
+            "image": "",
+            "height": `6'4"`,
+            "position": "SP",
+            "domHand": "L/L",
+            "weight": "200 lbs",
+            "birthPlace": "Peoria, AZ",
+            "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        }, 
+        {
             "firstName": "",
             "lastName": "",
             "jerseyNum": 0,
             "birthDate": "",
             "image": "",
-            "height": "",
+            "height": ``,
             "position": "",
             "domHand": "",
             "weight": "",
             "birthPlace": "",
             "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }
+        }, 
+        {
+            "firstName": "",
+            "lastName": "",
+            "jerseyNum": 0,
+            "birthDate": "",
+            "image": "",
+            "height": ``,
+            "position": "",
+            "domHand": "",
+            "weight": "",
+            "birthPlace": "",
+            "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        }, 
+        {
+            "firstName": "",
+            "lastName": "",
+            "jerseyNum": 0,
+            "birthDate": "",
+            "image": "",
+            "height": ``,
+            "position": "",
+            "domHand": "",
+            "weight": "",
+            "birthPlace": "",
+            "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        }, 
+        {
+            "firstName": "",
+            "lastName": "",
+            "jerseyNum": 0,
+            "birthDate": "",
+            "image": "",
+            "height": ``,
+            "position": "",
+            "domHand": "",
+            "weight": "",
+            "birthPlace": "",
+            "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        }, 
+        {
+            "firstName": "",
+            "lastName": "",
+            "jerseyNum": 0,
+            "birthDate": "",
+            "image": "",
+            "height": ``,
+            "position": "",
+            "domHand": "",
+            "weight": "",
+            "birthPlace": "",
+            "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        }, 
+        {
+            "firstName": "",
+            "lastName": "",
+            "jerseyNum": 0,
+            "birthDate": "",
+            "image": "",
+            "height": ``,
+            "position": "",
+            "domHand": "",
+            "weight": "",
+            "birthPlace": "",
+            "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        }, 
+        {
+            "firstName": "",
+            "lastName": "",
+            "jerseyNum": 0,
+            "birthDate": "",
+            "image": "",
+            "height": ``,
+            "position": "",
+            "domHand": "",
+            "weight": "",
+            "birthPlace": "",
+            "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        }, 
+        {
+            "firstName": "",
+            "lastName": "",
+            "jerseyNum": 0,
+            "birthDate": "",
+            "image": "",
+            "height": ``,
+            "position": "",
+            "domHand": "",
+            "weight": "",
+            "birthPlace": "",
+            "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        }, 
+        {
+            "firstName": "",
+            "lastName": "",
+            "jerseyNum": 0,
+            "birthDate": "",
+            "image": "",
+            "height": ``,
+            "position": "",
+            "domHand": "",
+            "weight": "",
+            "birthPlace": "",
+            "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        }, 
+        {
+            "firstName": "",
+            "lastName": "",
+            "jerseyNum": 0,
+            "birthDate": "",
+            "image": "",
+            "height": ``,
+            "position": "",
+            "domHand": "",
+            "weight": "",
+            "birthPlace": "",
+            "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        }, 
+        {
+            "firstName": "",
+            "lastName": "",
+            "jerseyNum": 0,
+            "birthDate": "",
+            "image": "",
+            "height": ``,
+            "position": "",
+            "domHand": "",
+            "weight": "",
+            "birthPlace": "",
+            "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        }, 
+        {
+            "firstName": "",
+            "lastName": "",
+            "jerseyNum": 0,
+            "birthDate": "",
+            "image": "",
+            "height": ``,
+            "position": "",
+            "domHand": "",
+            "weight": "",
+            "birthPlace": "",
+            "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        }, 
+        {
+            "firstName": "",
+            "lastName": "",
+            "jerseyNum": 0,
+            "birthDate": "",
+            "image": "",
+            "height": ``,
+            "position": "",
+            "domHand": "",
+            "weight": "",
+            "birthPlace": "",
+            "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        }, 
+        {
+            "firstName": "",
+            "lastName": "",
+            "jerseyNum": 0,
+            "birthDate": "",
+            "image": "",
+            "height": ``,
+            "position": "",
+            "domHand": "",
+            "weight": "",
+            "birthPlace": "",
+            "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        }, 
+        {
+            "firstName": "",
+            "lastName": "",
+            "jerseyNum": 0,
+            "birthDate": "",
+            "image": "",
+            "height": ``,
+            "position": "",
+            "domHand": "",
+            "weight": "",
+            "birthPlace": "",
+            "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        }, 
+        {
+            "firstName": "",
+            "lastName": "",
+            "jerseyNum": 0,
+            "birthDate": "",
+            "image": "",
+            "height": ``,
+            "position": "",
+            "domHand": "",
+            "weight": "",
+            "birthPlace": "",
+            "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        }, 
+        {
+            "firstName": "",
+            "lastName": "",
+            "jerseyNum": 0,
+            "birthDate": "",
+            "image": "",
+            "height": ``,
+            "position": "",
+            "domHand": "",
+            "weight": "",
+            "birthPlace": "",
+            "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        }, 
+        {
+            "firstName": "",
+            "lastName": "",
+            "jerseyNum": 0,
+            "birthDate": "",
+            "image": "",
+            "height": ``,
+            "position": "",
+            "domHand": "",
+            "weight": "",
+            "birthPlace": "",
+            "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        }, 
+        {
+            "firstName": "",
+            "lastName": "",
+            "jerseyNum": 0,
+            "birthDate": "",
+            "image": "",
+            "height": ``,
+            "position": "",
+            "domHand": "",
+            "weight": "",
+            "birthPlace": "",
+            "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        }, 
+        {
+            "firstName": "",
+            "lastName": "",
+            "jerseyNum": 0,
+            "birthDate": "",
+            "image": "",
+            "height": ``,
+            "position": "",
+            "domHand": "",
+            "weight": "",
+            "birthPlace": "",
+            "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
+            "careerStats": { // Year season ended (2022-23 = 2023)
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        }, 
     ],
 
     "MLS": [
@@ -449,12 +992,15 @@ rosterData = {
             "jerseyNum": 0,
             "birthDate": "",
             "image": "",
-            "height": "",
+            "height": ``,
             "position": "",
             "domHand": "",
             "weight": "",
             "birthPlace": "",
             "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
@@ -468,12 +1014,15 @@ rosterData = {
             "jerseyNum": 0,
             "birthDate": "",
             "image": "",
-            "height": "",
+            "height": ``,
             "position": "",
             "domHand": "",
             "weight": "",
             "birthPlace": "",
             "bio": "",
+            "contractStructure": {
+                2023: 1_000_000
+            },
             "careerStats": { // Year season ended (2022-23 = 2023)
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
