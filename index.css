@@ -1058,6 +1058,10 @@ section.fullRoster {
     section.article_cover h2 {
         font-size: 18pt;
     }
+
+    section.row div {
+        margin: 15px auto;
+    }
     
 }
 
@@ -1154,7 +1158,4 @@ section.fullRoster {
         max-height: 60px;
     }
 
-    div.newsBox {
-        margin: 10px auto;
-    }
 }

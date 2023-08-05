@@ -48,8 +48,8 @@ function setMainHeight() {
     // console.log(document.getElementsByTagName("nav"))
     let navHt = document.getElementsByTagName("nav")[0].clientHeight
     let bodyHt = document.getElementsByTagName("body")[0].clientHeight
-    console.log(navHt)
-    console.log(bodyHt)
+    // console.log(navHt)
+    // console.log(bodyHt)
     if (navHt != bodyHt) {
         document.getElementById("main").style.height = `calc(100vh - ${navHt}px - 20px)`
     } else {
