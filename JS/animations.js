@@ -33,4 +33,5 @@ function onReady(callback) {
 
 onReady(function() {
     document.getElementById("loadingScreen").style.animation = "make_transparent 1s forwards"  
+    document.getElementById("loadingScreen").remove()
 })
