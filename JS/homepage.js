@@ -84,7 +84,7 @@ newsData = {
             "title": "Jack Flaherty traded to Baltimore Orioles",
             "imageURL": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4097,h_2304,x_0,y_175/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/17/01h6j16nk0t15amvapnc.jpg",
             "previewText": "Minutes before the trade deadline passed, multiple sources reported that Flaherty was being sent to Baltimore for infield prospect Cesar Prieto, LHP prospect Drew Rom, and RHP prospect Zack Showalter.",
-            "articleActive": true,
+            "articleActive": false,
             "articleText": ["adfadf","adj;flajdsf;ljadsklfj"]
         },
 
