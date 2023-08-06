@@ -3,9 +3,14 @@ function submenuTrigger(menuID) {
     if (document.getElementById(menuID).clientHeight == 0) {
         // console.log("opened menu")
         openSubmenu(menuID)
+        // console.log("Open")
+        // console.log(document.getElementById(menuID).style.display)
+        // console.log(document.getElementById(menuID).style.animation)
+        // console.log(document.getElementById(menuID).clientHeight)
     } else {
         // console.log("closed menu")
         closeSubmenu(menuID)
+        console.log("Close")
     }
 }
 
@@ -24,6 +29,15 @@ function closeSubmenu(menuID) {
     document.getElementById(menuID+"Opener").style.backgroundColor = "#777"
     setMainHeight()
     
+}
+
+function openSubmenu2(menuID) {
+    document.getElementById(menuID).style.display = "block"
+    document.getElementById(menuID).style.animation = "openMenu 1s forwards"
+}
+function closeSubmenu2(menuID) {
+    document.getElementById(menuID).style.animation = "openMenu 1s backwards"
+    document.getElementById(menuID).style.display = "none"
 }
 
 function onReady(callback) {
@@ -59,9 +73,11 @@ function setMainHeight() {
 
 onReady(function() {
     document.getElementById("loadingScreen").style.animation = "make_transparent 1s forwards"  
+    console.log(document.getElementById("loadingScreen").style.animation)
     setTimeout(() => {
+        console.log(document.getElementById("loadingScreen").style.animation)
         document.getElementById("loadingScreen").remove()
-    }, 1500)
+    }, 1000)
     // while (true) {
     setMainHeight()
     // }
