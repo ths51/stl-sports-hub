@@ -85,7 +85,16 @@ newsData = {
             "imageURL": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4097,h_2304,x_0,y_175/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/17/01h6j16nk0t15amvapnc.jpg",
             "previewText": "Minutes before the trade deadline passed, multiple sources reported that Flaherty was being sent to Baltimore for infield prospect Cesar Prieto, LHP prospect Drew Rom, and RHP prospect Zack Showalter.",
             "articleActive": false,
-            "articleText": ["adfadf","adj;flajdsf;ljadsklfj"]
+            "articleText": [""]
+        },
+
+        {
+            "sport": "MLS",
+            "title": "St. Louis CITY SC Beat Austin FC, Extend Conference Lead",
+            "imageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.statesman.com%2Fstory%2Fsports%2Fmls%2F2023%2F08%2F21%2Fgame-to-forget-austin-fc-ripped-6-3-in-st-louis%2F70638954007%2F&psig=AOvVaw3DnPU1tq0dVPIzCGb4NGUc&ust=1692740572748000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCICwkJbc7oADFQAAAAAdAAAAABAR",
+            "previewText": "CITY SC's offense exploded early again versus Austin FC and put up six goals in an impressive showing. Despite lackluster defense, Roman B\u00FCrki valiantly held Austin to just three goals.",
+            "articleActive": true,
+            "articleText": ["Niko Gioacchini, Sam Adeniran, and star goalkeeper Roman B\u00FCrki all put up impressive showings on Sunday, August 20 against Austin FC despite intense heat and humidity that held steady throughout the match. Gioacchini and Adeniran each scored twice and B\u00FCrki held Austin to three goals, including one on a penalty kick. Austin FC's offense had 3.5 expected goals throughout the match, greatly exceeding St. Louis CITY SC's 1.5. CITY SC overcame this issue with some incredible execution on poor chances to win the match 6-3."]
         },
 
 
