@@ -144,7 +144,7 @@ function openArticle(id) {
         document.getElementById("articleLogo").src = newsInfo.sport + " SVGs/STL.svg"
         document.getElementById("articleTeamText").textContent = teamNames[newsInfo.sport].toUpperCase()
 
-        document.getElementById("articleContainer").style.backgroundColor = allTeamData.colors[newsInfo.sport][getColorIndex("STL", newsInfo.sport)].color1
+        document.getElementById("articleContainer").style.border = "solid 3px " + allTeamData.colors[newsInfo.sport][getColorIndex("STL", newsInfo.sport)].color1 
         document.getElementById("articleBox").style.display = "flex"
 
         document.getElementById("articleBox").style.opacity = "100%"
