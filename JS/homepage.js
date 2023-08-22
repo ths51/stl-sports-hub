@@ -90,7 +90,7 @@ newsData = {
         {
             "sport": "MLS",
             "title": "St. Louis CITY SC Beat Austin FC, Extend Conference Lead",
-            "imageURL": "https://www.kxan.com/wp-content/uploads/sites/40/2023/08/AP23233111746323.jpg?w=1024&h=683&crop=1",
+            "imageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.theintelligencer.com%2Fsports%2Farticle%2Fstl-city-returns-long-break-6-3-late-night-win-18306395.php&psig=AOvVaw33hEYnC0_gCP81Rk3xWirT&ust=1692813527025000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNihtfnr8IADFQAAAAAdAAAAABAR",
             "previewText": "CITY SC's offense exploded early again versus Austin FC and put up six goals in an impressive showing. Despite lackluster defense, Roman B\u00FCrki valiantly held Austin to just three goals.",
             "articleActive": true,
             "articleText": ["Niko Gioacchini, Sam Adeniran, and star goalkeeper Roman B\u00FCrki all put up impressive showings on Sunday, August 20 against Austin FC despite intense heat and humidity that held steady throughout the match. Gioacchini and Adeniran each scored twice and B\u00FCrki held Austin to three goals, including one on a penalty kick. Austin FC's offense had 3.5 expected goals throughout the match, greatly exceeding St. Louis CITY SC's 1.5. CITY SC overcame this issue with some incredible execution on poor chances to win the match 6-3."]
