@@ -2608,14 +2608,14 @@ allTeamData = {
                 "home": false,
                 "final": false,
                 "inningCt": 9,
-                "STLscore": 6,
+                "STLscore": "-",
                 "oppScore": 4,
                 "STLhits": 0,
                 "opphits": 0,
             },
 
             {
-                "date": "8/25/2023",
+                "date": "8-25-2023",
                 "time": "6:05 PM",
                 "STLlogo": 1,
                 "opponent": "PHI",
@@ -2630,7 +2630,7 @@ allTeamData = {
             },
     
             {
-                "date": "8/26/2023",
+                "date": "8-26-2023",
                 "time": "6:15 PM",
                 "STLlogo": 1,
                 "opponent": "PHI",
@@ -2645,7 +2645,7 @@ allTeamData = {
             },
     
             {
-                "date": "8/27/2023",
+                "date": "8-27-2023",
                 "time": "12:35 PM",
                 "STLlogo": 1,
                 "opponent": "PHI",
@@ -2660,7 +2660,7 @@ allTeamData = {
             },
     
             {
-                "date": "8/28/2023",
+                "date": "8-28-2023",
                 "time": "6:45 PM",
                 "STLlogo": 1,
                 "opponent": "SDP",
@@ -2675,7 +2675,7 @@ allTeamData = {
             },
     
             {
-                "date": "8/29/2023",
+                "date": "8-29-2023",
                 "time": "6:45 PM",
                 "STLlogo": 1,
                 "opponent": "SDP",
@@ -2690,7 +2690,7 @@ allTeamData = {
             },
     
             {
-                "date": "8/30/2023",
+                "date": "8-30-2023",
                 "time": "1:15 PM",
                 "STLlogo": 1,
                 "opponent": "SDP",
@@ -2705,7 +2705,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/1/2023",
+                "date": "9-1-2023",
                 "time": "7:15 PM",
                 "STLlogo": 1,
                 "opponent": "PIT",
@@ -2720,7 +2720,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/2/2023",
+                "date": "9-2-2023",
                 "time": "6:15 PM",
                 "STLlogo": 1,
                 "opponent": "PIT",
@@ -2735,7 +2735,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/3/2023",
+                "date": "9-3-2023",
                 "time": "1:15 PM",
                 "STLlogo": 1,
                 "opponent": "PIT",
@@ -2750,7 +2750,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/5/2023",
+                "date": "9-5-2023",
                 "time": "6:20 PM",
                 "STLlogo": 1,
                 "opponent": "ATL",
@@ -2765,7 +2765,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/6/2023",
+                "date": "9-6-2023",
                 "time": "6:20 PM",
                 "STLlogo": 1,
                 "opponent": "ATL",
@@ -2780,7 +2780,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/7/2023",
+                "date": "9-7-2023",
                 "time": "6:20 PM",
                 "STLlogo": 1,
                 "opponent": "ATL",
@@ -2795,7 +2795,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/8/2023",
+                "date": "9-8-2023",
                 "time": "5:40 PM",
                 "STLlogo": 1,
                 "opponent": "CIN",
@@ -2810,7 +2810,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/9/2023",
+                "date": "9-9-2023",
                 "time": "5:40 PM",
                 "STLlogo": 1,
                 "opponent": "CIN",
@@ -2825,7 +2825,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/10/2023",
+                "date": "9-10-2023",
                 "time": "12:40 PM",
                 "STLlogo": 1,
                 "opponent": "CIN",
@@ -2840,7 +2840,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/11/2023",
+                "date": "9-11-2023",
                 "time": "5:35 PM",
                 "STLlogo": 1,
                 "opponent": "BAL",
@@ -2855,7 +2855,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/12/2023",
+                "date": "9-12-2023",
                 "time": "5:35 PM",
                 "STLlogo": 1,
                 "opponent": "BAL",
@@ -2870,7 +2870,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/13/2023",
+                "date": "9-13-2023",
                 "time": "5:35 PM",
                 "STLlogo": 1,
                 "opponent": "BAL",
@@ -2885,7 +2885,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/15/2023",
+                "date": "9-15-2023",
                 "time": "7:15 PM",
                 "STLlogo": 1,
                 "opponent": "PHI",
@@ -2900,7 +2900,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/16/2023",
+                "date": "9-16-2023",
                 "time": "6:15 PM",
                 "STLlogo": 1,
                 "opponent": "PHI",
@@ -2915,7 +2915,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/17/2023",
+                "date": "9-17-2023",
                 "time": "1:15 AM",
                 "STLlogo": 1,
                 "opponent": "PHI",
@@ -2930,7 +2930,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/18/2023",
+                "date": "9-18-2023",
                 "time": "6:45 PM",
                 "STLlogo": 1,
                 "opponent": "MIL",
@@ -2945,7 +2945,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/19/2023",
+                "date": "9-19-2023",
                 "time": "6:45 PM",
                 "STLlogo": 1,
                 "opponent": "MIL",
@@ -2960,7 +2960,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/20/2023",
+                "date": "9-20-2023",
                 "time": "6:45 PM",
                 "STLlogo": 1,
                 "opponent": "MIL",
@@ -2975,7 +2975,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/21/2023",
+                "date": "9-21-2023",
                 "time": "12:15 PM",
                 "STLlogo": 1,
                 "opponent": "MIL",
@@ -2990,7 +2990,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/22/2023",
+                "date": "9-22-2023",
                 "time": "8:40 PM",
                 "STLlogo": 1,
                 "opponent": "SDP",
@@ -3005,7 +3005,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/23/2023",
+                "date": "9-23-2023",
                 "time": "7:40 PM",
                 "STLlogo": 1,
                 "opponent": "SDP",
@@ -3020,7 +3020,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/24/2023",
+                "date": "9-24-2023",
                 "time": "3:10 PM",
                 "STLlogo": 1,
                 "opponent": "SDP",
@@ -3035,7 +3035,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/26/2023",
+                "date": "9-26-2023",
                 "time": "6:40 PM",
                 "STLlogo": 1,
                 "opponent": "MIL",
@@ -3050,7 +3050,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/27/2023",
+                "date": "9-27-2023",
                 "time": "6:40 PM",
                 "STLlogo": 1,
                 "opponent": "MIL",
@@ -3065,7 +3065,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/28/2023",
+                "date": "9-28-2023",
                 "time": "3:10 PM",
                 "STLlogo": 1,
                 "opponent": "MIL",
@@ -3080,7 +3080,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/29/2023",
+                "date": "9-29-2023",
                 "time": "7:15 PM",
                 "STLlogo": 1,
                 "opponent": "CIN",
@@ -3095,7 +3095,7 @@ allTeamData = {
             },
     
             {
-                "date": "9/30/2023",
+                "date": "9-30-2023",
                 "time": "6:15 PM",
                 "STLlogo": 1,
                 "opponent": "CIN",
