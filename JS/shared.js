@@ -2650,7 +2650,7 @@ allTeamData = {
                 "STLlogo": 1,
                 "opponent": "PHI",
                 "home": false,
-                "final": false,
+                "final": true,
                 "STLscore": 0,
                 "oppScore": 3,
                 "inningCt": 9,
