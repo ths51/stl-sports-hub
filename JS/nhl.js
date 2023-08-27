@@ -528,7 +528,7 @@ function getTimeList(timeText) {
     // console.log(ending)
     let min = Number(ending[0])
     let end = ending[1]
-    if (end == "AM") {} else {
+    if (end == "AM") {} else if (hour != 12) {
         hour += 12
     }
     if ((end == "AM") && (hour == 12)) {
