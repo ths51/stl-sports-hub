@@ -1099,6 +1099,10 @@ section.fullRoster {
         display: block;
     }
 
+    h1, h2, h3 {
+        font-family: 'Sofia Sans Condensed';
+    }
+
     div.playerBox section.row div.bio section.row {
         display: flex;
         margin: auto;
