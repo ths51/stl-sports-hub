@@ -25,7 +25,7 @@ sportStatNames = {
 
 }
 
-games_js = ""
+item_order = ['colors','games','roster']
 
 
 # pc.copy("This text has just been copied")
@@ -36,7 +36,7 @@ def create_games(sport:str):
     # print(csv_data)
     # print(csv_data.count(0)['Month']) # 0 denotes axis read by count function
 
-    full_string = "["
+    full_string = ""
 
     for val in range((csv_data.count(0)['Month'])) :
         # None
@@ -84,7 +84,7 @@ def create_games(sport:str):
         full_string += string_addition
         # print(string_addition)
 
-    full_string += "]"
+    # full_string += "]"
 
     # print("-")
     # print("-")
@@ -95,7 +95,7 @@ def create_games(sport:str):
     # print("-")
     # print("-")
     # print("-")
-    print(full_string)
+    # print(full_string)
 
     pc.copy(full_string)
     print()
@@ -103,8 +103,48 @@ def create_games(sport:str):
     return full_string
 
 def addGamesToJSON(sport:str) :
-    file = open("shared.js","r")
-    print(file.read())
+
+    file = open("./JS/shared.js","r")
+    lines = file.read().split("\n")
+    sport_lines = []
+    game_lines = []
+    index = 0
+    for line in lines: 
+        lines[index] = line.strip()
+        if (sport.upper() in line):
+            sport_lines.append(index)
+        if "games" in line:
+            game_lines.append(index)
+        index += 1
+    sport_games_index = 0
+    for line_num in sport_lines:
+        if line_num > game_lines[0]:
+            sport_games_index = line_num
+            break
+        
+    end_line_val = 0
+    for line_val in range(sport_games_index+1, len(lines)): 
+        if "]" in lines[line_val]:
+            end_line_val = line_val
+            break
+        lines[line_val] = ""
+    for line in range(sport_games_index+1, end_line_val): 
+        lines.pop(sport_games_index+1)
+    lines.insert(sport_games_index+1, create_games(sport))
+    # print(sport_lines)
+    # print(game_lines)
+    # print(lines[sport_games_index])
+    # print(lines[sport_games_index+1])
+    # print(lines[sport_games_index+2])
+    file.close()
+
+    full_text = ""
+    write_file = open("./JS/shared.js","w")
+    for item in lines:
+        full_text += item
+        full_text += "\n"
+
+    write_file.write(full_text)
 
 # def create_roster(sport:str):
 #     """
@@ -207,6 +247,7 @@ def addGamesToJSON(sport:str) :
 
 
 
-create_games("NHL")
+# print(create_games("NHL"))
 addGamesToJSON("NHL")
+addGamesToJSON("MLB")
 # create_roster("NHL")
