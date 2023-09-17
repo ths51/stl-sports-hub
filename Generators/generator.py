@@ -102,6 +102,108 @@ def create_games(sport:str):
     print("WHOLE STRING HAS BEEN COPIED TO YOUR CLIPBOARD!")
     return full_string
 
+
+def create_roster(sport:str):
+    """
+    {
+        "firstName": "Sammy",
+        "lastName": "Blais",
+        "jerseyNum": 79,
+        "birthDate": "June 17, 1997",
+        "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+        "height": `6'2"`,
+        "position": "LW",
+        "domHand": "L",
+        "weight": "206 lbs",
+        "birthPlace": "Montmagny, QC, CAN",
+        "bio": "Blais was drafted in the sixth round by the Blues in 2014 and defied all odds to reach the NHL with the team in 2017. He won a Stanley Cup with the Blues in 2019 and was eventually traded to the Rangers in a deal for Pavel Buchnevich. After suffering a major knee injury early in the 2021 campaign that sidelined him for the rest of the season, Blais was only able to score 5 points in 40 games with New York in 2022-23, but was traded back to the Blues, where he put up 9 goals and 20 points in only 31 games.",
+        "contractStructure": {
+            2023: 1_000_000
+        },
+        "careerStats": { // Year season ended (2022-23 = 2023)
+            2023: ["STL/NYR",71, 9, 16, 25, 4, 30, "?", "?"],
+            2022: ["NYR",14, 0, 4, 4, 3, 17, "?", "?"],
+            2021: ["STL",36, 8, 7, 15, 0, 12, "?", "?"],
+            2020: ["STL",40, 6, 7, 13, -2, 20, "?", "?"],
+            2019: ["STL",32, 2, 2, 4, -1, 6, "?", "?"],
+            2018: ["STL",11, 1, 2, 3, 1, 6, "?", "?"]
+        }
+    },
+    """
+
+
+    csv_data = pds.read_csv(f'./RosterData/{sport}roster.csv', header=0)
+
+    # print(csv_data)
+    # print(csv_data.count(0)['Month']) # 0 denotes axis read by count function
+
+    full_string = ""
+
+    for val in range((csv_data.count(0)['Jersey #'])) :
+        first = csv_data['First Name'].values[val]
+        last = csv_data['Last Name'].values[val]
+        jersey = csv_data['Jersey #'].values[val]
+        bdate = csv_data['Birthdate'].values[val]
+        imgurl = csv_data['Image URL'].values[val]
+        hgt = csv_data['Height'].values[val]
+        pos = csv_data['Position'].values[val]
+        hand = csv_data['Hand'].values[val]
+        weight = csv_data['Weight'].values[val]
+        bplace = csv_data['Birthplace'].values[val]
+        bio = csv_data['Bio'].values[val]
+        contract = csv_data['Contract Structure'].values[val]
+        # careerStats = csv_data['Career Statistics'].values[val]
+
+        player_csv = pds.read_csv(f'./RosterData/{sport} Player Stats/{first}_{last}.csv', header=0)
+        careerStatsText = "{\n"
+        for line in range(player_csv.count(0)['Year']):
+            year = player_csv['Year'].values[line]
+            team = player_csv['Team'].values[line]
+            games = player_csv['Games'].values[line]
+            stat1 = player_csv['stat1'].values[line]
+            stat2 = player_csv['stat2'].values[line]
+            stat3 = player_csv['stat3'].values[line]
+            stat4 = player_csv['stat4'].values[line]
+            stat5 = player_csv['stat5'].values[line]
+            stat6 = player_csv['stat6'].values[line]
+            stat7 = player_csv['stat7'].values[line]
+            careerStatsText += f'\t\t\t\t{year}: ["{team}",{games},{stat1},{stat2},{stat3},{stat4},{stat5},{stat6},{stat7}],\n'
+        careerStatsText += "}"
+
+        player_addition_str = f'''\u007b
+            "firstName": "{first}",
+            "lastName": "{last}",
+            "jerseyNum": {jersey},
+            "birthDate": "{bdate}",
+            "image": "{imgurl}",
+            "height": `{hgt}`,
+            "position": "{pos}",
+            "domHand": "{hand}",
+            "weight": "{weight}",
+            "birthPlace": "{bplace}",
+            "bio": "{bio}",
+            "contractStructure": \u007b
+                {contract}
+            \u007d,
+            "careerStats": {careerStatsText}
+        \u007d,
+
+        '''
+
+        full_string += player_addition_str
+
+    # full_string += "]"
+
+    print(full_string)
+
+    pc.copy(full_string)
+    print()
+    print("WHOLE STRING HAS BEEN COPIED TO YOUR CLIPBOARD!")
+    return full_string
+
+
+
+
 def addGamesToJSON(sport:str) :
 
     file = open("./JS/shared.js","r")
@@ -146,102 +248,52 @@ def addGamesToJSON(sport:str) :
 
     write_file.write(full_text)
 
-# def create_roster(sport:str):
-#     """
-#     {
-#         "firstName": "Sammy",
-#         "lastName": "Blais",
-#         "jerseyNum": 79,
-#         "birthDate": "June 17, 1997",
-#         "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
-#         "height": `6'2"`,
-#         "position": "LW",
-#         "domHand": "L",
-#         "weight": "206 lbs",
-#         "birthPlace": "Montmagny, QC, CAN",
-#         "bio": "Blais was drafted in the sixth round by the Blues in 2014 and defied all odds to reach the NHL with the team in 2017. He won a Stanley Cup with the Blues in 2019 and was eventually traded to the Rangers in a deal for Pavel Buchnevich. After suffering a major knee injury early in the 2021 campaign that sidelined him for the rest of the season, Blais was only able to score 5 points in 40 games with New York in 2022-23, but was traded back to the Blues, where he put up 9 goals and 20 points in only 31 games.",
-#         "contractStructure": {
-#             2023: 1_000_000
-#         },
-#         "careerStats": { // Year season ended (2022-23 = 2023)
-#             2023: ["STL/NYR",71, 9, 16, 25, 4, 30, "?", "?"],
-#             2022: ["NYR",14, 0, 4, 4, 3, 17, "?", "?"],
-#             2021: ["STL",36, 8, 7, 15, 0, 12, "?", "?"],
-#             2020: ["STL",40, 6, 7, 13, -2, 20, "?", "?"],
-#             2019: ["STL",32, 2, 2, 4, -1, 6, "?", "?"],
-#             2018: ["STL",11, 1, 2, 3, 1, 6, "?", "?"]
-#         }
-#     },
-#     """
 
 
-#     csv_data = pds.read_csv(f'{sport}roster.csv', header=0)
 
-#     # print(csv_data)
-#     # print(csv_data.count(0)['Month']) # 0 denotes axis read by count function
+def addRosterToJSON(sport:str) :
 
-#     full_string = "[\n"
+    file = open("./JS/shared.js","r")
+    lines = file.read().split("\n")
+    sport_lines = []
+    roster_lines = []
+    index = 0
+    for line in lines: 
+        # lines[index] = line.strip()
+        if (sport.upper() in line):
+            sport_lines.append(index)
+        if "roster" in line:
+            roster_lines.append(index)
+        index += 1
+    sport_roster_index = 0
+    for line_num in sport_lines:
+        if line_num > roster_lines[0]:
+            sport_roster_index = line_num
+            break
+        
+    end_line_val = 0
+    for line_val in range(sport_roster_index+1, len(lines)): 
+        if ("]" in lines[line_val]) and (lines[line_val+1].strip() == ''):
+            end_line_val = line_val
+            break
+        lines[line_val] = ""
+    for line in range(sport_roster_index+1, end_line_val): 
+        lines.pop(sport_roster_index+1)
+    lines.insert(sport_roster_index+1, create_roster(sport))
+    # print(sport_lines)
+    # print(roster_lines)
+    # print(lines[sport_roster_index])
+    # print(lines[sport_roster_index+1])
+    # print(lines[sport_roster_index+2])
+    file.close()
 
-#     for val in range((csv_data.count(0)['Jersey #'])) :
-#         first = csv_data['First Name'].values[val]
-#         last = csv_data['Last Name'].values[val]
-#         jersey = csv_data['Jersey #'].values[val]
-#         bdate = csv_data['Birthdate'].values[val]
-#         imgurl = csv_data['Image URL'].values[val]
-#         hgt = csv_data['Height'].values[val]
-#         pos = csv_data['Position'].values[val]
-#         hand = csv_data['Hand'].values[val]
-#         weight = csv_data['Weight'].values[val]
-#         bplace = csv_data['Birthplace'].values[val]
-#         bio = csv_data['Bio'].values[val]
-#         contract = csv_data['Contract Structure'].values[val]
-#         # careerStats = csv_data['Career Statistics'].values[val]
+    full_text = ""
+    write_file = open("./JS/shared.js","w")
+    for item in lines:
+        full_text += str(item)
+        full_text += "\n"
 
-#         player_csv = pds.read_csv(f'NHL Player Stats/{first}_{last}.csv', header=0)
-#         careerStatsText = "{\n"
-#         for line in range(player_csv.count(0)['Year']):
-#             year = player_csv['Year'].values[line]
-#             team = player_csv['Team'].values[line]
-#             games = player_csv['Games'].values[line]
-#             stat1 = player_csv['stat1'].values[line]
-#             stat2 = player_csv['stat2'].values[line]
-#             stat3 = player_csv['stat3'].values[line]
-#             stat4 = player_csv['stat4'].values[line]
-#             stat5 = player_csv['stat5'].values[line]
-#             stat6 = player_csv['stat6'].values[line]
-#             stat7 = player_csv['stat7'].values[line]
-#             careerStatsText += f'{year}: ["{team}",{games},{stat1},{stat2},{stat3},{stat4},{stat5},{stat6},{stat7}],\n'
-#         careerStatsText += "}"
-
-#         player_addition_str = f'''\u007b
-#             "firstName": "{first}",
-#             "lastName": "{last}",
-#             "jerseyNum": {jersey},
-#             "birthDate": "{bdate}",
-#             "image": "{imgurl}",
-#             "height": `{hgt}`,
-#             "position": "{pos}",
-#             "domHand": "{hand}",
-#             "weight": "{weight}",
-#             "birthPlace": "{bplace}",
-#             "bio": "{bio}",
-#             "contractStructure": \u007b
-#                 {contract}
-#             \u007d,
-#             "careerStats": {careerStatsText}
-#         \u007d,
-
-#         '''
-
-#         full_string += player_addition_str
-
-#     full_string += "]"
-
-#     print(full_string)
-
-#     pc.copy(full_string)
-#     print()
-#     print("WHOLE STRING HAS BEEN COPIED TO YOUR CLIPBOARD!")
+    write_file.write(full_text)
 
 
 
@@ -249,5 +301,5 @@ def addGamesToJSON(sport:str) :
 
 # print(create_games("NHL"))
 addGamesToJSON("NHL")
-addGamesToJSON("MLB")
+addRosterToJSON("NHL")
 # create_roster("NHL")
