@@ -110,7 +110,7 @@ def addGamesToJSON(sport:str) :
     game_lines = []
     index = 0
     for line in lines: 
-        lines[index] = line.strip()
+        # lines[index] = line.strip()
         if (sport.upper() in line):
             sport_lines.append(index)
         if "games" in line:
