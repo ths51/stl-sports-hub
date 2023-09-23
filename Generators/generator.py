@@ -301,5 +301,6 @@ def addRosterToJSON(sport:str) :
 
 # print(create_games("NHL"))
 addGamesToJSON("NHL")
-addRosterToJSON("NHL")
+addGamesToJSON("MLB")
+# addRosterToJSON("NHL")
 # create_roster("NHL")
