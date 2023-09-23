@@ -299,8 +299,6 @@ def addRosterToJSON(sport:str) :
 
 
 
-# print(create_games("NHL"))
 addGamesToJSON("NHL")
 addGamesToJSON("MLB")
 # addRosterToJSON("NHL")
-# create_roster("NHL")
