@@ -3134,9 +3134,9 @@ allTeamData = {
             "STLlogo": 1,
             "opponent": "ARI",
             "home": true,
-            "final": false,
-            "STLscore": "-",
-            "oppScore": "-",
+            "final": true,
+            "STLscore": "3",
+            "oppScore": "2",
             "overtime": false,
             "shootout": false,
             "STLshots": 0,
@@ -3149,9 +3149,9 @@ allTeamData = {
             "STLlogo": 1,
             "opponent": "ARI",
             "home": false,
-            "final": false,
-            "STLscore": "-",
-            "oppScore": "-",
+            "final": true,
+            "STLscore": "1",
+            "oppScore": "5",
             "overtime": false,
             "shootout": false,
             "STLshots": 0,
@@ -6041,6 +6041,19 @@ function getRoster(sport) {
         rosterBox.innerHTML += text
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -8,7 +8,7 @@ letNums = []
 for val in nums:
     letNums.append(str(val))
 
-print(letNums)
+# print(letNums)
 
 sportEndConds = {
     "NHL": ["overtime","shootout"],
@@ -22,7 +22,13 @@ sportStatNames = {
     "MLS": ["shots"],
     "MLB": ["hits"],
     "XFL": ["yards"],
+}
 
+sportGameFileURLs = {
+    "NHL": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTDhjFKFT10BRaUlb4Qnu609-hdS4RMmW4pWhcgwajJnpPSckVfJs8LYPd8odGqmE5CY4bsNQNq0i4Y/pub?gid=81508012&single=true&output=csv",
+    "MLB": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQAVJZ1fkIZeMjys88B2nYb7Sesjviswkzfx8BW10Ak-9ye13Tm9J1z4cPjCE69IoTnF7cb9y6FFepr/pub?gid=285282783&single=true&output=csv",
+    "MLS": "",
+    "XFL": "",
 }
 
 item_order = ['colors','games','roster']
@@ -31,8 +37,13 @@ item_order = ['colors','games','roster']
 # pc.copy("This text has just been copied")
 
 def create_games(sport:str):
-    csv_data = pds.read_csv(f'./GameData/{sport}games.csv', header=0)
-
+    csv_data = ""
+    try :
+        csv_data = pds.read_csv(sportGameFileURLs[sport], header=0)
+    except :
+        print("Couldn't get Google Sheets data")
+        csv_data = pds.read_csv(f'./GameData/{sport}games.csv', header=0)
+        
     # print(csv_data)
     # print(csv_data.count(0)['Month']) # 0 denotes axis read by count function
 
