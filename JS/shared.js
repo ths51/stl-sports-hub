@@ -3011,10 +3011,10 @@ allTeamData = {
             "STLlogo": 1,
             "opponent": "SDP",
             "home": false,
-            "final": false,
-            "STLscore": "-",
-            "oppScore": "-",
-            "inningCt": 9,
+            "final": true,
+            "STLscore": "5",
+            "oppScore": "2",
+            "inningCt": 11,
             "XXXXX": false,
             "STLhits": 0,
             "oppHits": 0,
@@ -3026,9 +3026,9 @@ allTeamData = {
             "STLlogo": 1,
             "opponent": "SDP",
             "home": false,
-            "final": false,
-            "STLscore": "-",
-            "oppScore": "-",
+            "final": true,
+            "STLscore": "2",
+            "oppScore": "12",
             "inningCt": 9,
             "XXXXX": false,
             "STLhits": 0,
@@ -6041,6 +6041,8 @@ function getRoster(sport) {
         rosterBox.innerHTML += text
     }
 }
+
+
 
 
 
