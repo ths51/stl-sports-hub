@@ -1,32 +1,32 @@
 First Name,Last Name,Jersey #,Birthdate,Image URL,Height,Position,Hand,Weight,Birthplace,Bio,Contract Structure,Career Statistics
-Jacob,Barnes,61,14-Apr-90,xxxxx,"6'2""",RP,R/R,231 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-Giovanny,Gallegos,65,14-Aug-91,xxxxx,"6'2""",RP,R/R,215 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-Ryan,Helsley,56,18-Jul-94,xxxxx,"6'2""",RP,R/R,230 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-Dakota,Hudson,43,15-Sep-94,xxxxx,"6'5""",SP,R/R,215 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-John,King,47,14-Sep-94,xxxxx,"6'2""",RP,L/L,215 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-Casey,Lawrence,72,28-Oct-87,xxxxx,"6'0""",RP,R/R,180 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-Matthew,Liberatore,52,6-Nov-99,xxxxx,"6'4""",RP,L/L,200 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-Miles,Mikolas,39,23-Aug-88,xxxxx,"6'4""",SP,R/R,230 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-Andre,Pallante,53,18-Sep-98,xxxxx,"6'0""",RP,R/R,203 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-Drew,Rom,38,15-Dec-99,xxxxx,"6'2""",SP,L/L,215 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-Andrew,Suarez,31,11-Sep-92,xxxxx,"6'0""",RP,L/L,202 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-Zack,Thompson,57,28-Oct-97,xxxxx,"6'2""",SP,L/L,215 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-Drew,VerHagen,34,22-Oct-90,xxxxx,"6'6""",RP,R/R,230 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-Adam,Wainwright,50,30-Aug-81,xxxxx,"6'7""",SP,R/R,230 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-Willson,Contreras,40,13-May-92,xxxxx,"6'1""",C,R/R,225 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-Andrew,Knizner,7,3-Feb-95,xxxxx,"6'1""",C,R/R,225 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-Nolan,Arenado,28,16-Apr-91,xxxxx,"6'2""",3B,R/R,215 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-Luken,Baker,26,10-Mar-97,xxxxx,"6'4""",2B,R/R,280 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-Tommy,Edman,19,9-May-95,xxxxx,"5'10""",SS,S/R,180 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-Jose,Fermin,35,29-Mar-99,xxxxx,"5'9""",2B,R/R,200 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-Paul,Goldschmidt,46,10-Sep-87,xxxxx,"6'3""",1B,R/R,220 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-Juniel,Querecuto,62,19-Sep-92,xxxxx,"5'9""",2B,S/R,195 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-Masyn,Wynn,0,21-Mar-02,xxxxx,"5'11""",SS,R/R,180 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-Alec,Burleson,41,25-Nov-98,xxxxx,"6'2""",RF,L/L,212 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-Lars,Nootbaar,21,8-Sep-97,xxxxx,"6'3""",LF,L/R,210 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-Richie,Palacios,67,16-May-97,xxxxx,"5'10""",CF,L/R,180 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-Jordan,Walker,18,22-May-02,xxxxx,"6'6""",RF,R/R,245 lbs,"Montmagny, QC, CAN",BIO,-, NONE
-Juan,Yepez,13,19-Feb-98,xxxxx,"6'1""",RF,R/R,200 lbs,"Montmagny, QC, CAN",BIO,-, NONE
+Jacob,Barnes,61,14-Apr-90,xxxxx,"6'2""",RP,R/R,231 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Giovanny,Gallegos,65,14-Aug-91,xxxxx,"6'2""",RP,R/R,215 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Ryan,Helsley,56,18-Jul-94,xxxxx,"6'2""",RP,R/R,230 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Dakota,Hudson,43,15-Sep-94,xxxxx,"6'5""",SP,R/R,215 lbs,"Montmagny, QC, CAN",BIO, , NONE
+John,King,47,14-Sep-94,xxxxx,"6'2""",RP,L/L,215 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Casey,Lawrence,72,28-Oct-87,xxxxx,"6'0""",RP,R/R,180 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Matthew,Liberatore,52,6-Nov-99,xxxxx,"6'4""",RP,L/L,200 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Miles,Mikolas,39,23-Aug-88,xxxxx,"6'4""",SP,R/R,230 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Andre,Pallante,53,18-Sep-98,xxxxx,"6'0""",RP,R/R,203 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Drew,Rom,38,15-Dec-99,xxxxx,"6'2""",SP,L/L,215 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Andrew,Suarez,31,11-Sep-92,xxxxx,"6'0""",RP,L/L,202 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Zack,Thompson,57,28-Oct-97,xxxxx,"6'2""",SP,L/L,215 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Drew,VerHagen,34,22-Oct-90,xxxxx,"6'6""",RP,R/R,230 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Adam,Wainwright,50,30-Aug-81,xxxxx,"6'7""",SP,R/R,230 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Willson,Contreras,40,13-May-92,xxxxx,"6'1""",C,R/R,225 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Andrew,Knizner,7,3-Feb-95,xxxxx,"6'1""",C,R/R,225 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Nolan,Arenado,28,16-Apr-91,xxxxx,"6'2""",3B,R/R,215 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Luken,Baker,26,10-Mar-97,xxxxx,"6'4""",2B,R/R,280 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Tommy,Edman,19,9-May-95,xxxxx,"5'10""",SS,S/R,180 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Jose,Fermin,35,29-Mar-99,xxxxx,"5'9""",2B,R/R,200 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Paul,Goldschmidt,46,10-Sep-87,xxxxx,"6'3""",1B,R/R,220 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Juniel,Querecuto,62,19-Sep-92,xxxxx,"5'9""",2B,S/R,195 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Masyn,Wynn,0,21-Mar-02,xxxxx,"5'11""",SS,R/R,180 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Alec,Burleson,41,25-Nov-98,xxxxx,"6'2""",RF,L/L,212 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Lars,Nootbaar,21,8-Sep-97,xxxxx,"6'3""",LF,L/R,210 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Richie,Palacios,67,16-May-97,xxxxx,"5'10""",CF,L/R,180 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Jordan,Walker,18,22-May-02,xxxxx,"6'6""",RF,R/R,245 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Juan,Yepez,13,19-Feb-98,xxxxx,"6'1""",RF,R/R,200 lbs,"Montmagny, QC, CAN",BIO, , NONE
 ,,,,,,,,,,,,
 ,,,,,,,,,,,,
 ,,,,,,,,,,,,

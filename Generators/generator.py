@@ -143,7 +143,7 @@ def create_roster(sport:str):
     """
 
 
-    csv_data = pds.read_csv(f'./RosterData/{sport}roster.csv', header=0)
+    csv_data = pds.read_csv(f'./RosterData/{sport}roster.csv', header=0, encoding='utf-8')
 
     # print(csv_data)
     # print(csv_data.count(0)['Month']) # 0 denotes axis read by count function
@@ -153,7 +153,7 @@ def create_roster(sport:str):
     for val in range((csv_data.count(0)['Jersey #'])) :
         first = csv_data['First Name'].values[val]
         last = csv_data['Last Name'].values[val]
-        jersey = csv_data['Jersey #'].values[val]
+        jersey = int(csv_data['Jersey #'].values[val])
         bdate = csv_data['Birthdate'].values[val]
         imgurl = csv_data['Image URL'].values[val]
         hgt = csv_data['Height'].values[val]
@@ -164,22 +164,26 @@ def create_roster(sport:str):
         bio = csv_data['Bio'].values[val]
         contract = csv_data['Contract Structure'].values[val]
         # careerStats = csv_data['Career Statistics'].values[val]
-
-        player_csv = pds.read_csv(f'./RosterData/{sport} Player Stats/{first}_{last}.csv', header=0)
-        careerStatsText = "{\n"
-        for line in range(player_csv.count(0)['Year']):
-            year = player_csv['Year'].values[line]
-            team = player_csv['Team'].values[line]
-            games = player_csv['Games'].values[line]
-            stat1 = player_csv['stat1'].values[line]
-            stat2 = player_csv['stat2'].values[line]
-            stat3 = player_csv['stat3'].values[line]
-            stat4 = player_csv['stat4'].values[line]
-            stat5 = player_csv['stat5'].values[line]
-            stat6 = player_csv['stat6'].values[line]
-            stat7 = player_csv['stat7'].values[line]
-            careerStatsText += f'\t\t\t\t{year}: ["{team}",{games},{stat1},{stat2},{stat3},{stat4},{stat5},{stat6},{stat7}],\n'
-        careerStatsText += "}"
+        try: 
+            player_csv = pds.read_csv(f'./RosterData/{sport} Player Stats/{first}_{last}.csv', header=0)
+            careerStatsText = "{\n"
+            for line in range(player_csv.count(0)['Year']):
+                year = player_csv['Year'].values[line]
+                team = player_csv['Team'].values[line]
+                games = player_csv['Games'].values[line]
+                stat1 = player_csv['stat1'].values[line]
+                stat2 = player_csv['stat2'].values[line]
+                stat3 = player_csv['stat3'].values[line]
+                stat4 = player_csv['stat4'].values[line]
+                stat5 = player_csv['stat5'].values[line]
+                stat6 = player_csv['stat6'].values[line]
+                stat7 = player_csv['stat7'].values[line]
+                careerStatsText += f'\t\t\t\t{year}: ["{team}",{games},{stat1},{stat2},{stat3},{stat4},{stat5},{stat6},{stat7}],\n'
+            careerStatsText += "\t\t\t}"
+        except:
+            careerStatsText = """{
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }"""
 
         player_addition_str = f'''\u007b
             "firstName": "{first}",
@@ -313,4 +317,8 @@ def addRosterToJSON(sport:str) :
 addGamesToJSON("NHL")
 addGamesToJSON("MLB")
 addGamesToJSON("MLS")
+
+addRosterToJSON("NHL")
+addRosterToJSON("MLB")
+addRosterToJSON("MLS")
 # addRosterToJSON("NHL")

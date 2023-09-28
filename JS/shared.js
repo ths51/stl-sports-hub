@@ -3071,9 +3071,9 @@ allTeamData = {
             "STLlogo": 1,
             "opponent": "MIL",
             "home": false,
-            "final": false,
-            "STLscore": "-",
-            "oppScore": "-",
+            "final": true,
+            "STLscore": "0",
+            "oppScore": "3",
             "inningCt": 9,
             "XXXXX": false,
             "STLhits": 0,
@@ -5056,986 +5056,1825 @@ function getColorIndex(text, sport) {
 
 rosterData = {
     "NHL": [
-        {
-            "firstName": "Sammy",
-            "lastName": "Blais",
-            "jerseyNum": 79,
-            "birthDate": "June 17, 1997",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
-            "height": `6'2"`,
-            "position": "LW",
-            "domHand": "L",
-            "weight": "206 lbs",
-            "birthPlace": "Montmagny, QC, CAN",
-            "bio": "Blais was drafted in the sixth round by the Blues in 2014 and defied all odds to reach the NHL with the team in 2017. He won a Stanley Cup with the Blues in 2019 and was eventually traded to the Rangers in a deal for Pavel Buchnevich. After suffering a major knee injury early in the 2021 campaign that sidelined him for the rest of the season, Blais was only able to score 5 points in 40 games with New York in 2022-23, but was traded back to the Blues, where he put up 9 goals and 20 points in only 31 games.",
-            "contractStructure": {
-                2023: 1_000_000
-            },
-            "careerStats": { // Year season ended (2022-23 = 2023)
-                2023: ["STL/NYR",71, 9, 16, 25, 4, 30, "?", "?"],
-                2022: ["NYR",14, 0, 4, 4, 3, 17, "?", "?"],
-                2021: ["STL",36, 8, 7, 15, 0, 12, "?", "?"],
-                2020: ["STL",40, 6, 7, 13, -2, 20, "?", "?"],
-                2019: ["STL",32, 2, 2, 4, -1, 6, "?", "?"],
-                2018: ["STL",11, 1, 2, 3, 1, 6, "?", "?"]
-            }
-        },
-        {
-            "firstName": "Pavel",
-            "lastName": "Buchnevich",
-            "jerseyNum": 89,
-            "birthDate": "April 17, 1995",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3042081.png&w=350&h=254",
-            "height": `6'1"`,
-            "position": "LW",
-            "domHand": "L",
-            "weight": "196 lbs",
-            "birthPlace": "Cherepovets, RUS",
-            "bio": "-",
-            "contractStructure": {
-                2023: 1_000_000
-            },
-            "careerStats": { // Year season ended (2022-23 = 2023)
-                2023: ["STL",63, 26, 41, 67, 14, 36, "?", "?"],
-            }
-        },
-        {
-            "firstName": "Kevin",
-            "lastName": "Hayes",
-            "jerseyNum": 12,
-            "birthDate": "May 8, 1992",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/5767.png",
-            "height": `6'5"`,
-            "position": "RW",
-            "domHand": "L",
-            "weight": "216 lbs",
-            "birthPlace": "Dorcester, MA, USA",
-            "bio": "-",
-            "contractStructure": {
-                2023: 1_000_000
-            },
-            "careerStats": { // Year season ended (2022-23 = 2023)
-                2023: ["PHI",81, 18, 36, 54, -22, 23, "?", "?"],
-            }
-        },
-        {
-            "firstName": "Kasperi",
-            "lastName": "Kapanen",
-            "jerseyNum": 42,
-            "birthDate": "July 23, 1996",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3114775.png",
-            "height": `6'1"`,
-            "position": "RW",
-            "domHand": "R",
-            "weight": "194 lbs",
-            "birthPlace": "Kuopio, FIN",
-            "bio": "-",
-            "contractStructure": {
-                2023: 1_000_000
-            },
-            "careerStats": { // Year season ended (2022-23 = 2023)
-                2023: ["STL/PIT",66, 15, 19, 34, -8, 18, "?", "?"],
-            }
-        },
-        {
-            "firstName": "Jordan",
-            "lastName": "Kyrou",
-            "jerseyNum": 25,
-            "birthDate": "May 5, 1998",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4062251.png",
-            "height": `6'1"`,
-            "position": "RW",
-            "domHand": "R",
-            "weight": "196 lbs",
-            "birthPlace": "Toronto, ON, CAN",
-            "bio": "-",
-            "contractStructure": {
-                2023: 1_000_000
-            },
-            "careerStats": { // Year season ended (2022-23 = 2023)
-                2023: ["STL",79, 37, 36, 73, -38, 22, "?", "?"],
-            }
-        },
-        {
-            "firstName": "Mackenzie",
-            "lastName": "MacEachern",
-            "jerseyNum": 28,
-            "birthDate": "March 9, 1994",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3069342.png&w=350&h=254",
-            "height": `6'2"`,
-            "position": "LW",
-            "domHand": "L",
-            "weight": "193 lbs",
-            "birthPlace": "Bloomfield Hills, MI, USA",
-            "bio": "-",
-            "contractStructure": {
-                2023: 1_000_000
-            },
-            "careerStats": { // Year season ended (2022-23 = 2023)
-                2023: ["CAR",0, 0, 0, 0, 0, 0, "?", "?"],
-            }
-        },
-        {
-            "firstName": "Jake",
-            "lastName": "Neighbours",
-            "jerseyNum": 63,
-            "birthDate": "March 29, 2002",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4697409.png",
-            "height": `6'0"`,
-            "position": "LW",
-            "domHand": "L",
-            "weight": "201 lbs",
-            "birthPlace": "Calgary, AB, CAN",
-            "bio": "-",
-            "contractStructure": {
-                2023: 1_000_000
-            },
-            "careerStats": { // Year season ended (2022-23 = 2023)
-                2023: ["STL",43, 6, 4, 10, -19, 24, "?", "?"],
-            }
-        },
-        {
-            "firstName": "Brandon",
-            "lastName": "Saad",
-            "jerseyNum": 20,
-            "birthDate": "October 27, 1992",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/2563065.png",
-            "height": `6'1"`,
-            "position": "LW",
-            "domHand": "L",
-            "weight": "215 lbs",
-            "birthPlace": "Pittsburgh, PA, USA",
-            "bio": "-",
-            "contractStructure": {
-                2023: 1_000_000
-            },
-            "careerStats": { // Year season ended (2022-23 = 2023)
-                2023: ["STL",71, 19, 18, 37, -8, 12, "?", "?"],
-            }
-        },
-        {
-            "firstName": "Brayden",
-            "lastName": "Schenn",
-            "jerseyNum": 10,
-            "birthDate": "August 22, 1991",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/5219.png&w=350&h=254",
-            "height": `6'1"`,
-            "position": "C",
-            "domHand": "L",
-            "weight": "199 lbs",
-            "birthPlace": "Saskatoon, SK, CAN",
-            "bio": "-",
-            "contractStructure": {
-                2023: 1_000_000
-            },
-            "careerStats": { // Year season ended (2022-23 = 2023)
-                2023: ["STL",82, 21, 44, 65, -27, 50, "?", "?"],
-            }
-        },
-        {
-            "firstName": "Oskar",
-            "lastName": "Sundqvist",
-            "jerseyNum": 70,
-            "birthDate": "March 23, 1994",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3069277.png",
-            "height": `6'3"`,
-            "position": "C",
-            "domHand": "R",
-            "weight": "220 lbs",
-            "birthPlace": "Boden, SWE",
-            "bio": "-",
-            "contractStructure": {
-                2023: 1_000_000
-            },
-            "careerStats": { // Year season ended (2022-23 = 2023)
-                2023: ["DET/MIN",67, 10, 18, 28, -4, 28, "?", "?"],
-            }
-        },
-        {
-            "firstName": "Robert",
-            "lastName": "Thomas",
-            "jerseyNum": 18,
-            "birthDate": "July 2, 1999",
-            "image": "https://a.espncdn.com/i/headshots/nhl/players/full/4233637.png",
-            "height": `6'0"`,
-            "position": "C",
-            "domHand": "R",
-            "weight": "218 lbs",
-            "birthPlace": "Aurora, ON, CAN",
-            "bio": "-",
-            "contractStructure": {
-                2023: 1_000_000
-            },
-            "careerStats": { // Year season ended (2022-23 = 2023)
-                2023: ["STL",73, 18, 47, 65, -8, 22, "?", "?"],
-            }
-        },
-        {
-            "firstName": "Alexey",
-            "lastName": "Toropchenko",
-            "jerseyNum": 13,
-            "birthDate": "June 25, 1999",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4392454.png",
-            "height": `6'6"`,
-            "position": "RW",
-            "domHand": "L",
-            "weight": "222 lbs",
-            "birthPlace": "Moscow, RUS",
-            "bio": "-",
-            "contractStructure": {
-                2023: 1_000_000
-            },
-            "careerStats": { // Year season ended (2022-23 = 2023)
-                2023: ["STL",69, 10, 9, 19, 6, 12, "?", "?"],
-            }
-        },
-        {
-            "firstName": "Jakub",
-            "lastName": "Vrana",
-            "jerseyNum": 15,
-            "birthDate": "February 28, 1996",
-            "image": "https://a.espncdn.com/i/headshots/nhl/players/full/3114747.png",
-            "height": `6'0"`,
-            "position": "LW",
-            "domHand": "L",
-            "weight": "190 lbs",
-            "birthPlace": "Prague, CZE",
-            "bio": "-",
-            "contractStructure": {
-                2023: 1_000_000
-            },
-            "careerStats": { // Year season ended (2022-23 = 2023)
-                2023: ["DET/STL",25, 11, 5, 16, 3, 10, "?", "?"],
-            }
-        },
-        {
-            "firstName": "Nathan",
-            "lastName": "Walker",
-            "jerseyNum": 26,
-            "birthDate": "February 7, 1994",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3067860.png",
-            "height": `5'9"`,
-            "position": "LW",
-            "domHand": "L",
-            "weight": "187 lbs",
-            "birthPlace": "Cardiff, GBR",
-            "bio": "-",
-            "contractStructure": {
-                2023: 1_000_000
-            },
-            "careerStats": { // Year season ended (2022-23 = 2023)
-                2023: ["STL",56, 2, 8, 10, 10, 25, "?", "?"],
-            }
-        },
-        {
-            "firstName": "Robert",
-            "lastName": "Bortuzzo",
-            "jerseyNum": 41,
-            "birthDate": "March 18, 1989",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4916.png",
-            "height": `6'4"`,
-            "position": "D",
-            "domHand": "R",
-            "weight": "216 lbs",
-            "birthPlace": "Thunder Bay, ON, CAN",
-            "bio": "-",
-            "contractStructure": {
-                2023: 1_000_000
-            },
-            "careerStats": { // Year season ended (2022-23 = 2023)
-                2023: ["STL",43, 2, 3, 5, 9, 29, "?", "?"],
-            }
-        },
-        {
-            "firstName": "Justin",
-            "lastName": "Faulk",
-            "jerseyNum": 72,
-            "birthDate": "March 20, 1992",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/5746.png&w=350&h=254",
-            "height": `6'0"`,
-            "position": "D",
-            "domHand": "R",
-            "weight": "214 lbs",
-            "birthPlace": "South St. Paul, MN, USA",
-            "bio": "-",
-            "contractStructure": {
-                2023: 1_000_000
-            },
-            "careerStats": { // Year season ended (2022-23 = 2023)
-                2023: ["STL",82, 11, 39, 50, -4, 34, "?", "?"],
-            }
-        },
-        {
-            "firstName": "Torey",
-            "lastName": "Krug",
-            "jerseyNum": 47,
-            "birthDate": "April 12, 1991",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/2952729.png",
-            "height": `5'9"`,
-            "position": "D",
-            "domHand": "L",
-            "weight": "194 lbs",
-            "birthPlace": "Livonia, MI, USA",
-            "bio": "-",
-            "contractStructure": {
-                2023: 1_000_000
-            },
-            "careerStats": { // Year season ended (2022-23 = 2023)
-                2023: ["STL",63, 7, 25, 32, -26, 49, "?", "?"],
-            }
-        },
-        {
+{
             "firstName": "Nick",
             "lastName": "Leddy",
             "jerseyNum": 4,
-            "birthDate": "March 20, 1991",
+            "birthDate": "20-Mar-91",
             "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/5447.png",
             "height": `6'0"`,
             "position": "D",
             "domHand": "L",
             "weight": "205 lbs",
             "birthPlace": "Eden Prairie, MN, USA",
-            "bio": "-",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
-                2023: ["STL",78, 2, 21, 23, 4, 20, "?", "?"],
-            }
+            "careerStats": {
+				2023: ["STL/NYR",80,24,44,68,12,4,18,0],
+				2022: ["NYR",80,24,44,68,12,4,18,0],
+				2021: ["NYR",80,24,44,68,12,4,18,0],
+				2020: ["STL",80,24,44,68,12,4,18,0],
+				2019: ["STL",80,24,44,68,12,4,18,0],
+				2018: ["STL",80,24,44,68,12,4,18,0],
+			}
         },
-        {
-            "firstName": "Colton",
-            "lastName": "Parayko",
-            "jerseyNum": 55,
-            "birthDate": "May 12, 1993",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3069341.png",
-            "height": `6'6"`,
-            "position": "D",
-            "domHand": "R",
-            "weight": "228 lbs",
-            "birthPlace": "St. Albert, AB, CAN",
-            "bio": "-",
-            "contractStructure": {
-                2023: 1_000_000
-            },
-            "careerStats": { // Year season ended (2022-23 = 2023)
-                2023: ["STL",79, 4, 23, 27, -19, 30, "?", "?"],
-            }
-        },
-        {
-            "firstName": "Scott",
-            "lastName": "Perunovich",
-            "jerseyNum": 48,
-            "birthDate": "August 18, 1998",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4320665.png",
-            "height": `5'10"`,
-            "position": "D",
-            "domHand": "L",
-            "weight": "175 lbs",
-            "birthPlace": "Hibbing, MN, USA",
-            "bio": "-",
-            "contractStructure": {
-                2023: 1_000_000
-            },
-            "careerStats": { // Year season ended (2022-23 = 2023)
-                2023: ["STL",0, 0, 0, 0, 0, 0, "?", "?"],
-            }
-        },
-        {
-            "firstName": "Calle",
-            "lastName": "Rosen",
-            "jerseyNum": 43,
-            "birthDate": "February 2, 1994",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4220707.png",
-            "height": `6'1"`,
-            "position": "D",
-            "domHand": "L",
-            "weight": "188 lbs",
-            "birthPlace": "Vaxjo, SWE",
-            "bio": "-",
-            "contractStructure": {
-                2023: 1_000_000
-            },
-            "careerStats": { // Year season ended (2022-23 = 2023)
-                2023: ["STL",79, 4, 23, 27, -19, 30, "?", "?"],
-            }
-        },
+
         {
             "firstName": "Marco",
             "lastName": "Scandella",
             "jerseyNum": 6,
-            "birthDate": "February 23, 1990",
+            "birthDate": "23-Feb-90",
             "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/5218.png",
             "height": `6'3"`,
             "position": "D",
             "domHand": "L",
             "weight": "212 lbs",
             "birthPlace": "Montreal, QC, CAN",
-            "bio": "-",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
-                2023: ["STL",20, 1, 1, 2, 2, 6, "?", "?"],
-            }
+            "careerStats": {
+				2023: ["STL/NYR",80,24,44,68,12,4,18,0],
+				2022: ["NYR",80,24,44,68,12,4,18,0],
+				2021: ["NYR",80,24,44,68,12,4,18,0],
+				2020: ["STL",80,24,44,68,12,4,18,0],
+				2019: ["STL",80,24,44,68,12,4,18,0],
+				2018: ["STL",80,24,44,68,12,4,18,0],
+			}
         },
+
         {
-            "firstName": "Tyler",
-            "lastName": "Tucker",
-            "jerseyNum": 75,
-            "birthDate": "March 1, 2000",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4587904.png&w=350&h=254",
+            "firstName": "Brayden",
+            "lastName": "Schenn",
+            "jerseyNum": 10,
+            "birthDate": "22-Aug-91",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/5219.png&w=350&h=254",
+            "height": `6'1"`,
+            "position": "C",
+            "domHand": "L",
+            "weight": "199 lbs",
+            "birthPlace": "Saskatoon, SK, CAN",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+				2023: ["STL/NYR",80,24,44,68,12,4,18,0],
+				2022: ["NYR",80,24,44,68,12,4,18,0],
+				2021: ["NYR",80,24,44,68,12,4,18,0],
+				2020: ["STL",80,24,44,68,12,4,18,0],
+				2019: ["STL",80,24,44,68,12,4,18,0],
+				2018: ["STL",80,24,44,68,12,4,18,0],
+			}
+        },
+
+        {
+            "firstName": "Kevin",
+            "lastName": "Hayes",
+            "jerseyNum": 12,
+            "birthDate": "8-May-92",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/5767.png",
+            "height": `6'5"`,
+            "position": "RW",
+            "domHand": "L",
+            "weight": "216 lbs",
+            "birthPlace": "Dorcester, MA, USA",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+				2023: ["STL/NYR",80,24,44,68,12,4,18,0],
+				2022: ["NYR",80,24,44,68,12,4,18,0],
+				2021: ["NYR",80,24,44,68,12,4,18,0],
+				2020: ["STL",80,24,44,68,12,4,18,0],
+				2019: ["STL",80,24,44,68,12,4,18,0],
+				2018: ["STL",80,24,44,68,12,4,18,0],
+			}
+        },
+
+        {
+            "firstName": "Alexey",
+            "lastName": "Toropchenko",
+            "jerseyNum": 13,
+            "birthDate": "25-Jun-99",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4392454.png",
+            "height": `6'6"`,
+            "position": "RW",
+            "domHand": "L",
+            "weight": "nan",
+            "birthPlace": "Moscow, RUS",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+				2023: ["STL/NYR",80,24,44,68,12,4,18,0],
+				2022: ["NYR",80,24,44,68,12,4,18,0],
+				2021: ["NYR",80,24,44,68,12,4,18,0],
+				2020: ["STL",80,24,44,68,12,4,18,0],
+				2019: ["STL",80,24,44,68,12,4,18,0],
+				2018: ["STL",80,24,44,68,12,4,18,0],
+			}
+        },
+
+        {
+            "firstName": "Jakub",
+            "lastName": "Vrana",
+            "jerseyNum": 15,
+            "birthDate": "28-Feb-96",
+            "image": "https://a.espncdn.com/i/headshots/nhl/players/full/3114747.png",
+            "height": `6'0"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "190 lbs",
+            "birthPlace": "Prague, CZE",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+				2023: ["STL/NYR",80,24,44,68,12,4,18,0],
+				2022: ["NYR",80,24,44,68,12,4,18,0],
+				2021: ["NYR",80,24,44,68,12,4,18,0],
+				2020: ["STL",80,24,44,68,12,4,18,0],
+				2019: ["STL",80,24,44,68,12,4,18,0],
+				2018: ["STL",80,24,44,68,12,4,18,0],
+			}
+        },
+
+        {
+            "firstName": "Robert",
+            "lastName": "Thomas",
+            "jerseyNum": 18,
+            "birthDate": "2-Jul-99",
+            "image": "https://a.espncdn.com/i/headshots/nhl/players/full/4233637.png",
+            "height": `6'0"`,
+            "position": "C",
+            "domHand": "R",
+            "weight": "218 lbs",
+            "birthPlace": "Aurora, ON, CAN",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+				2023: ["STL/NYR",80,24,44,68,12,4,18,0],
+				2022: ["NYR",80,24,44,68,12,4,18,0],
+				2021: ["NYR",80,24,44,68,12,4,18,0],
+				2020: ["STL",80,24,44,68,12,4,18,0],
+				2019: ["STL",80,24,44,68,12,4,18,0],
+				2018: ["STL",80,24,44,68,12,4,18,0],
+			}
+        },
+
+        {
+            "firstName": "Brandon",
+            "lastName": "Saad",
+            "jerseyNum": 20,
+            "birthDate": "27-Oct-92",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/2563065.png",
+            "height": `6'1"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "215 lbs",
+            "birthPlace": "Pittsburgh, PA, USA",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+				2023: ["STL/NYR",80,24,44,68,12,4,18,0],
+				2022: ["NYR",80,24,44,68,12,4,18,0],
+				2021: ["NYR",80,24,44,68,12,4,18,0],
+				2020: ["STL",80,24,44,68,12,4,18,0],
+				2019: ["STL",80,24,44,68,12,4,18,0],
+				2018: ["STL",80,24,44,68,12,4,18,0],
+			}
+        },
+
+        {
+            "firstName": "Jordan",
+            "lastName": "Kyrou",
+            "jerseyNum": 25,
+            "birthDate": "5-May-98",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4062251.png",
+            "height": `6'1"`,
+            "position": "C",
+            "domHand": "R",
+            "weight": "196 lbs",
+            "birthPlace": "Toronto, ON, CAN",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+				2023: ["STL/NYR",80,24,44,68,12,4,18,0],
+				2022: ["NYR",80,24,44,68,12,4,18,0],
+				2021: ["NYR",80,24,44,68,12,4,18,0],
+				2020: ["STL",80,24,44,68,12,4,18,0],
+				2019: ["STL",80,24,44,68,12,4,18,0],
+				2018: ["STL",80,24,44,68,12,4,18,0],
+			}
+        },
+
+        {
+            "firstName": "Nathan",
+            "lastName": "Walker",
+            "jerseyNum": 26,
+            "birthDate": "7-Feb-94",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3067860.png",
+            "height": `5'9"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "187 lbs",
+            "birthPlace": "Cardiff, GBR",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+				2023: ["STL/NYR",80,24,44,68,12,4,18,0],
+				2022: ["NYR",80,24,44,68,12,4,18,0],
+				2021: ["NYR",80,24,44,68,12,4,18,0],
+				2020: ["STL",80,24,44,68,12,4,18,0],
+				2019: ["STL",80,24,44,68,12,4,18,0],
+				2018: ["STL",80,24,44,68,12,4,18,0],
+			}
+        },
+
+        {
+            "firstName": "Mackenzie",
+            "lastName": "MacEachern",
+            "jerseyNum": 28,
+            "birthDate": "9-Mar-94",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3069342.png&w=350&h=254",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "193 lbs",
+            "birthPlace": "Bloomfield Hills, MI, USA",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+				2023: ["STL/NYR",80,24,44,68,12,4,18,0],
+				2022: ["NYR",80,24,44,68,12,4,18,0],
+				2021: ["NYR",80,24,44,68,12,4,18,0],
+				2020: ["STL",80,24,44,68,12,4,18,0],
+				2019: ["STL",80,24,44,68,12,4,18,0],
+				2018: ["STL",80,24,44,68,12,4,18,0],
+			}
+        },
+
+        {
+            "firstName": "Joel",
+            "lastName": "Hofer",
+            "jerseyNum": 30,
+            "birthDate": "30-Jul-00",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4587909.png&w=350&h=254",
+            "height": `6'5"`,
+            "position": "G",
+            "domHand": "L",
+            "weight": "nan",
+            "birthPlace": "Winnipeg, MB, CAN",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+				2023: ["STL/NYR",80,24,44,68,12,4,18,0],
+				2022: ["NYR",80,24,44,68,12,4,18,0],
+				2021: ["NYR",80,24,44,68,12,4,18,0],
+				2020: ["STL",80,24,44,68,12,4,18,0],
+				2019: ["STL",80,24,44,68,12,4,18,0],
+				2018: ["STL",80,24,44,68,12,4,18,0],
+			}
+        },
+
+        {
+            "firstName": "Robert",
+            "lastName": "Bortuzzo",
+            "jerseyNum": 41,
+            "birthDate": "18-Mar-89",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4916.png",
+            "height": `6'4"`,
+            "position": "D",
+            "domHand": "R",
+            "weight": "216 lbs",
+            "birthPlace": "Thunder Bay, ON, CAN",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+				2023: ["STL/NYR",80,24,44,68,12,4,18,0],
+				2022: ["NYR",80,24,44,68,12,4,18,0],
+				2021: ["NYR",80,24,44,68,12,4,18,0],
+				2020: ["STL",80,24,44,68,12,4,18,0],
+				2019: ["STL",80,24,44,68,12,4,18,0],
+				2018: ["STL",80,24,44,68,12,4,18,0],
+			}
+        },
+
+        {
+            "firstName": "Kasperi",
+            "lastName": "Kapanen",
+            "jerseyNum": 42,
+            "birthDate": "23-Jul-96",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3114775.png",
+            "height": `6'1"`,
+            "position": "RW",
+            "domHand": "R",
+            "weight": "194 lbs",
+            "birthPlace": "Kuopio, FIN",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+				2023: ["STL/NYR",80,24,44,68,12,4,18,0],
+				2022: ["NYR",80,24,44,68,12,4,18,0],
+				2021: ["NYR",80,24,44,68,12,4,18,0],
+				2020: ["STL",80,24,44,68,12,4,18,0],
+				2019: ["STL",80,24,44,68,12,4,18,0],
+				2018: ["STL",80,24,44,68,12,4,18,0],
+			}
+        },
+
+        {
+            "firstName": "Calle",
+            "lastName": "Rosen",
+            "jerseyNum": 43,
+            "birthDate": "2-Feb-94",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4220707.png",
             "height": `6'1"`,
             "position": "D",
             "domHand": "L",
-            "weight": "204 lbs",
-            "birthPlace": "Thunder Bay, ON, CAN",
-            "bio": "-",
+            "weight": "188 lbs",
+            "birthPlace": "Vaxjo, SWE",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
-                2023: ["STL",26, 1, 3, 4, -9, 31, "?", "?"],
-            }
+            "careerStats": {
+				2023: ["STL/NYR",80,24,44,68,12,4,18,0],
+				2022: ["NYR",80,24,44,68,12,4,18,0],
+				2021: ["NYR",80,24,44,68,12,4,18,0],
+				2020: ["STL",80,24,44,68,12,4,18,0],
+				2019: ["STL",80,24,44,68,12,4,18,0],
+				2018: ["STL",80,24,44,68,12,4,18,0],
+			}
         },
+
+        {
+            "firstName": "Torey",
+            "lastName": "Krug",
+            "jerseyNum": 47,
+            "birthDate": "12-Apr-91",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/2952729.png",
+            "height": `5'9"`,
+            "position": "D",
+            "domHand": "L",
+            "weight": "194 lbs",
+            "birthPlace": "Livonia, MI, USA",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+				2023: ["STL/NYR",80,24,44,68,12,4,18,0],
+				2022: ["NYR",80,24,44,68,12,4,18,0],
+				2021: ["NYR",80,24,44,68,12,4,18,0],
+				2020: ["STL",80,24,44,68,12,4,18,0],
+				2019: ["STL",80,24,44,68,12,4,18,0],
+				2018: ["STL",80,24,44,68,12,4,18,0],
+			}
+        },
+
+        {
+            "firstName": "Scott",
+            "lastName": "Perunovich",
+            "jerseyNum": 48,
+            "birthDate": "18-Aug-98",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4320665.png",
+            "height": `5'10"`,
+            "position": "D",
+            "domHand": "L",
+            "weight": "nan",
+            "birthPlace": "Hibbing, MN, USA",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+				2023: ["STL/NYR",80,24,44,68,12,4,18,0],
+				2022: ["NYR",80,24,44,68,12,4,18,0],
+				2021: ["NYR",80,24,44,68,12,4,18,0],
+				2020: ["STL",80,24,44,68,12,4,18,0],
+				2019: ["STL",80,24,44,68,12,4,18,0],
+				2018: ["STL",80,24,44,68,12,4,18,0],
+			}
+        },
+
         {
             "firstName": "Jordan",
             "lastName": "Binnington",
             "jerseyNum": 50,
-            "birthDate": "July 11, 1993",
+            "birthDate": "11-Jul-93",
             "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/2590874.png",
             "height": `6'2"`,
             "position": "G",
-            "domHand": "N/A",
+            "domHand": "L",
             "weight": "172 lbs",
             "birthPlace": "Richmond Hill, ON, CAN",
-            "bio": "-",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
-                2023: ["STL",61, 27, 27, 6, 0.894, 3.31, "?", "?"],
-            }
+            "careerStats": {
+				2023: ["STL/NYR",80,24,44,68,12,4,18,0],
+				2022: ["NYR",80,24,44,68,12,4,18,0],
+				2021: ["NYR",80,24,44,68,12,4,18,0],
+				2020: ["STL",80,24,44,68,12,4,18,0],
+				2019: ["STL",80,24,44,68,12,4,18,0],
+				2018: ["STL",80,24,44,68,12,4,18,0],
+			}
         },
+
         {
-            "firstName": "Joel",
-            "lastName": "Hofer",
-            "jerseyNum": 1,
-            "birthDate": "July 30, 2000",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4587909.png&w=350&h=254",
-            "height": `6'5"`,
-            "position": "G",
-            "domHand": "N/A",
-            "weight": "179 lbs",
-            "birthPlace": "Winnipeg, MB, CAN",
-            "bio": "-",
+            "firstName": "Colton",
+            "lastName": "Parayko",
+            "jerseyNum": 55,
+            "birthDate": "12-Jun-93",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3069341.png",
+            "height": `6'6"`,
+            "position": "D",
+            "domHand": "R",
+            "weight": "228 lbs",
+            "birthPlace": "St. Albert, AB, CAN",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
-                2023: ["STL",6, 3, 1, 1, 0.905, 3.22, "?", "?"],
-            }
+            "careerStats": {
+				2023: ["STL/NYR",80,24,44,68,12,4,18,0],
+				2022: ["NYR",80,24,44,68,12,4,18,0],
+				2021: ["NYR",80,24,44,68,12,4,18,0],
+				2020: ["STL",80,24,44,68,12,4,18,0],
+				2019: ["STL",80,24,44,68,12,4,18,0],
+				2018: ["STL",80,24,44,68,12,4,18,0],
+			}
         },
+
+        {
+            "firstName": "Nikita",
+            "lastName": "Alexandrov",
+            "jerseyNum": 59,
+            "birthDate": "16-Sep-00",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4565284.png&w=350&h=254",
+            "height": `6'1"`,
+            "position": "C",
+            "domHand": "L",
+            "weight": "nan",
+            "birthPlace": "Burgwedel, DEU",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+				2023: ["STL/NYR",80,24,44,68,12,4,18,0],
+				2022: ["NYR",80,24,44,68,12,4,18,0],
+				2021: ["NYR",80,24,44,68,12,4,18,0],
+				2020: ["STL",80,24,44,68,12,4,18,0],
+				2019: ["STL",80,24,44,68,12,4,18,0],
+				2018: ["STL",80,24,44,68,12,4,18,0],
+			}
+        },
+
+        {
+            "firstName": "Jake",
+            "lastName": "Neighbours",
+            "jerseyNum": 63,
+            "birthDate": "9-Jun-02",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4697409.png",
+            "height": `6'0"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "201 lbs",
+            "birthPlace": "Calgary, AB, CAN",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+				2023: ["STL/NYR",80,24,44,68,12,4,18,0],
+				2022: ["NYR",80,24,44,68,12,4,18,0],
+				2021: ["NYR",80,24,44,68,12,4,18,0],
+				2020: ["STL",80,24,44,68,12,4,18,0],
+				2019: ["STL",80,24,44,68,12,4,18,0],
+				2018: ["STL",80,24,44,68,12,4,18,0],
+			}
+        },
+
+        {
+            "firstName": "Oskar",
+            "lastName": "Sundqvist",
+            "jerseyNum": 70,
+            "birthDate": "23-Sep-94",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3069277.png",
+            "height": `6'3"`,
+            "position": "C",
+            "domHand": "R",
+            "weight": "nan",
+            "birthPlace": "Boden, SWE",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+				2023: ["STL/NYR",80,24,44,68,12,4,18,0],
+				2022: ["NYR",80,24,44,68,12,4,18,0],
+				2021: ["NYR",80,24,44,68,12,4,18,0],
+				2020: ["STL",80,24,44,68,12,4,18,0],
+				2019: ["STL",80,24,44,68,12,4,18,0],
+				2018: ["STL",80,24,44,68,12,4,18,0],
+			}
+        },
+
+        {
+            "firstName": "Justin",
+            "lastName": "Faulk",
+            "jerseyNum": 72,
+            "birthDate": "20-Mar-92",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/5746.png&w=350&h=254",
+            "height": `6'0"`,
+            "position": "D",
+            "domHand": "R",
+            "weight": "214 lbs",
+            "birthPlace": "South St. Paul, MN, USA",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+				2023: ["STL/NYR",80,24,44,68,12,4,18,0],
+				2022: ["NYR",80,24,44,68,12,4,18,0],
+				2021: ["NYR",80,24,44,68,12,4,18,0],
+				2020: ["STL",80,24,44,68,12,4,18,0],
+				2019: ["STL",80,24,44,68,12,4,18,0],
+				2018: ["STL",80,24,44,68,12,4,18,0],
+			}
+        },
+
+        {
+            "firstName": "Tyler",
+            "lastName": "Tucker",
+            "jerseyNum": 75,
+            "birthDate": "1-Mar-00",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4587904.png&w=350&h=254",
+            "height": `6'1"`,
+            "position": "D",
+            "domHand": "L",
+            "weight": "nan",
+            "birthPlace": "Thunder Bay, ON, CAN",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+				2023: ["STL/NYR",80,24,44,68,12,4,18,0],
+				2022: ["NYR",80,24,44,68,12,4,18,0],
+				2021: ["NYR",80,24,44,68,12,4,18,0],
+				2020: ["STL",80,24,44,68,12,4,18,0],
+				2019: ["STL",80,24,44,68,12,4,18,0],
+				2018: ["STL",80,24,44,68,12,4,18,0],
+			}
+        },
+
+        {
+            "firstName": "Sammy",
+            "lastName": "Blais",
+            "jerseyNum": 79,
+            "birthDate": "17-Jan-99",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "206 lbs",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+				2023: ["STL/NYR",80,24,44,68,12,4,18,0],
+				2022: ["NYR",80,24,44,68,12,4,18,0],
+				2021: ["NYR",80,24,44,68,12,4,18,0],
+				2020: ["STL",80,24,44,68,12,4,18,0],
+				2019: ["STL",80,24,44,68,12,4,18,0],
+				2018: ["STL",80,24,44,68,12,4,18,0],
+			}
+        },
+
+        {
+            "firstName": "Pavel",
+            "lastName": "Buchnevich",
+            "jerseyNum": 89,
+            "birthDate": "17-Apr-95",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3042081.png&w=350&h=254",
+            "height": `6'1"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "196 lbs",
+            "birthPlace": "Cherepovets, RUS",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+				2023: ["STL/NYR",80,24,44,68,12,4,18,0],
+				2022: ["NYR",80,24,44,68,12,4,18,0],
+				2021: ["NYR",80,24,44,68,12,4,18,0],
+				2020: ["STL",80,24,44,68,12,4,18,0],
+				2019: ["STL",80,24,44,68,12,4,18,0],
+				2018: ["STL",80,24,44,68,12,4,18,0],
+			}
+        },
+
+        
     ],
 
     "MLB": [
+{
+            "firstName": "Jacob",
+            "lastName": "Barnes",
+            "jerseyNum": 61,
+            "birthDate": "14-Apr-90",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "RP",
+            "domHand": "R/R",
+            "weight": "231 lbs",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
         {
             "firstName": "Giovanny",
             "lastName": "Gallegos",
             "jerseyNum": 65,
-            "birthDate": "",
-            "image": "",
+            "birthDate": "14-Aug-91",
+            "image": "xxxxx",
             "height": `6'2"`,
             "position": "RP",
             "domHand": "R/R",
             "weight": "215 lbs",
-            "birthPlace": "Obregon, MEX",
-            "bio": "",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
+            "careerStats": {
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }, 
+        },
+
+        {
+            "firstName": "Ryan",
+            "lastName": "Helsley",
+            "jerseyNum": 56,
+            "birthDate": "18-Jul-94",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "RP",
+            "domHand": "R/R",
+            "weight": "230 lbs",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
         {
             "firstName": "Dakota",
             "lastName": "Hudson",
             "jerseyNum": 43,
-            "birthDate": "",
-            "image": "",
+            "birthDate": "15-Sep-94",
+            "image": "xxxxx",
             "height": `6'5"`,
             "position": "SP",
             "domHand": "R/R",
             "weight": "215 lbs",
-            "birthPlace": "Dunlap, TN",
-            "bio": "",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
+            "careerStats": {
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }, 
+        },
+
         {
             "firstName": "John",
             "lastName": "King",
             "jerseyNum": 47,
-            "birthDate": "",
-            "image": "",
+            "birthDate": "14-Sep-94",
+            "image": "xxxxx",
             "height": `6'2"`,
             "position": "RP",
             "domHand": "L/L",
             "weight": "215 lbs",
-            "birthPlace": "Laredo, TX",
-            "bio": "",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
+            "careerStats": {
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }, 
+        },
+
         {
-            "firstName": "Kyle",
-            "lastName": "Leahy",
-            "jerseyNum": 64,
-            "birthDate": "",
-            "image": "",
-            "height": `6'5"`,
+            "firstName": "Casey",
+            "lastName": "Lawrence",
+            "jerseyNum": 72,
+            "birthDate": "28-Oct-87",
+            "image": "xxxxx",
+            "height": `6'0"`,
             "position": "RP",
-            "domHand": "S/R",
-            "weight": "200 lbs",
-            "birthPlace": "Boulder, CO",
-            "bio": "",
+            "domHand": "R/R",
+            "weight": "180 lbs",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
+            "careerStats": {
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }, 
+        },
+
         {
             "firstName": "Matthew",
             "lastName": "Liberatore",
             "jerseyNum": 52,
-            "birthDate": "",
-            "image": "",
+            "birthDate": "6-Nov-99",
+            "image": "xxxxx",
             "height": `6'4"`,
-            "position": "SP",
+            "position": "RP",
             "domHand": "L/L",
             "weight": "200 lbs",
-            "birthPlace": "Peoria, AZ",
-            "bio": "",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
+            "careerStats": {
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }, 
+        },
+
         {
-            "firstName": "",
-            "lastName": "",
-            "jerseyNum": 0,
-            "birthDate": "",
-            "image": "",
-            "height": ``,
-            "position": "",
-            "domHand": "",
-            "weight": "",
-            "birthPlace": "",
-            "bio": "",
+            "firstName": "Miles",
+            "lastName": "Mikolas",
+            "jerseyNum": 39,
+            "birthDate": "23-Aug-88",
+            "image": "xxxxx",
+            "height": `6'4"`,
+            "position": "SP",
+            "domHand": "R/R",
+            "weight": "230 lbs",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
+            "careerStats": {
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }, 
+        },
+
         {
-            "firstName": "",
-            "lastName": "",
-            "jerseyNum": 0,
-            "birthDate": "",
-            "image": "",
-            "height": ``,
-            "position": "",
-            "domHand": "",
-            "weight": "",
-            "birthPlace": "",
-            "bio": "",
+            "firstName": "Andre",
+            "lastName": "Pallante",
+            "jerseyNum": 53,
+            "birthDate": "18-Sep-98",
+            "image": "xxxxx",
+            "height": `6'0"`,
+            "position": "RP",
+            "domHand": "R/R",
+            "weight": "203 lbs",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
+            "careerStats": {
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }, 
+        },
+
         {
-            "firstName": "",
-            "lastName": "",
-            "jerseyNum": 0,
-            "birthDate": "",
-            "image": "",
-            "height": ``,
-            "position": "",
-            "domHand": "",
-            "weight": "",
-            "birthPlace": "",
-            "bio": "",
+            "firstName": "Drew",
+            "lastName": "Rom",
+            "jerseyNum": 38,
+            "birthDate": "15-Dec-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "SP",
+            "domHand": "L/L",
+            "weight": "215 lbs",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
+            "careerStats": {
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }, 
+        },
+
         {
-            "firstName": "",
-            "lastName": "",
-            "jerseyNum": 0,
-            "birthDate": "",
-            "image": "",
-            "height": ``,
-            "position": "",
-            "domHand": "",
-            "weight": "",
-            "birthPlace": "",
-            "bio": "",
+            "firstName": "Andrew",
+            "lastName": "Suarez",
+            "jerseyNum": 31,
+            "birthDate": "11-Sep-92",
+            "image": "xxxxx",
+            "height": `6'0"`,
+            "position": "RP",
+            "domHand": "L/L",
+            "weight": "202 lbs",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
+            "careerStats": {
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }, 
+        },
+
         {
-            "firstName": "",
-            "lastName": "",
-            "jerseyNum": 0,
-            "birthDate": "",
-            "image": "",
-            "height": ``,
-            "position": "",
-            "domHand": "",
-            "weight": "",
-            "birthPlace": "",
-            "bio": "",
+            "firstName": "Zack",
+            "lastName": "Thompson",
+            "jerseyNum": 57,
+            "birthDate": "28-Oct-97",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "SP",
+            "domHand": "L/L",
+            "weight": "215 lbs",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
+            "careerStats": {
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }, 
+        },
+
         {
-            "firstName": "",
-            "lastName": "",
-            "jerseyNum": 0,
-            "birthDate": "",
-            "image": "",
-            "height": ``,
-            "position": "",
-            "domHand": "",
-            "weight": "",
-            "birthPlace": "",
-            "bio": "",
+            "firstName": "Drew",
+            "lastName": "VerHagen",
+            "jerseyNum": 34,
+            "birthDate": "22-Oct-90",
+            "image": "xxxxx",
+            "height": `6'6"`,
+            "position": "RP",
+            "domHand": "R/R",
+            "weight": "230 lbs",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
+            "careerStats": {
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }, 
+        },
+
         {
-            "firstName": "",
-            "lastName": "",
-            "jerseyNum": 0,
-            "birthDate": "",
-            "image": "",
-            "height": ``,
-            "position": "",
-            "domHand": "",
-            "weight": "",
-            "birthPlace": "",
-            "bio": "",
+            "firstName": "Adam",
+            "lastName": "Wainwright",
+            "jerseyNum": 50,
+            "birthDate": "30-Aug-81",
+            "image": "xxxxx",
+            "height": `6'7"`,
+            "position": "SP",
+            "domHand": "R/R",
+            "weight": "230 lbs",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
+            "careerStats": {
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }, 
+        },
+
         {
-            "firstName": "",
-            "lastName": "",
-            "jerseyNum": 0,
-            "birthDate": "",
-            "image": "",
-            "height": ``,
-            "position": "",
-            "domHand": "",
-            "weight": "",
-            "birthPlace": "",
-            "bio": "",
+            "firstName": "Willson",
+            "lastName": "Contreras",
+            "jerseyNum": 40,
+            "birthDate": "13-May-92",
+            "image": "xxxxx",
+            "height": `6'1"`,
+            "position": "C",
+            "domHand": "R/R",
+            "weight": "225 lbs",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
+            "careerStats": {
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }, 
+        },
+
         {
-            "firstName": "",
-            "lastName": "",
-            "jerseyNum": 0,
-            "birthDate": "",
-            "image": "",
-            "height": ``,
-            "position": "",
-            "domHand": "",
-            "weight": "",
-            "birthPlace": "",
-            "bio": "",
+            "firstName": "Andrew",
+            "lastName": "Knizner",
+            "jerseyNum": 7,
+            "birthDate": "3-Feb-95",
+            "image": "xxxxx",
+            "height": `6'1"`,
+            "position": "C",
+            "domHand": "R/R",
+            "weight": "225 lbs",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
+            "careerStats": {
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }, 
+        },
+
         {
-            "firstName": "",
-            "lastName": "",
-            "jerseyNum": 0,
-            "birthDate": "",
-            "image": "",
-            "height": ``,
-            "position": "",
-            "domHand": "",
-            "weight": "",
-            "birthPlace": "",
-            "bio": "",
+            "firstName": "Nolan",
+            "lastName": "Arenado",
+            "jerseyNum": 28,
+            "birthDate": "16-Apr-91",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "3B",
+            "domHand": "R/R",
+            "weight": "215 lbs",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
+            "careerStats": {
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }, 
+        },
+
         {
-            "firstName": "",
-            "lastName": "",
-            "jerseyNum": 0,
-            "birthDate": "",
-            "image": "",
-            "height": ``,
-            "position": "",
-            "domHand": "",
-            "weight": "",
-            "birthPlace": "",
-            "bio": "",
+            "firstName": "Luken",
+            "lastName": "Baker",
+            "jerseyNum": 26,
+            "birthDate": "10-Mar-97",
+            "image": "xxxxx",
+            "height": `6'4"`,
+            "position": "2B",
+            "domHand": "R/R",
+            "weight": "280 lbs",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
+            "careerStats": {
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }, 
+        },
+
         {
-            "firstName": "",
-            "lastName": "",
-            "jerseyNum": 0,
-            "birthDate": "",
-            "image": "",
-            "height": ``,
-            "position": "",
-            "domHand": "",
-            "weight": "",
-            "birthPlace": "",
-            "bio": "",
+            "firstName": "Tommy",
+            "lastName": "Edman",
+            "jerseyNum": 19,
+            "birthDate": "9-May-95",
+            "image": "xxxxx",
+            "height": `5'10"`,
+            "position": "SS",
+            "domHand": "S/R",
+            "weight": "180 lbs",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
+            "careerStats": {
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }, 
+        },
+
         {
-            "firstName": "",
-            "lastName": "",
-            "jerseyNum": 0,
-            "birthDate": "",
-            "image": "",
-            "height": ``,
-            "position": "",
-            "domHand": "",
-            "weight": "",
-            "birthPlace": "",
-            "bio": "",
+            "firstName": "Jose",
+            "lastName": "Fermin",
+            "jerseyNum": 35,
+            "birthDate": "29-Mar-99",
+            "image": "xxxxx",
+            "height": `5'9"`,
+            "position": "2B",
+            "domHand": "R/R",
+            "weight": "200 lbs",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
+            "careerStats": {
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }, 
+        },
+
         {
-            "firstName": "",
-            "lastName": "",
-            "jerseyNum": 0,
-            "birthDate": "",
-            "image": "",
-            "height": ``,
-            "position": "",
-            "domHand": "",
-            "weight": "",
-            "birthPlace": "",
-            "bio": "",
+            "firstName": "Paul",
+            "lastName": "Goldschmidt",
+            "jerseyNum": 46,
+            "birthDate": "10-Sep-87",
+            "image": "xxxxx",
+            "height": `6'3"`,
+            "position": "1B",
+            "domHand": "R/R",
+            "weight": "220 lbs",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
+            "careerStats": {
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }, 
+        },
+
         {
-            "firstName": "",
-            "lastName": "",
-            "jerseyNum": 0,
-            "birthDate": "",
-            "image": "",
-            "height": ``,
-            "position": "",
-            "domHand": "",
-            "weight": "",
-            "birthPlace": "",
-            "bio": "",
+            "firstName": "Juniel",
+            "lastName": "Querecuto",
+            "jerseyNum": 62,
+            "birthDate": "19-Sep-92",
+            "image": "xxxxx",
+            "height": `5'9"`,
+            "position": "2B",
+            "domHand": "S/R",
+            "weight": "195 lbs",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
+            "careerStats": {
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }, 
+        },
+
         {
-            "firstName": "",
-            "lastName": "",
+            "firstName": "Masyn",
+            "lastName": "Wynn",
             "jerseyNum": 0,
-            "birthDate": "",
-            "image": "",
-            "height": ``,
-            "position": "",
-            "domHand": "",
-            "weight": "",
-            "birthPlace": "",
-            "bio": "",
+            "birthDate": "21-Mar-02",
+            "image": "xxxxx",
+            "height": `5'11"`,
+            "position": "SS",
+            "domHand": "R/R",
+            "weight": "180 lbs",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
+            "careerStats": {
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }, 
+        },
+
         {
-            "firstName": "",
-            "lastName": "",
-            "jerseyNum": 0,
-            "birthDate": "",
-            "image": "",
-            "height": ``,
-            "position": "",
-            "domHand": "",
-            "weight": "",
-            "birthPlace": "",
-            "bio": "",
+            "firstName": "Alec",
+            "lastName": "Burleson",
+            "jerseyNum": 41,
+            "birthDate": "25-Nov-98",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "RF",
+            "domHand": "L/L",
+            "weight": "212 lbs",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
+            "careerStats": {
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }, 
+        },
+
         {
-            "firstName": "",
-            "lastName": "",
-            "jerseyNum": 0,
-            "birthDate": "",
-            "image": "",
-            "height": ``,
-            "position": "",
-            "domHand": "",
-            "weight": "",
-            "birthPlace": "",
-            "bio": "",
+            "firstName": "Lars",
+            "lastName": "Nootbaar",
+            "jerseyNum": 21,
+            "birthDate": "8-Sep-97",
+            "image": "xxxxx",
+            "height": `6'3"`,
+            "position": "LF",
+            "domHand": "L/R",
+            "weight": "210 lbs",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
+            "careerStats": {
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }, 
+        },
+
         {
-            "firstName": "",
-            "lastName": "",
-            "jerseyNum": 0,
-            "birthDate": "",
-            "image": "",
-            "height": ``,
-            "position": "",
-            "domHand": "",
-            "weight": "",
-            "birthPlace": "",
-            "bio": "",
+            "firstName": "Richie",
+            "lastName": "Palacios",
+            "jerseyNum": 67,
+            "birthDate": "16-May-97",
+            "image": "xxxxx",
+            "height": `5'10"`,
+            "position": "CF",
+            "domHand": "L/R",
+            "weight": "180 lbs",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
+            "careerStats": {
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }, 
+        },
+
         {
-            "firstName": "",
-            "lastName": "",
-            "jerseyNum": 0,
-            "birthDate": "",
-            "image": "",
-            "height": ``,
-            "position": "",
-            "domHand": "",
-            "weight": "",
-            "birthPlace": "",
-            "bio": "",
+            "firstName": "Jordan",
+            "lastName": "Walker",
+            "jerseyNum": 18,
+            "birthDate": "22-May-02",
+            "image": "xxxxx",
+            "height": `6'6"`,
+            "position": "RF",
+            "domHand": "R/R",
+            "weight": "245 lbs",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
+            "careerStats": {
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }, 
+        },
+
+        {
+            "firstName": "Juan",
+            "lastName": "Yepez",
+            "jerseyNum": 13,
+            "birthDate": "19-Feb-98",
+            "image": "xxxxx",
+            "height": `6'1"`,
+            "position": "RF",
+            "domHand": "R/R",
+            "weight": "200 lbs",
+            "birthPlace": "Montmagny, QC, CAN",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        
     ],
 
     "MLS": [
-        {
-            "firstName": "",
-            "lastName": "",
-            "jerseyNum": 0,
-            "birthDate": "",
-            "image": "",
-            "height": ``,
-            "position": "",
-            "domHand": "",
-            "weight": "",
-            "birthPlace": "",
-            "bio": "",
+{
+            "firstName": "Samuel",
+            "lastName": "Adeniran",
+            "jerseyNum": 16,
+            "birthDate": "30-Sep-98",
+            "image": "xxxxx",
+            "height": `6'5"`,
+            "position": "FWD",
+            "domHand": "L",
+            "weight": "201 lbs",
+            "birthPlace": "Houston, TX, USA",
+            "bio": "BIO",
             "contractStructure": {
-                2023: 1_000_000
+                 
             },
-            "careerStats": { // Year season ended (2022-23 = 2023)
+            "careerStats": {
                 2023: ["STL",0,0,0,0,0,0,0,0]
             }
-        }
+        },
+
+        {
+            "firstName": "Rasmus",
+            "lastName": "Alm",
+            "jerseyNum": 21,
+            "birthDate": "17-Aug-95",
+            "image": "xxxxx",
+            "height": `5'9"`,
+            "position": "MID",
+            "domHand": "R",
+            "weight": "154 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "Lucas",
+            "lastName": "Bartlett",
+            "jerseyNum": 24,
+            "birthDate": "26-Jul-97",
+            "image": "xxxxx",
+            "height": `6'3"`,
+            "position": "DEF",
+            "domHand": "nan",
+            "weight": "201 lbs",
+            "birthPlace": "Kansas City, MO, USA",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "Jonathan",
+            "lastName": "Bell",
+            "jerseyNum": 23,
+            "birthDate": "26-Aug-97",
+            "image": "xxxxx",
+            "height": `5'11"`,
+            "position": "DEF",
+            "domHand": "nan",
+            "weight": "165 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "Njabulo",
+            "lastName": "Blom",
+            "jerseyNum": 6,
+            "birthDate": "21-Jan-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "210 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "Roman",
+            "lastName": "B\u00FCrki",
+            "jerseyNum": 1,
+            "birthDate": "22-Jan-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "211 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "Michael",
+            "lastName": "Creek",
+            "jerseyNum": 31,
+            "birthDate": "23-Jan-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "212 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "Nicholas",
+            "lastName": "Gioacchini",
+            "jerseyNum": 11,
+            "birthDate": "24-Jan-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "213 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "Caden",
+            "lastName": "Glover",
+            "jerseyNum": 46,
+            "birthDate": "25-Jan-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "214 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "Kyle",
+            "lastName": "Hiebert",
+            "jerseyNum": 22,
+            "birthDate": "26-Jan-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "215 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "Aziel",
+            "lastName": "Jackson",
+            "jerseyNum": 25,
+            "birthDate": "27-Jan-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "216 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "Isak",
+            "lastName": "Jensen",
+            "jerseyNum": 30,
+            "birthDate": "28-Jan-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "217 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "Ben",
+            "lastName": "Lundt",
+            "jerseyNum": 39,
+            "birthDate": "29-Jan-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "218 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "Eduard",
+            "lastName": "L\u00F6wen",
+            "jerseyNum": 10,
+            "birthDate": "30-Jan-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "219 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "Anthony",
+            "lastName": "Markanich",
+            "jerseyNum": 13,
+            "birthDate": "31-Jan-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "220 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "John",
+            "lastName": "Nelson",
+            "jerseyNum": 14,
+            "birthDate": "1-Feb-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "221 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "Jake",
+            "lastName": "Nerwinski",
+            "jerseyNum": 2,
+            "birthDate": "2-Feb-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "222 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "Joakim",
+            "lastName": "Nilsson",
+            "jerseyNum": 33,
+            "birthDate": "3-Feb-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "223 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "Owen",
+            "lastName": "O'Malley",
+            "jerseyNum": 18,
+            "birthDate": "4-Feb-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "224 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "Tomas",
+            "lastName": "Ostrak",
+            "jerseyNum": 7,
+            "birthDate": "5-Feb-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "225 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "Tim",
+            "lastName": "Parker",
+            "jerseyNum": 26,
+            "birthDate": "6-Feb-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "226 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "Miguel",
+            "lastName": "Perez",
+            "jerseyNum": 28,
+            "birthDate": "7-Feb-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "227 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "Selmir",
+            "lastName": "Pidro",
+            "jerseyNum": 17,
+            "birthDate": "8-Feb-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "228 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "C\u00E9lio",
+            "lastName": "Pompeu",
+            "jerseyNum": 12,
+            "birthDate": "9-Feb-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "229 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "Jared",
+            "lastName": "Stroud",
+            "jerseyNum": 8,
+            "birthDate": "10-Feb-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "230 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "Nokkvi",
+            "lastName": "Thorisson",
+            "jerseyNum": 29,
+            "birthDate": "11-Feb-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "231 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "Indiana",
+            "lastName": "Vassilev",
+            "jerseyNum": 19,
+            "birthDate": "12-Feb-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "232 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "Akil",
+            "lastName": "Watts",
+            "jerseyNum": 20,
+            "birthDate": "13-Feb-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "233 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "Joshua",
+            "lastName": "Yaro",
+            "jerseyNum": 15,
+            "birthDate": "14-Feb-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "234 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        {
+            "firstName": "Jo\u00E3o",
+            "lastName": "Klauss",
+            "jerseyNum": 9,
+            "birthDate": "15-Feb-99",
+            "image": "xxxxx",
+            "height": `6'2"`,
+            "position": "LW",
+            "domHand": "L",
+            "weight": "235 lbs",
+            "birthPlace": " ",
+            "bio": "BIO",
+            "contractStructure": {
+                 
+            },
+            "careerStats": {
+                2023: ["STL",0,0,0,0,0,0,0,0]
+            }
+        },
+
+        
     ],
 
     "XFL": [
@@ -6078,6 +6917,7 @@ let curYear = 2023
 
 function getRoster(sport) {
     let playerCt = rosterData[sport].length
+    console.log(playerCt)
     // console.log(playerCt)
     for (i = 0; i < playerCt; i++) {
         let player = rosterData[sport][i]
@@ -6093,7 +6933,7 @@ function getRoster(sport) {
             sportList = sport
         }
 
-        for (val = 0; val < statsData.majorStats[sportList].length; val++) {
+        for (val = 0; val < statsData.majorStats[sportList].length; val++) {            
             statsItems += `
             <div>
                 <h5>${statsData.majorStats[sportList][val]}</h5>
@@ -6140,22 +6980,6 @@ function getRoster(sport) {
         rosterBox.innerHTML += text
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -1,30 +1,30 @@
 First Name,Last Name,Jersey #,Birthdate,Image URL,Height,Position,Hand,Weight,Birthplace,Bio,Contract Structure,Career Statistics
-Nick,Leddy,4,20-Mar-91,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/5447.png,"6'0""",D,L,205 lbs,"Eden Prairie, MN, USA",BIO,Ð, NONE
-Marco,Scandella,6,23-Feb-90,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/5218.png,"6'3""",D,L,212 lbs,"Montreal, QC, CAN",BIO,Ð, NONE
-Brayden,Schenn,10,22-Aug-91,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/5219.png&w=350&h=254,"6'1""",C,L,199 lbs,"Saskatoon, SK, CAN",BIO,Ð, NONE
-Kevin,Hayes,12,8-May-92,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/5767.png,"6'5""",RW,L,216 lbs,"Dorcester, MA, USA",BIO,Ð, NONE
-Alexey ,Toropchenko,13,25-Jun-99,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4392454.png,"6'6""",RW,L,Ð,"Moscow, RUS",BIO,Ð, NONE
-Jakub,Vrana,15,28-Feb-96,https://a.espncdn.com/i/headshots/nhl/players/full/3114747.png,"6'0""",LW,L,190 lbs,"Prague, CZE",BIO,Ð, NONE
-Robert,Thomas,18,2-Jul-99,https://a.espncdn.com/i/headshots/nhl/players/full/4233637.png,"6'0""",C,R,218 lbs,"Aurora, ON, CAN",BIO,Ð, NONE
-Brandon,Saad,20,27-Oct-92,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/2563065.png,"6'1""",LW,L,215 lbs,"Pittsburgh, PA, USA",BIO,Ð, NONE
-Jordan,Kyrou,25,5-May-98,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4062251.png,"6'1""",C,R,196 lbs,"Toronto, ON, CAN",BIO,Ð, NONE
-Nathan,Walker,26,7-Feb-94,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3067860.png,"5'9""",LW,L,187 lbs,"Cardiff, GBR",BIO,Ð, NONE
-Mackenzie,MacEachern,28,9-Mar-94,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3069342.png&w=350&h=254,"6'2""",LW,L,193 lbs,"Bloomfield Hills, MI, USA",BIO,Ð, NONE
-Joel,Hofer,30,30-Jul-00,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4587909.png&w=350&h=254,"6'5""",G,L,Ð,"Winnipeg, MB, CAN",BIO,Ð, NONE
-Robert,Bortuzzo,41,18-Mar-89,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4916.png,"6'4""",D,R,216 lbs,"Thunder Bay, ON, CAN",BIO,Ð, NONE
-Kasperi,Kapanen,42,23-Jul-96,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3114775.png,"6'1""",RW,R,194 lbs,"Kuopio, FIN",BIO,Ð, NONE
-Calle,Rosen,43,2-Feb-94,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4220707.png,"6'1""",D,L,188 lbs,"Vaxjo, SWE",BIO,Ð, NONE
-Torey ,Krug,47,12-Apr-91,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/2952729.png,"5'9""",D,L,194 lbs,"Livonia, MI, USA",BIO,Ð, NONE
-Scott,Perunovich,48,18-Aug-98,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4320665.png,"5'10""",D,L,Ð,"Hibbing, MN, USA",BIO,Ð, NONE
-Jordan,Binnington,50,11-Jul-93,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/2590874.png,"6'2""",G,L,172 lbs,"Richmond Hill, ON, CAN",BIO,Ð, NONE
-Colton,Parayko,55,12-Jun-93,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3069341.png,"6'6""",D,R,228 lbs,"St. Albert, AB, CAN",BIO,Ð, NONE
-Nikita,Alexandrov,59,16-Sep-00,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4565284.png&w=350&h=254,"6'1""",C,L,Ð,"Burgwedel, DEU",BIO,Ð, NONE
-Jake,Neighbours,63,9-Jun-02,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4697409.png,"6'0""",LW,L,201 lbs,"Calgary, AB, CAN",BIO,Ð, NONE
-Oskar,Sundqvist,70,23-Sep-94,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3069277.png,"6'3""",C,R,Ð,"Boden, SWE",BIO,Ð, NONE
-Justin,Faulk,72,20-Mar-92,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/5746.png&w=350&h=254,"6'0""",D,R,214 lbs,"South St. Paul, MN, USA",BIO,Ð, NONE
-Tyler,Tucker,75,1-Mar-00,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4587904.png&w=350&h=254,"6'1""",D,L,Ð,"Thunder Bay, ON, CAN",BIO,Ð, NONE
-Sammy,Blais,79,17-Jan-99,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254,"6'2""",LW,L,206 lbs,"Montmagny, QC, CAN",BIO,Ð, NONE
-Pavel,Buchnevich,89,17-Apr-95,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3042081.png&w=350&h=254,"6'1""",LW,L,196 lbs,"Cherepovets, RUS",BIO,Ð, NONE
+Nick,Leddy,4,20-Mar-91,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/5447.png,"6'0""",D,L,205 lbs,"Eden Prairie, MN, USA",BIO, , NONE
+Marco,Scandella,6,23-Feb-90,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/5218.png,"6'3""",D,L,212 lbs,"Montreal, QC, CAN",BIO, , NONE
+Brayden,Schenn,10,22-Aug-91,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/5219.png&w=350&h=254,"6'1""",C,L,199 lbs,"Saskatoon, SK, CAN",BIO, , NONE
+Kevin,Hayes,12,8-May-92,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/5767.png,"6'5""",RW,L,216 lbs,"Dorcester, MA, USA",BIO, , NONE
+Alexey,Toropchenko,13,25-Jun-99,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4392454.png,"6'6""",RW,L,,"Moscow, RUS",BIO, , NONE
+Jakub,Vrana,15,28-Feb-96,https://a.espncdn.com/i/headshots/nhl/players/full/3114747.png,"6'0""",LW,L,190 lbs,"Prague, CZE",BIO, , NONE
+Robert,Thomas,18,2-Jul-99,https://a.espncdn.com/i/headshots/nhl/players/full/4233637.png,"6'0""",C,R,218 lbs,"Aurora, ON, CAN",BIO, , NONE
+Brandon,Saad,20,27-Oct-92,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/2563065.png,"6'1""",LW,L,215 lbs,"Pittsburgh, PA, USA",BIO, , NONE
+Jordan,Kyrou,25,5-May-98,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4062251.png,"6'1""",C,R,196 lbs,"Toronto, ON, CAN",BIO, , NONE
+Nathan,Walker,26,7-Feb-94,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3067860.png,"5'9""",LW,L,187 lbs,"Cardiff, GBR",BIO, , NONE
+Mackenzie,MacEachern,28,9-Mar-94,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3069342.png&w=350&h=254,"6'2""",LW,L,193 lbs,"Bloomfield Hills, MI, USA",BIO, , NONE
+Joel,Hofer,30,30-Jul-00,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4587909.png&w=350&h=254,"6'5""",G,L,,"Winnipeg, MB, CAN",BIO, , NONE
+Robert,Bortuzzo,41,18-Mar-89,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4916.png,"6'4""",D,R,216 lbs,"Thunder Bay, ON, CAN",BIO, , NONE
+Kasperi,Kapanen,42,23-Jul-96,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3114775.png,"6'1""",RW,R,194 lbs,"Kuopio, FIN",BIO, , NONE
+Calle,Rosen,43,2-Feb-94,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4220707.png,"6'1""",D,L,188 lbs,"Vaxjo, SWE",BIO, , NONE
+Torey,Krug,47,12-Apr-91,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/2952729.png,"5'9""",D,L,194 lbs,"Livonia, MI, USA",BIO, , NONE
+Scott,Perunovich,48,18-Aug-98,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4320665.png,"5'10""",D,L,,"Hibbing, MN, USA",BIO, , NONE
+Jordan,Binnington,50,11-Jul-93,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/2590874.png,"6'2""",G,L,172 lbs,"Richmond Hill, ON, CAN",BIO, , NONE
+Colton,Parayko,55,12-Jun-93,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3069341.png,"6'6""",D,R,228 lbs,"St. Albert, AB, CAN",BIO, , NONE
+Nikita,Alexandrov,59,16-Sep-00,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4565284.png&w=350&h=254,"6'1""",C,L,,"Burgwedel, DEU",BIO, , NONE
+Jake,Neighbours,63,9-Jun-02,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4697409.png,"6'0""",LW,L,201 lbs,"Calgary, AB, CAN",BIO, , NONE
+Oskar,Sundqvist,70,23-Sep-94,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3069277.png,"6'3""",C,R,,"Boden, SWE",BIO, , NONE
+Justin,Faulk,72,20-Mar-92,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/5746.png&w=350&h=254,"6'0""",D,R,214 lbs,"South St. Paul, MN, USA",BIO, , NONE
+Tyler,Tucker,75,1-Mar-00,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4587904.png&w=350&h=254,"6'1""",D,L,,"Thunder Bay, ON, CAN",BIO, , NONE
+Sammy,Blais,79,17-Jan-99,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3149697.png&w=350&h=254,"6'2""",LW,L,206 lbs,"Montmagny, QC, CAN",BIO, , NONE
+Pavel,Buchnevich,89,17-Apr-95,https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3042081.png&w=350&h=254,"6'1""",LW,L,196 lbs,"Cherepovets, RUS",BIO, , NONE
 ,,,,,,,,,,,,
 ,,,,,,,,,,,,
 ,,,,,,,,,,,,
