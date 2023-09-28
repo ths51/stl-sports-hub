@@ -27,7 +27,7 @@ sportStatNames = {
 sportGameFileURLs = {
     "NHL": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTDhjFKFT10BRaUlb4Qnu609-hdS4RMmW4pWhcgwajJnpPSckVfJs8LYPd8odGqmE5CY4bsNQNq0i4Y/pub?gid=81508012&single=true&output=csv",
     "MLB": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQAVJZ1fkIZeMjys88B2nYb7Sesjviswkzfx8BW10Ak-9ye13Tm9J1z4cPjCE69IoTnF7cb9y6FFepr/pub?gid=285282783&single=true&output=csv",
-    "MLS": "",
+    "MLS": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTG_0aIH6A71PXz0qrrLwwaXPPuGWIpKZr0_B3YiXWWXcyVeQSS_7fzniTT7hbaFnyLeqYa6MXb6HLx/pub?gid=285282783&single=true&output=csv",
     "XFL": "",
 }
 
@@ -312,4 +312,5 @@ def addRosterToJSON(sport:str) :
 
 addGamesToJSON("NHL")
 addGamesToJSON("MLB")
+addGamesToJSON("MLS")
 # addRosterToJSON("NHL")
