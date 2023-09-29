@@ -3179,10 +3179,10 @@ allTeamData = {
             "STLlogo": 1,
             "opponent": "CHI",
             "home": false,
-            "final": false,
-            "STLscore": "-",
-            "oppScore": "-",
-            "overtime": false,
+            "final": true,
+            "STLscore": "1",
+            "oppScore": "2",
+            "overtime": true,
             "shootout": false,
             "STLshots": 0,
             "oppShots": 0,
@@ -6980,6 +6980,12 @@ function getRoster(sport) {
         rosterBox.innerHTML += text
     }
 }
+
+
+
+
+
+
 
 
 
