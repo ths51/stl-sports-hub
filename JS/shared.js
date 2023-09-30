@@ -3086,9 +3086,9 @@ allTeamData = {
             "STLlogo": 1,
             "opponent": "CIN",
             "home": true,
-            "final": false,
-            "STLscore": "-",
-            "oppScore": "-",
+            "final": true,
+            "STLscore": "2",
+            "oppScore": "19",
             "inningCt": 9,
             "XXXXX": false,
             "STLhits": 0,
@@ -4982,7 +4982,7 @@ allTeamData = {
             "STLlogo": 1,
             "opponent": "SKC",
             "home": true,
-            "final": true,
+            "final": false,
             "STLscore": "-",
             "oppScore": "-",
             "overtime": 0,
@@ -4997,7 +4997,7 @@ allTeamData = {
             "STLlogo": 1,
             "opponent": "VAN",
             "home": false,
-            "final": true,
+            "final": false,
             "STLscore": "-",
             "oppScore": "-",
             "overtime": 0,
@@ -5012,7 +5012,7 @@ allTeamData = {
             "STLlogo": 1,
             "opponent": "SEA",
             "home": true,
-            "final": true,
+            "final": false,
             "STLscore": "-",
             "oppScore": "-",
             "overtime": 0,
@@ -6980,6 +6980,12 @@ function getRoster(sport) {
         rosterBox.innerHTML += text
     }
 }
+
+
+
+
+
+
 
 
 
