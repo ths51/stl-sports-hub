@@ -31,6 +31,13 @@ sportGameFileURLs = {
     "XFL": "",
 }
 
+sportRosterFileURLs = {
+    "NHL": "",
+    "MLB": "",
+    "MLS": "",
+    "XFL": "",
+}
+
 item_order = ['colors','games','roster']
 
 
