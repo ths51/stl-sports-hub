@@ -3119,7 +3119,7 @@ allTeamData = {
             "final": true,
             "STLscore": "4",
             "oppScore": "3",
-            "inningCt": false,
+            "inningCt": 9,
             "XXXXX": false,
             "STLhits": 0,
             "oppHits": 0,
@@ -6980,6 +6980,12 @@ function getRoster(sport) {
         rosterBox.innerHTML += text
     }
 }
+
+
+
+
+
+
 
 
 
