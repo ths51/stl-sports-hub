@@ -3116,9 +3116,9 @@ allTeamData = {
             "STLlogo": 1,
             "opponent": "CIN",
             "home": true,
-            "final": false,
-            "STLscore": "-",
-            "oppScore": "-",
+            "final": true,
+            "STLscore": "4",
+            "oppScore": "3",
             "inningCt": false,
             "XXXXX": false,
             "STLhits": 0,
@@ -6980,6 +6980,12 @@ function getRoster(sport) {
         rosterBox.innerHTML += text
     }
 }
+
+
+
+
+
+
 
 
 
