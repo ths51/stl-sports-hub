@@ -1,6 +1,6 @@
 import pyperclip as pc
 import pandas as pds
-import time as alja
+# import time as alja
 
 nums = range(100)
 letNums = []
