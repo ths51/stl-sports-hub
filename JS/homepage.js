@@ -95,6 +95,15 @@ newsData = {
             "articleActive": true,
             "articleText": ["Niko Gioacchini, Sam Adeniran, and star goalkeeper Roman B\u00FCrki all put up impressive showings on Sunday, August 20 against Austin FC despite intense heat and humidity that held steady throughout the match. Gioacchini and Adeniran each scored twice and B\u00FCrki held Austin to three goals, including one on a penalty kick. Austin FC's offense had 3.5 expected goals throughout the match, greatly exceeding St. Louis CITY SC's 1.5. CITY SC overcame this issue with some incredible execution on poor chances to win the match 6-3."]
         },
+        
+        {
+            "sport": "MLS",
+            "title": "St. Louis CITY SC Eliminated from Playoffs by Sporting KC",
+            "imageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fsports.yahoo.com%2Fmls-playoffs-sporting-kansas-city-st-louis-001340452.html&psig=AOvVaw0Q1h-EO60zEFusO3EYLXN5&ust=1699752989705000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOCv_LrnuoIDFQAAAAAdAAAAABAE",
+            "previewText": "Kansas City dominated the whole best-of-3 as CITY struggled to keep possession of the ball during the game. Unfortunately, Roman B\u00FCrki couldn't save their offense this time.",
+            "articleActive": false,
+            "articleText": [""]
+        },
 
 
     ]
